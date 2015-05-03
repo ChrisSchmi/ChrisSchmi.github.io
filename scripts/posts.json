@@ -1,25 +1,26 @@
 {
-"entries":[
-{
- "Date":"2015-05-03",
- "Content":[ {"Text":"famo.us - a very cool UI framework combinable with AngularJS", "Link":"http://famo.us"}]
-},	
-{
- "Date":"2015-05-03",
- "Content":[ {"Text":"Entiers are stored as local JSON file now", "Link":""},{"Text":"Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link":""}]
-},	
-{
- "Date":"2015-04-30",
- "Content":
+"entries":
 	[
-		{"Text":"Using 'nolock' in TSQL Queries", "Link":"http://www.izenda.com/blog/high-performance-sql-views-using-withnolock/"},
-		{"Text":"Hint for clearing Sql Connection Pools", "Link":"http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22"},
-		{"Text":"Why use 'Dispose(false)' in a C# Destruktor", "Link":"http://stackoverflow.com/questions/628752/why-call-disposefalse-in-the-destructor"}
-	]
-},
-{
- "Date":"2015-04-29",
- "Content":[ {"Text":"ChrisSchmis interesting link collection!", "Link":""}]
-}
+		{
+		 "Date":"2015-05-03",
+		 "Content":[ {"Text":"famo.us - a very cool UI framework combinable with AngularJS", "Link":"http://famo.us"}]
+		},	
+		{
+		 "Date":"2015-05-03",
+		 "Content":[ {"Text":"Entiers are stored as local JSON file now", "Link":""},{"Text":"Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link":""}]
+		},	
+		{
+		 "Date":"2015-04-30",
+		 "Content":
+			[
+				{"Text":"Using 'nolock' in TSQL Queries", "Link":"http://www.izenda.com/blog/high-performance-sql-views-using-withnolock/"},
+				{"Text":"Hint for clearing Sql Connection Pools", "Link":"http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22"},
+				{"Text":"Why use 'Dispose(false)' in a C# Destruktor", "Link":"http://stackoverflow.com/questions/628752/why-call-disposefalse-in-the-destructor"}
+			]
+		},
+		{
+		 "Date":"2015-04-29",
+		 "Content":[ {"Text":"ChrisSchmis interesting link collection!", "Link":""}]
+		}
 	]
 }
