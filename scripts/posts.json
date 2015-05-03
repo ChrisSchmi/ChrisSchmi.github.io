@@ -12,7 +12,8 @@
 					{"Text":"Very cool plasma wall made with 'neopixels'", "Link":"http://solderlab.de/index.php/led-projects/modular-plasma-wall"},
 					{"Text":"Selfhosting ASP.NET Web API", "Link":"http://www.dotnetcurry.com/showarticle.aspx?ID=896"},
 					{"Text":"very nice Git guide", "Link":"http://rogerdudler.github.io/git-guide/index.de.html"},
-					{"Text":"Use material design with AngularJS", "Link":"https://material.angularjs.org/"}					
+					{"Text":"Use material design with AngularJS", "Link":"https://material.angularjs.org/"},					
+					{"Text":"ASP.NET on a Raspberry Pi", "Link":"http://j.tlns.be/2014/11/running-asp-net-on-a-raspberry-pi-with-mono-and-owin/"}										
 				]
 		},	
 		{
