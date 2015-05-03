@@ -26,7 +26,7 @@ function loadPosts()
 					{
 						newContent += "<p>" + entry.Content[j].Text;
 						
-						if(entry.Content[j].Link != null)
+						if(entry.Content[j].Link != null && entry.Content[j].Link.length > 0)
 						{
 							newContent += "&nbsp;<a href=\"" + entry.Content[j].Link + "\" target=\"_blank\">Link</a>";
 						}
@@ -35,10 +35,7 @@ function loadPosts()
 					}	
 					newContent += "</div>";				
 				}
-				
-				console.log(newContent);
-			}
-			
+			}		
 			
 			$("#content").append(newContent);
 		}
