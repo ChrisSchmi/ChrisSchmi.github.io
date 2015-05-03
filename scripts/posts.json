@@ -8,7 +8,11 @@
 	 				{"Text":"WebGL human skin demo", "Link":"http://alteredqualia.com/three/examples/webgl_materials_skin.html"},
 					{"Text":"OnPropertyChanged -> .NET 4.5 Version", "Link":"http://danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/"},
 					{"Text":"Conversion of .NET unsigned integral types", "Link":"https://msdn.microsoft.com/de-de/library/e9s326kw.aspx"},
-					{"Text":"Nice discussion of .NET string vs. String", "Link":"http://stackoverflow.com/questions/7074/whats-the-difference-between-string-and-string?rq=1"}
+					{"Text":"Nice discussion of .NET string vs. String", "Link":"http://stackoverflow.com/questions/7074/whats-the-difference-between-string-and-string?rq=1"},
+					{"Text":"Very cool plasma wall made with 'neopixels'", "Link":"http://solderlab.de/index.php/led-projects/modular-plasma-wall"},
+					{"Text":"Selfhosting ASP.NET Web API", "Link":"http://www.dotnetcurry.com/showarticle.aspx?ID=896"},
+					{"Text":"very nice Git guide", "Link":"http://rogerdudler.github.io/git-guide/index.de.html"},
+					{"Text":"Use material design with AngularJS", "Link":"https://material.angularjs.org/"}					
 				]
 		},	
 		{
