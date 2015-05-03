@@ -12,9 +12,9 @@ function loadPosts()
 		if (data != null)
 		{
 			var newContent = "";
-			for(var i = 0; i < data.length; i++)
+			for(var i = 0; i < data.entries.length; i++)
 			{
-				var entry = data[i];
+				var entry = data.entries[i];
 				
 				newContent += "<div class='jumbotron'>";
 				newContent += "<h2>" + entry.Date + "</h2>";
@@ -32,13 +32,19 @@ function loadPosts()
 						}
 						
 						newContent += "</p>";
-					}					
+					}	
+					newContent += "</div>";				
 				}
-				newContent += "</div>";
+				
+				console.log(newContent);
 			}
 			
 			
 			$("#content").append(newContent);
+		}
+		else
+		{
+			console.log("data is null");
 		}
 	});
 }

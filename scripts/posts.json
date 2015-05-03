@@ -1,13 +1,17 @@
 {
+"entries":[
+{
  "Date":"2015-14-30",
  "Content":
-	{
-		{"Text":"Using 'nolock' in TSQL Queries", "Link":""}
-		{"Text":"Hint for clearing Sql Connection Pools", "Link":"http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22"}
+	[
+		{"Text":"Using 'nolock' in TSQL Queries", "Link":""},
+		{"Text":"Hint for clearing Sql Connection Pools", "Link":"http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22"},
 		{"Text":"Why use 'Dispose(false)' in a C# Destruktor", "Link":"http://stackoverflow.com/questions/628752/why-call-disposefalse-in-the-destructor"}
-	}
+	]
 },
 {
  "Date":"2015-14-29",
- "Content":{ {"Text":"ChrisSchmis interesting link collection!", "Link":""}}
+ "Content":[ {"Text":"ChrisSchmis interesting link collection!", "Link":""}]
+}
+	]
 }
