@@ -7,7 +7,7 @@ $(document).ready(function()
 
 function loadPosts()
 {
-	$.getJSON( "posts.json", function( data )
+	$.getJSON( "http://chrisschmi.github.io/scripts/posts.json", function( data )
 	{
 		if (data != null)
 		{
