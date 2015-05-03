@@ -2,7 +2,11 @@
 "entries":[
 {
  "Date":"2015-05-03",
- "Content":[ {"Text":"Entiers are stored as local JSON file now", "Link":""}]
+ "Content":[ {"Text":"famo.us - a very cool UI framework combinable with AngularJS", "Link":"http://famo.us"}]
+},	
+{
+ "Date":"2015-05-03",
+ "Content":[ {"Text":"Entiers are stored as local JSON file now", "Link":""},{"Text":"Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link":""}]
 },	
 {
  "Date":"2015-04-30",
