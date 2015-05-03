@@ -3,6 +3,15 @@
 	[
 		{
 		 "Date":"2015-05-03",
+		 "Content":[
+			 		{"Text":"Visual Studio CODE", "Link":"https://code.visualstudio.com/"},
+	 				{"Text":"WebGL human skin demo", "Link":"http://alteredqualia.com/three/examples/webgl_materials_skin.html"},
+					{"Text":"OnPropertyChanged -> .NET 4.5 Version", "Link":"http://danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/"},
+					{"Text":"Conversion of .NET unsigned integral types", "Link":"https://msdn.microsoft.com/de-de/library/e9s326kw.aspx"}
+				]
+		},	
+		{
+		 "Date":"2015-05-03",
 		 "Content":[ {"Text":"famo.us - a very cool UI framework combinable with AngularJS", "Link":"http://famo.us"}]
 		},	
 		{
