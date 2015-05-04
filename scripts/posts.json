@@ -2,6 +2,14 @@
 "entries":
 	[
 		{
+		 "Date":"2015-05-04",
+		 "Content":
+				[
+					{"Text":"I don't know c", "Link":"http://kukuruku.co/hub/programming/i-do-not-know-c"},
+					{"Text":"Julia Set", "Link":"http://kukuruku.co/hub/algorithms/julia-set"}
+				]
+		},	
+		{
 		 "Date":"2015-05-03",
 		 "Content":[
 			 		{"Text":"Visual Studio CODE", "Link":"https://code.visualstudio.com/"},
