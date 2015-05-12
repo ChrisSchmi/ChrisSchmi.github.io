@@ -21,7 +21,6 @@ function loadPosts()
 
 				if(entry.Content != null)
 				{
-					//"Content":{ {"Text":"ChrisSchmis interesting link collection!", "Link":""}}
 					for(var j = 0; j < entry.Content.length; j++)
 					{
 						newContent += "<p>" + entry.Content[j].Text;
@@ -29,6 +28,18 @@ function loadPosts()
 						if(entry.Content[j].Link != null && entry.Content[j].Link.length > 0)
 						{
 							newContent += "&nbsp;<a href=\"" + entry.Content[j].Link + "\" target=\"_blank\">Link</a>";
+						}
+
+						if (entry.Content[j].Tags != null && entry.Content[j].Tags.length > 0)
+						{
+						    var badges = "";
+
+						    for (var k = 0; k < entry.Content[j].Tags.length; k++)
+						    {
+						        badged += "<span class=\"badge\">" + entry.Content[j].Tags[k] + "</span>";
+						    }
+
+						    newContent += badges;
 						}
 						
 						newContent += "</p>";
