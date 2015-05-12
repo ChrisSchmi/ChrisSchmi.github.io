@@ -1,9 +1,18 @@
 {
+<<<<<<< HEAD
     "entries": [
         {
             "Date": "2015-05-12",
-            "Content": [ { "Text": "BUILD 2015 ASP.NET 5 Training Videos - Introduction and Deep Dive", "Link": "http://www.hanselman.com/blog/BUILD2015ASPNET5TrainingVideosIntroductionAndDeepDive.aspx", "Tags": ["ASP.NET","VS2015"] } ]
+            "Content": [ { "Text": "BUILD 2015 ASP.NET 5 Training Videos - Introduction and Deep Dive", "Link": "http://www.hanselman.com/blog/BUILD2015ASPNET5TrainingVideosIntroductionAndDeepDive.aspx", "Tags": [ "ASP.NET", "VS2015" ] } ]
         },
+        {
+		 "Date":"2015-05-04",
+		 "Content":
+				[
+					{"Text":"I don't know c", "Link":"http://kukuruku.co/hub/programming/i-do-not-know-c"},
+					{"Text":"Julia Set", "Link":"http://kukuruku.co/hub/algorithms/julia-set"}
+				]
+		},	
         {
             "Date": "2015-05-03",
             "Content": [
@@ -40,4 +49,53 @@
             "Content": [ { "Text": "ChrisSchmis interesting link collection!", "Link": "" } ]
         }
     ]
+=======
+"entries":
+	[
+		{
+		 "Date":"2015-05-04",
+		 "Content":
+				[
+					{"Text":"I don't know c", "Link":"http://kukuruku.co/hub/programming/i-do-not-know-c"},
+					{"Text":"Julia Set", "Link":"http://kukuruku.co/hub/algorithms/julia-set"}
+				]
+		},	
+		{
+		 "Date":"2015-05-03",
+		 "Content":[
+			 		{"Text":"Visual Studio CODE", "Link":"https://code.visualstudio.com/"},
+	 				{"Text":"WebGL human skin demo", "Link":"http://alteredqualia.com/three/examples/webgl_materials_skin.html"},
+					{"Text":"OnPropertyChanged -> .NET 4.5 Version", "Link":"http://danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/"},
+					{"Text":"Conversion of .NET unsigned integral types", "Link":"https://msdn.microsoft.com/de-de/library/e9s326kw.aspx"},
+					{"Text":"Nice discussion of .NET string vs. String", "Link":"http://stackoverflow.com/questions/7074/whats-the-difference-between-string-and-string?rq=1"},
+					{"Text":"Very cool plasma wall made with 'neopixels'", "Link":"http://solderlab.de/index.php/led-projects/modular-plasma-wall"},
+					{"Text":"Selfhosting ASP.NET Web API", "Link":"http://www.dotnetcurry.com/showarticle.aspx?ID=896"},
+					{"Text":"very nice Git guide", "Link":"http://rogerdudler.github.io/git-guide/index.de.html"},
+					{"Text":"Use material design with AngularJS", "Link":"https://material.angularjs.org/"},					
+					{"Text":"ASP.NET on a Raspberry Pi", "Link":"http://j.tlns.be/2014/11/running-asp-net-on-a-raspberry-pi-with-mono-and-owin/"}										
+				]
+		},	
+		{
+		 "Date":"2015-05-03",
+		 "Content":[ {"Text":"famo.us - a very cool UI framework combinable with AngularJS", "Link":"http://famo.us"}]
+		},	
+		{
+		 "Date":"2015-05-03",
+		 "Content":[ {"Text":"Entiers are stored as local JSON file now", "Link":""},{"Text":"Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link":""}]
+		},	
+		{
+		 "Date":"2015-04-30",
+		 "Content":
+			[
+				{"Text":"Using 'nolock' in TSQL Queries", "Link":"http://www.izenda.com/blog/high-performance-sql-views-using-withnolock/"},
+				{"Text":"Hint for clearing Sql Connection Pools", "Link":"http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22"},
+				{"Text":"Why use 'Dispose(false)' in a C# Destruktor", "Link":"http://stackoverflow.com/questions/628752/why-call-disposefalse-in-the-destructor"}
+			]
+		},
+		{
+		 "Date":"2015-04-29",
+		 "Content":[ {"Text":"ChrisSchmis interesting link collection!", "Link":""}]
+		}
+	]
+>>>>>>> 8be9e6f8fb6e47467a614b38da67cd1ecc1df015
 }
