@@ -36,7 +36,7 @@ function loadPosts()
 
 						    for (var k = 0; k < entry.Content[j].Tags.length; k++)
 						    {
-						        badged += "<span class=\"badge\">" + entry.Content[j].Tags[k] + "</span>";
+						        badges += "<span class=\"badge\">" + entry.Content[j].Tags[k] + "</span>";
 						    }
 
 						    newContent += badges;
