@@ -32,7 +32,7 @@ function loadPosts()
 
 						if (entry.Content[j].Tags != null && entry.Content[j].Tags.length > 0)
 						{
-						    var badges = "";
+						    var badges = "&nbsp;&nbsp;";
 
 						    for (var k = 0; k < entry.Content[j].Tags.length; k++)
 						    {
