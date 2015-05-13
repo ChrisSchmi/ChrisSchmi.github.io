@@ -1,5 +1,13 @@
 {
     "entries": [
+         {
+		 "Date":"2015-05-13",
+		 "Content":
+				[
+					{"Text":"Oclouds CSS Animation", "Link":"http://codepen.io/cathbailh/pen/MwKder", "Tags": [ "CSS", "Animation", "JavaScript" ] },
+					{"Text":"Rainbow Loader CSS Animation", "Link":"http://codepen.io/jackrugile/pen/JddmaX", "Tags": [ "CSS", "Animation" ] }
+				]
+		},	
         {
             "Date": "2015-05-12",
             "Content": [ { "Text": "BUILD 2015 ASP.NET 5 Training Videos - Introduction and Deep Dive", "Link": "http://www.hanselman.com/blog/BUILD2015ASPNET5TrainingVideosIntroductionAndDeepDive.aspx", "Tags": [ "ASP.NET", "VS2015" ] } ]
