@@ -5,7 +5,11 @@
 		 "Content":
 				[
 					{"Text":"Oclouds CSS Animation", "Link":"http://codepen.io/cathbailh/pen/MwKder", "Tags": [ "CSS", "Animation", "JavaScript" ] },
-					{"Text":"Rainbow Loader CSS Animation", "Link":"http://codepen.io/jackrugile/pen/JddmaX", "Tags": [ "CSS", "Animation" ] }
+                    { "Text": "Rainbow Loader CSS Animation", "Link": "http://codepen.io/jackrugile/pen/JddmaX", "Tags": [ "CSS", "Animation" ] },
+                    { "Text": "Samsung Artik Boards", "Link": "http://t3n.de/news/samsung-artik-arduino-610428/", "Tags": [ "Embedded" ] },  
+                    { "Text": "Tunnel Effect", "Link": "http://codepen.io/Mombasa/pen/BJflK", "Tags": [ "3D", "Animation", "ThreeJS" ] },
+                    { "Text": "Electric Lines Effect", "Link": "http://codepen.io/natewiley/pen/dPmXyW", "Tags": [ "2D", "Animation", "Canvas" ] },
+                    { "Text": "Fractal Tree", "Link": "http://codepen.io/pixelass/pen/rVxQdV", "Tags": [ "CSS", "HTML"] }                    
 				]
 		},	
         {
