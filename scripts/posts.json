@@ -2,7 +2,18 @@
     "entries": [
         {
             "Date": "2015-05-24",
-            "Content": [ { "Text": "Pattern matching bug in XEROX Workstations", "Link": "https://www.youtube.com/watch?v=Vp03vyNspyI", "Tags": [ "Pattern Matching", "Compression", "Algorithms"] } ]
+            "Content": [
+                 { "Text": "Pattern matching bug in XEROX Workstations", "Link": "https://www.youtube.com/watch?v=Vp03vyNspyI", "Tags": [ "Pattern Matching", "Compression", "Algorithms"] },
+                 
+                 { "Text": "Rainbow Grid", "Link": "http://codepen.io/thebabydino/pen/eNdodw", "Tags": [ "Animation", "CSS", "JavaScript"] },
+                 { "Text": "Bouncing Lines", "Link": "http://codepen.io/thebabydino/pen/VLKVEv", "Tags": [ "Animation", "CSS", "JavaScript"] },
+                 { "Text": "Loader Animation", "Link": "http://codepen.io/johnheiner/pen/JdRybK", "Tags": [ "Animation", "CSS", "JavaScript"] },
+                 { "Text": "Starfield Parallax", "Link": "http://codepen.io/saransh/pen/BKJun", "Tags": [ "Animation", "CSS", "JavaScript"] },
+                 { "Text": "Lava Lamp", "Link": "http://codepen.io/patrikhjelm/pen/QbKwrX", "Tags": [ "Animation", "CSS", "JavaScript"] },
+                 { "Text": "threeJS Window Scene", "Link": "http://codepen.io/zachernuk/pen/GJqVvd", "Tags": [ "Animation", "threeJS", "JavaScript"] },
+                 { "Text": "Particle System", "Link": "http://codepen.io/tmrDevelops/pen/RPRYWj", "Tags": [ "Animation", "CSS", "JavaScript"] },
+                 { "Text": "Tiny Bubbles", "Link": "http://codepen.io/tmrDevelops/pen/mJELXj", "Tags": [ "Animation", "CSS", "JavaScript"] }
+                 ]
         },
         {
             "Date": "2015-05-14",
