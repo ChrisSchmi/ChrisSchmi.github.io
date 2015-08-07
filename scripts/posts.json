@@ -6,7 +6,7 @@
             "Content":
                 [
                  { "Text": "Unity C# Tutorial", "Link": "http://catlikecoding.com/unity/tutorials/", "Tags": [ "C#", "3D", "Unity"] },
-                 { "Text": "Swagger - API Framework", "Link": "http://swagger.io/", "Tags": [ "API", "REST", "JavaScript"] },
+                 { "Text": "Swagger - API Framework", "Link": "http://swagger.io/", "Tags": [ "API", "REST"] },
                  { "Text": "Darwin Tunes", "Link": "http://soundcloud.com/uncoolbob/", "Tags": [ "Music", "Algorithms"] }
                 ]
         },
