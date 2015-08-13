@@ -13,7 +13,17 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="scripts/nprogress.js"></script>
   <script src="scripts/posts.js"></script>
-  
+  <meta name="theme-color" content="#000000">
+
+    <script>
+        $(document).ajaxStart(function () {
+            NProgress.start();
+        });
+
+        $(document).ajaxStop(function () {
+            NProgress.done();
+        });
+    </script>
 </head>
 <body>
     <!-- Fixed navbar -->
