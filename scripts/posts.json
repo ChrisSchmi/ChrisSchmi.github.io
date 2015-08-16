@@ -1,6 +1,13 @@
 {
     "entries": [
-        
+        {
+            "Date": "2015-08-16",
+            "Content":
+                [
+                 { "Text": "Neon Bubbles", "Link": "http://codepen.io/giana/pen/LVvaNQ", "Tags": ["Animation", "2D"] },
+                 { "Text": "Particle System Animation", "Link": "http://codepen.io/carmination/pen/vOMrxJ", "Tags": ["Animation", "2D", "Particle"] }
+                ]
+        },        
         {
             "Date": "2015-08-07",
             "Content":
