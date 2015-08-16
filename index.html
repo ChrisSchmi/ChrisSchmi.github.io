@@ -7,11 +7,30 @@
 	<meta name="author" content="ChrisSchmi">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<<<<<<< HEAD
   <link rel="stylesheet" href="content/style.css">
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>  
+=======
+  <link rel="stylesheet" href="content/nprogress.css">
+  <link rel="stylesheet" href="content/style.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="scripts/nprogress.js"></script>
+>>>>>>> 8114bf7b557a54a0e4032bd7522ad0de2cfa2233
   <script src="scripts/posts.js"></script>
+  <meta name="theme-color" content="#000000">
+
+    <script>
+        $(document).ajaxStart(function () {
+            NProgress.start();
+        });
+
+        $(document).ajaxStop(function () {
+            NProgress.done();
+        });
+    </script>
 </head>
 <body ng-app="miniblog">
     <!-- Fixed navbar -->
