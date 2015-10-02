@@ -16,11 +16,7 @@
                  { "Text": "Steven Hawking Speech Synth (Assistive Context-Aware Toolkit)", "Link": "http://www.golem.de/news/intel-stephen-hawkings-sprachsynthese-software-ist-open-source-1508-115857.html", "Tags": ["ACAT","Intel","OpenSource",".NET"] },
                  { "Text": "LCD for RaspberryPi2 with Win10 IoT", "Link": "https://www.hackster.io/jtlns/adafruit-5-lcd-on-windows-10-iot-core", "Tags": ["Win10","Iot","LCD","Touch","RaspberryPi2"] },                 
                  { "Text": "Blur effect with D3", "Link": "http://tributary.io/inlet/5584636", "Tags": ["JavaScript","Effect","D3.JS"] },
-                 { "Text": "Fuse.js - Fuzzy Text Search", "Link": "http://kiro.me/projects/fuse.html", "Tags": ["JavaScript","FuzzyLogic","Textsearch"] },
-                 { "Text": "", "Link": "", "Tags": [""] },
-                 { "Text": "", "Link": "", "Tags": [""] },
-                 { "Text": "", "Link": "", "Tags": [""] },
-                 { "Text": "", "Link": "", "Tags": [""] }
+                 { "Text": "Fuse.js - Fuzzy Text Search", "Link": "http://kiro.me/projects/fuse.html", "Tags": ["JavaScript","FuzzyLogic","Textsearch"] }
                 ]
         },  
         {
