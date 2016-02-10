@@ -5,7 +5,8 @@
             "Date": "2016-02-10",
             "Content":
                 [
-                 { "Text": "Streich einfach diese 2 Wörter aus deinem Vokabular und du bist erfolgreicher – sagt ein Stanford-Professor", "Link": "http://t3n.de/news/woerter-erfolgreicher-stanford-678079/ ", "Tags": ["t3n", "Thinking"] }
+                 { "Text": "Streich einfach diese 2 Wörter aus deinem Vokabular und du bist erfolgreicher – sagt ein Stanford-Professor", "Link": "http://t3n.de/news/woerter-erfolgreicher-stanford-678079/ ", "Tags": ["t3n", "Thinking"] },
+                 { "Text": "Tooltips CSS only", "Link": "https://github.com/chinchang/hint.css", "Tags": ["CSS", "Tooltip"] }
                 ]
         },        
         {
