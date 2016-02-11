@@ -1,7 +1,14 @@
 {
     "entries": [
+         {
+            "Date": "2016-02-11",
+            "Content":
+                [
+                 { "Text": "OS.js", "Link": "https://osjsv2.0o.no/", "Tags": ["OS", "JavaScript","Web"] },
+                 { "Text": "Markdown with VS Code", "Link":"https://code.visualstudio.com/Docs/languages/markdown", "Tags": ["VSCode", "Markdown"] }
+                ]
+        },  
         {
-           
             "Date": "2016-02-10",
             "Content":
                 [
