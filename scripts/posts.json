@@ -1,5 +1,13 @@
 {
     "entries": [
+        {
+            "Date": "2016-02-15",
+            "Content":
+                [
+                    { "Text": "Why do so many people seem to hate JavaScript?", "Link": "https://www.quora.com/Why-do-so-many-people-seem-to-hate-JavaScript", "Tags": ["JavaScript"] },
+                    { "Text": "FIX: W550s - horrible performance", "Link": "https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/W550s-horrible-performance/td-p/2125957", "Tags": ["Thinkpad", "Performance"] }                    
+                ]
+        },         
          {
             "Date": "2016-02-11",
             "Content":
