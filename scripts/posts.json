@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2016-02-16",
+            "Content":
+                [
+                    { "Text": "The Hash Function Lounge", "Link": "http://www.larc.usp.br/~pbarreto/hflounge.html", "Tags": ["Encryption", "Hash"] }
+                ]
+        },  
+        {
             "Date": "2016-02-15",
             "Content":
                 [
