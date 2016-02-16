@@ -4,7 +4,8 @@
             "Date": "2016-02-16",
             "Content":
                 [
-                    { "Text": "The Hash Function Lounge", "Link": "http://www.larc.usp.br/~pbarreto/hflounge.html", "Tags": ["Encryption", "Hash"] }
+                    { "Text": "The Hash Function Lounge", "Link": "http://www.larc.usp.br/~pbarreto/hflounge.html", "Tags": ["Encryption", "Hash"] },
+                    { "Text": "The Whirlpool Hash Function", "Link": "http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html", "Tags": ["Encryption", "Hash", "Whirlpool"] }
                 ]
         },  
         {
