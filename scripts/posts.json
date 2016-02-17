@@ -4,7 +4,9 @@
             "Date": "2016-02-17",
             "Content":
                 [
-                    { "Text": "The Differences Between Rijndael and AES", "Link": "http://blogs.msdn.com/b/shawnfa/archive/2006/10/09/the-differences-between-rijndael-and-aes.aspx", "Tags": ["Encryption", "Rijndael", "AES"] }
+                    { "Text": "The Differences Between Rijndael and AES", "Link": "http://blogs.msdn.com/b/shawnfa/archive/2006/10/09/the-differences-between-rijndael-and-aes.aspx", "Tags": ["Encryption", "Rijndael", "AES"] },
+                    { "Text": "Was mir das Lernen von 11 Fremdsprachen beigebracht hat", "Link": "https://de.babbel.com/de/magazine/lektionen-von-11-fremdsprachen", "Tags": ["LAnguages", "Learning"] },
+                    { "Text": "Dieser kleine Glaspuck speichert 360 Terabyte Daten", "Link": "http://t3n.de/news/glaspuck-360-terabyte-daten-680693/", "Tags": ["Storage", "Technology"] }
                 ]
         },          
         {
