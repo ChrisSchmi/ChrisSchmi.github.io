@@ -1,6 +1,17 @@
 {
     "entries": [
          {
+            "Date": "2016-03-02",
+            "Content":
+                [
+                    { "Text": "Awesome Android UI Designs", "Link": "https://github.com/wasabeef/awesome-android-ui", "Tags": ["Android", "UI"] },
+                    { "Text": "Android Material Design Activity Transitions", "Link": "http://www.androiduipatterns.com/2014/09/material-design-activity-transition.html", "Tags": ["Android", "UI"] },
+                    { "Text": "15 beautiful App designs", "Link": "http://www.creativebloq.com/app-design/beautiful-android-app-ui-designs-11121271", "Tags": ["Android", "UI"] },
+                    { "Text": "Awesome Android UI Designs", "Link": "https://github.com/wasabeef/awesome-android-ui", "Tags": ["Android", "UI"] },
+                    { "Text": "20 beautiful mobile UI designs", "Link": "http://theultralinx.com/2011/10/20-beautiful-mobile-ui-screenshots/ ", "Tags": ["Android", "UI"] }
+                ]
+        },             
+         {
             "Date": "2016-02-25",
             "Content":
                 [
