@@ -5,6 +5,7 @@
             "Content":
                 [
                     { "Text": "VS2015 - Html Editor Power!", "Link": "https://youtu.be/oXi6fay_eHs?t=5m40s", "Tags": ["VisualStudio", "HTML5","Hanselman"] },
+                    { "Text": "Emmet Cheat Sheet", "Link": "http://docs.emmet.io/cheat-sheet/", "Tags": ["Emmet", "HTML5"] }                    
                 ]
         },   
          {
