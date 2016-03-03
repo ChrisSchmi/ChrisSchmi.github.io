@@ -5,7 +5,8 @@
             "Content":
                 [
                     { "Text": "VS2015 - Html Editor Power!", "Link": "https://youtu.be/oXi6fay_eHs?t=5m40s", "Tags": ["VisualStudio", "HTML5","Hanselman"] },
-                    { "Text": "Emmet Cheat Sheet", "Link": "http://docs.emmet.io/cheat-sheet/", "Tags": ["Emmet", "HTML5"] }                    
+                    { "Text": "Emmet Cheat Sheet", "Link": "http://docs.emmet.io/cheat-sheet/", "Tags": ["Emmet", "HTML5"] },     
+                    { "Text": "Stack Overflow: The Architecture - 2016 Edition", "Link": "http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/", "Tags": ["Server", "ASP.NET","Stackoverflow","Hosting"] }
                 ]
         },   
          {
