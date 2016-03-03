@@ -1,6 +1,13 @@
 {
     "entries": [
          {
+            "Date": "2016-03-03",
+            "Content":
+                [
+                    { "Text": "VS2015 - Html Editor Power!", "Link": "https://youtu.be/oXi6fay_eHs?t=5m40s", "Tags": ["VisualStudio", "HTML5","Hanselman"] },
+                ]
+        },   
+         {
             "Date": "2016-03-02",
             "Content":
                 [
