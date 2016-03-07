@@ -1,5 +1,13 @@
 {
     "entries": [
+      {
+            "Date": "2016-03-07",
+            "Content":
+                [
+                  { "Text": "Triangle with a twist", "Link": "http://codepen.io/DonKarlssonSan/pen/YqyQgd", "Tags": ["JavaScript", "Canvas","Animation"] },
+                  { "Text": "Crazy color animation", "Link": "http://codepen.io/cathbailh/pen/vGNjJB", "Tags": ["JavaScript", "WebGL","Animation"] }
+                ]
+        },         
          {
             "Date": "2016-03-03",
             "Content":
