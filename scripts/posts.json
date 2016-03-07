@@ -5,7 +5,8 @@
             "Content":
                 [
                   { "Text": "Triangle with a twist", "Link": "http://codepen.io/DonKarlssonSan/pen/YqyQgd", "Tags": ["JavaScript", "Canvas","Animation"] },
-                  { "Text": "Crazy color animation", "Link": "http://codepen.io/cathbailh/pen/vGNjJB", "Tags": ["JavaScript", "WebGL","Animation"] }
+                  { "Text": "Crazy color animation", "Link": "http://codepen.io/cathbailh/pen/vGNjJB", "Tags": ["JavaScript", "WebGL","Animation"] },
+                  { "Text": "Curly smoke", "Link": "http://codepen.io/enxaneta/pen/wGKygy", "Tags": ["JavaScript", "Canvas","Animation"] }                  
                 ]
         },         
          {
