@@ -1,6 +1,19 @@
 {
     "entries": [
         {
+            "Date": "2016-06-02",
+            "Content":
+                [
+                    { "Text": "4D Firefly Dance", "Link": "http://codepen.io/jagarikin/pen/NrWXWm", "Tags": ["JavaScript", "CSS", "Animation"] },
+                    { "Text": "Responsive Background Image Fade on Scroll", "Link": "http://codepen.io/dudleystorey/pen/RRwryd", "Tags": ["JavaScript", "CSS", "Animation"] },
+                    { "Text": "Ken Burns Effect fullscreen without js", "Link": "http://codepen.io/ibanez182/pen/LZPgrY", "Tags": ["CSS", "Animation"] },
+                    { "Text": "Animation & Layers", "Link": "http://codepen.io/Haru89ka/pen/ZOzMGp", "Tags": ["CSS", "Animation"] },
+                    { "Text": "Grain", "Link": "http://codepen.io/renarsvilnis/pen/YWKRvE", "Tags": ["JavaScript", "CSS", "Animation"] },
+                    { "Text": "Shader Template", "Link": "http://codepen.io/jhnsnc/pen/wWwprB", "Tags": ["JavaScript", "WebGL", "Animation"] },
+                    { "Text": "interstellar starlight", "Link": "http://codepen.io/tmrDevelops/pen/oLvbYP", "Tags": ["JavaScript", "CSS", "Animation"] }
+                ]
+        },         
+        {
             "Date": "2016-03-07",
             "Content":
                 [
