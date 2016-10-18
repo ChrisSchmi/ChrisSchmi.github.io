@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2016-10-18",
+            "Content":
+                [
+                    { "Text": "Best Talk about IQueryable<T> vs. IEnumerable<T>", "Link": "https://www.youtube.com/watch?v=H2KkiRbDZyc", "Tags": ["C#", "Hanselman", "dotnet"] }
+                ]
+        }, 
+
+        {
             "Date": "2016-06-02",
             "Content":
                 [
