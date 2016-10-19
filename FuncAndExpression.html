@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="ChrisSchmi">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="content/nprogress.css">
+  <link rel="stylesheet" href="content/style.css">
+	<meta name="theme-color" content="#000000">
+ </head>
+
+<body>
+<H1>
+Head to Head: Scott Allen and Jon Skeet - Scott Hanselman
+</H1>
+
+<h2>
+    https://www.youtube.com/watch?v=H2KkiRbDZyc
+</h2>    
+
+<pre>
+Func<int, int, string> add = (x, y) => $"{x} + {y}";
+var result = add(4,5);
+
+
+Expression<Func<int, int, string>> addE = (x, y) => $"{x} + {y}";
+Func<int, int, string> foo = addE.Compile();
+</pre>
+</body>
+</html>
