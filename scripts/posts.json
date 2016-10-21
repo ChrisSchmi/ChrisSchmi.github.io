@@ -1,13 +1,20 @@
 {
     "entries": [
         {
+            "Date": "2016-10-21",
+            "Content":
+                [
+                    { "Text": "Automatically create and publish a NuGet package using TFS", "Link": "https://technologies.live/2016/04/01/automatically-create-and-publish-a-nuget-package/", "Tags": ["C#", "TFS", "Nuget", "ALM"] }
+                ]
+        }, 
+
+        {
             "Date": "2016-10-18",
             "Content":
                 [
                     { "Text": "Best Talk about IQueryable<T> vs. IEnumerable<T>", "Link": "https://www.youtube.com/watch?v=H2KkiRbDZyc", "Tags": ["C#", "Hanselman", "dotnet"] }
                 ]
         }, 
-
         {
             "Date": "2016-06-02",
             "Content":
