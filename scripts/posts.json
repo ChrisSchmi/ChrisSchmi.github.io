@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2016-12-13",
+            "Content":
+                [
+                    { "Text": "JavaScript Drum Set", "Link": "http://codepen.io/shshaw/pen/gLdpGv", "Tags": ["JavaScript", "CSS", "3D"] }
+                ]
+        }, 
+        {
             "Date": "2016-10-21",
             "Content":
                 [
