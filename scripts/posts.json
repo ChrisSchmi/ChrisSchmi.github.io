@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2016-12-22",
+            "Content":
+                [
+                    { "Text": "Xamarin - Shared Preferences", "Link": "https://forums.xamarin.com/discussion/4758/android-shared-preference", "Tags": ["Xamarin", "Config", "C#"] }
+                ]
+        }, 
+        {
             "Date": "2016-12-15",
             "Content":
                 [
