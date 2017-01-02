@@ -8,7 +8,8 @@
                     { "Text": "Discoid Animation", "Link": "http://codepen.io/tmrDevelops/pen/ygBgVL", "Tags": ["JavaScript", "2D", "Animation"] },
                     { "Text": "Goodbye 2016", "Link": "http://codepen.io/elifitch/pen/qRWqpO", "Tags": ["JavaScript", "2D", "Desktop"] },
                     { "Text": "WebGL Tour of the Solar System: Jupiter", "Link": "http://codepen.io/dudleystorey/pen/yVmQaN", "Tags": ["JavaScript", "3D", "Animation"] },
-                    { "Text": "Dynamic Point Mesh Animation with HTML5 Canvas", "Link": "http://codepen.io/dudleystorey/pen/NbNjjX", "Tags": ["JavaScript", "2D", "Animation"] }
+                    { "Text": "Dynamic Point Mesh Animation with HTML5 Canvas", "Link": "http://codepen.io/dudleystorey/pen/NbNjjX", "Tags": ["JavaScript", "2D", "Animation"] },
+                    { "Text": "8086tiny - a tiny PC emulator/virtual machine", "Link": "https://github.com/adriancable/8086tiny", "Tags": ["Assembly", "x86", "Emulator"] }
                 ]
         }, 
         {
