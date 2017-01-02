@@ -3,12 +3,12 @@
   <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="ChrisSchmi">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="content/nprogress.css">
-  <link rel="stylesheet" href="content/style.css">
+	<link rel="stylesheet" href="content/nprogress.css">
+	<link rel="stylesheet" href="content/style.css">
 	<meta name="theme-color" content="#000000">
  </head>
 <body ng-app="miniblog">
@@ -40,7 +40,8 @@
                 </ul>
               </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
+        <!--/.nav-collapse -->
       </div>
     </nav>
     <div class="container" id="content" ng-controller="PostsController">
@@ -51,26 +52,15 @@
 			 <span class="badge" ng-repeat="t in c.Tags">{{ t }}</span>
 			</p>
 		</div>	
-    </div> <!-- /container -->
+    </div>
+    <!-- /container -->
     
   <!-- Scripts section -->
   
-    <!-- external scripts -->
+  <!-- external scripts -->
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-  
-  <script src="scripts/nprogress.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="scripts/posts.js"></script>
-  <script>
-        $(document).ajaxStart(function () {
-            NProgress.start();
-        });
-
-        $(document).ajaxStop(function () {
-            NProgress.done();
-        });
-  </script>
-
 </body>
 </html>
