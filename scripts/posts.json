@@ -4,7 +4,8 @@
             "Date": "2017-01-26",
             "Content":
                 [
-                    { "Text": "Fix for “could not connect to the debugger” while deploying Xamarin Forms apps to the Visual Studio Android Emulator", "Link": "http://dotnetbyexample.blogspot.de/2016/02/fix-for-could-not-connect-to-debugger.html", "Tags": ["Xamarin", "Emulator", "Hyper-V"] }
+                    { "Text": "Fix for “could not connect to the debugger” while deploying Xamarin Forms apps to the Visual Studio Android Emulator", "Link": "http://dotnetbyexample.blogspot.de/2016/02/fix-for-could-not-connect-to-debugger.html", "Tags": ["Xamarin", "Emulator", "Hyper-V"] },
+                    { "Text": "Could not connect to the debugger ", "Link": "https://forums.xamarin.com/discussion/50696/could-not-connect-to-the-debugger", "Tags": ["Xamarin", "Emulator", "Hyper-V"] }
                 ]
         }, 
         {
