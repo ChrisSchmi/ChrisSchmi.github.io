@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-03-06",
+            "Content":
+                [
+                    { "Text": "Messing with Docker", "Link": "https://www.youtube.com/watch?v=4nviEODZlsA&list=PL0M0zPgJ3HSftTAAHttA3JQU4vOjXFquF", "Tags": ["Docker", "Hanselman", "ASP.NET"] }
+                ]
+        }, 
+        {
             "Date": "2017-01-31",
             "Content":
                 [
