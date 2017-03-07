@@ -5,7 +5,8 @@
             "Content":
                 [
                     { "Text": "ASP.NET MVC 5 Internationalization", "Link": "http://afana.me/post/aspnet-mvc-internationalization.aspx", "Tags": ["ASP.NET", "MVC 5", "i18n"] },
-                    { "Text": "ASP.NET MVC 5 Internationalization · Date and Time", "Link": "http://afana.me/post/aspnet-mvc-internationalization-date-time.aspx", "Tags": ["ASP.NET", "MVC 5", "i18n"] }
+                    { "Text": "ASP.NET MVC 5 Internationalization · Date and Time", "Link": "http://afana.me/post/aspnet-mvc-internationalization-date-time.aspx", "Tags": ["ASP.NET", "MVC 5", "i18n"] },
+                    { "Text": "Heise Netwars - Episode 1-5", "Link": "http://heise.netwars-project.com/de/webdoc", "Tags": ["Security", "Internet"] }
                 ]
         },         
         {
