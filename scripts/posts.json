@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-03-08",
+            "Content":
+                [
+                    { "Text": "Build Lambda Expressions Dynamically", "Link": "https://www.codeproject.com/Articles/1079028/Build-Lambda-Expressions-Dynamically", "Tags": ["C#", "Lambda", "Expression"] }
+                ]
+        }, 
+        {
             "Date": "2017-03-07",
             "Content":
                 [
