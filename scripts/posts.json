@@ -4,7 +4,8 @@
             "Date": "2017-03-23",
             "Content":
                 [
-                    { "Text": "Abusing C#", "Link": "https://www.youtube.com/watch?v=JIlO_EebEQI", "Tags": ["C#", "Jon Skeet", "NDC"] }
+                    { "Text": "Abusing C#", "Link": "https://www.youtube.com/watch?v=JIlO_EebEQI", "Tags": ["C#", "Jon Skeet", "NDC"] },
+                    { "Text": "Bobby Tables: A guide to preventing SQL injection", "Link": "http://bobby-tables.com/", "Tags": ["SQL", "Attack", "SQL Injection"] }                  
                 ]
         }, 
         {
