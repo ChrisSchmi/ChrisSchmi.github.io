@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-06-26",
+            "Content":
+                [
+                    { "Text": "Azure SQL:Creating Primary Keys Across Databases", "Link": "https://azure.microsoft.com/en-us/blog/creating-primary-keys-across-databases/", "Tags": ["Azure", "SQL", "Cloud"] }
+                ]
+        }, 
+        {
             "Date": "2017-03-23",
             "Content":
                 [
