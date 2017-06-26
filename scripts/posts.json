@@ -4,7 +4,8 @@
             "Date": "2017-06-26",
             "Content":
                 [
-                    { "Text": "Azure SQL:Creating Primary Keys Across Databases", "Link": "https://azure.microsoft.com/en-us/blog/creating-primary-keys-across-databases/", "Tags": ["Azure", "SQL", "Cloud"] }
+                    { "Text": "Azure SQL:Creating Primary Keys Across Databases", "Link": "https://azure.microsoft.com/en-us/blog/creating-primary-keys-across-databases/", "Tags": ["Azure", "SQL", "Cloud"] },
+                    { "Text": "Azure SQL:Uniqueidentifier and Clustered Indexes", "Link": "https://azure.microsoft.com/en-us/blog/uniqueidentifier-and-clustered-indexes/", "Tags": ["Azure", "SQL", "Cloud"] }
                 ]
         }, 
         {
