@@ -5,7 +5,8 @@
             "Date": "2017-07-13",
             "Content":
                 [
-                    { "Text": "Image Processing Lab in C#", "Link": "https://www.codeproject.com/Articles/9727/Image-Processing-Lab-in-C", "Tags": ["C#", "Images", "aForge"] }
+                    { "Text": "Image Processing Lab in C#", "Link": "https://www.codeproject.com/Articles/9727/Image-Processing-Lab-in-C", "Tags": ["C#", "Images", "aForge"] },
+                    { "Text": "Erste Schritte mit Azure Blob Storage mit .NET", "Link": "https://docs.microsoft.com/de-de/azure/storage/storage-dotnet-how-to-use-blobs", "Tags": ["C#", "Azure", "Blob"] }
                 ]
         },
         {
