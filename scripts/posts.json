@@ -1,5 +1,13 @@
 {
     "entries": [
+        
+        {
+            "Date": "2017-07-13",
+            "Content":
+                [
+                    { "Text": "Image Processing Lab in C#", "Link": "https://www.codeproject.com/Articles/9727/Image-Processing-Lab-in-C", "Tags": ["C#", "Images", "aForge"] }
+                ]
+        },
         {
             "Date": "2017-06-26",
             "Content":
