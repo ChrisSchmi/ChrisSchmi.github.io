@@ -1,6 +1,12 @@
 {
     "entries": [
-        
+        {
+            "Date": "2017-07-17",
+            "Content":
+                [
+                    { "Text": "Defined Responses with Swagger", "Link": "https://mattfrear.com/2015/04/21/generating-swagger-example-responses-with-swashbuckle/", "Tags": ["C#", "Swagger", "API"] }
+                ]
+        },        
         {
             "Date": "2017-07-13",
             "Content":
