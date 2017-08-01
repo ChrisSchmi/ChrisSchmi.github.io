@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-08-01",
+            "Content":
+                [
+                    { "Text": "Disable size limits in ImageResizer", "Link": "https://stackoverflow.com/questions/41022738/imageresizer-disable-size-limitation-of-resizing", "Tags": ["C#", "Azure Functions", ".NET"] }
+                ]
+        },  
+        {
             "Date": "2017-07-18",
             "Content":
                 [
