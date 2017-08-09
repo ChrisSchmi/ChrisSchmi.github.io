@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-08-08",
+            "Content":
+                [
+                    { "Text": "apple-app-site-association with Azure", "Link": "https://codedump.io/share/WdavBo0CTtIb/1/apple-app-site-association-to-return-as-applicationjson-from-a-azure-request", "Tags": ["apple-app-site-association", "Azure", ".NET"] }
+                ]
+        }, 
+        {
             "Date": "2017-08-01",
             "Content":
                 [
