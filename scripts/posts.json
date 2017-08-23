@@ -4,6 +4,13 @@
             "Date": "2017-08-08",
             "Content":
                 [
+                    { "Text": "OAuth / OWin: Send additional parameters", "Link": "https://stackoverflow.com/questions/31442364/owin-oauth-send-additional-parameters", "Tags": ["Auth", "Owin", ".NET"] }
+                ]
+        }, 
+        {
+            "Date": "2017-08-08",
+            "Content":
+                [
                     { "Text": "apple-app-site-association with Azure", "Link": "https://codedump.io/share/WdavBo0CTtIb/1/apple-app-site-association-to-return-as-applicationjson-from-a-azure-request", "Tags": ["apple-app-site-association", "Azure", ".NET"] }
                 ]
         }, 
