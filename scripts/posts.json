@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-10-20",
+            "Content":
+                [
+                    { "Text": "Add a /.well-known/ Directory to an ASP.net Application", "Link": "https://phil.me/add-a-well-known-directory-to-an-asp-net-application/", "Tags": ["ASP.NET", "IIS", ".NET"] }
+                ]
+        }, 
+        {
             "Date": "2017-08-22",
             "Content":
                 [
