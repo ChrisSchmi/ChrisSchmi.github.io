@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2017-11-06",
+            "Content":
+                [
+                    { "Text": "200ms: The Magical Number for Faster Response Times", "Link": "https://www.apteligent.com/2014/03/200ms-the-magical-number-for-faster-response-times/", "Tags": ["API", "REST", "MOBILE"] }
+                ]
+        }, 
+        {
             "Date": "2017-10-20",
             "Content":
                 [
