@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2017-12-06",
+            "Content":
+                [
+                    { "Text": "Share Intent on Both Iphone and Android", "Link": "https://forums.xamarin.com/discussion/42465/share-intent-on-both-iphone-and-android", "Tags": ["Xamarin", "Android", "C#"] },
+                    { "Text": "Share Dialog with Xamarin Forms", "Link": "https://xamarinhelp.com/share-dialog-xamarin-forms/", "Tags": ["Xamarin", "Android", "C#"] }
+                ]
+        },         
+        {
             "Date": "2017-11-06",
             "Content":
                 [
