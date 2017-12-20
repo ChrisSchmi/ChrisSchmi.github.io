@@ -1,13 +1,21 @@
 {
     "entries": [
         {
+            "Date": "2017-12-20",
+            "Content":
+                [
+                    { "Text": "Install Anti Malware with Powershell", "Link": "https://blogs.msdn.microsoft.com/madan/2016/09/27/installing-microsoft-antimalware-extension-in-azure-govt-vm-using-powershell/", "Tags": ["Azure", "AzureGermany"] },
+                    { "Text": "Installing Microsoft Anti Virus Extension to Azure Resource Manager VM using Set-AzureRmVMExtension", "Link": "https://miteshc.wordpress.com/2016/02/18/msav-extension-on-azurearm-vm/", "Tags": ["Azure", "AzureGermany"] }
+                ]
+        },  
+        {
             "Date": "2017-12-06",
             "Content":
                 [
                     { "Text": "Share Intent on Both Iphone and Android", "Link": "https://forums.xamarin.com/discussion/42465/share-intent-on-both-iphone-and-android", "Tags": ["Xamarin", "Android", "C#"] },
                     { "Text": "Share Dialog with Xamarin Forms", "Link": "https://xamarinhelp.com/share-dialog-xamarin-forms/", "Tags": ["Xamarin", "Android", "C#"] }
                 ]
-        },         
+        },        
         {
             "Date": "2017-11-06",
             "Content":
