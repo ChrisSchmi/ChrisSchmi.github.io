@@ -1,5 +1,13 @@
 {
     "entries": [
+        
+        {
+            "Date": "2017-02-19",
+            "Content":
+                [
+                    { "Text": "A Day in the Life of Americans", "Link": "http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/", "Tags": ["BigData", "Charting"] }
+                ]
+        },  
         {
             "Date": "2017-12-20",
             "Content":
