@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2018-04-29",
+            "Content":
+                [
+                    { "Text": "Managing DbContext the right way with Entity Framework 6: an in-depth guide", "Link": "http://mehdi.me/ambient-dbcontext-in-ef6/", "Tags": ["EF", "Entity Framework"] },
+                    { "Text": "PyTorch", "Link": "http://pytorch.org/", "Tags": ["Neural Networks", "Machine Learning", "Deep Learning"] }
+                ]
+        },         
+        {
             "Date": "2018-03-29",
             "Content":
                 [

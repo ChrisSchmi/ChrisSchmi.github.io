@@ -45,13 +45,12 @@
       </div>
     </nav>
     <div class="container" id="content" ng-controller="PostsController">
-      
-    <div class='jumbotron' ng-repeat="post in posts.entries" ng-cloak>
-		  <h2>{{ post.Date }}</h2>
-			<p ng-repeat="c in post.Content">{{ c.Text }} <a href="{{ c.Link }}" target="_blank">Link</a>
-			 <span class="badge" ng-repeat="t in c.Tags">{{ t }}</span>
-			</p>
-		</div>	
+      <div class='jumbotron' ng-repeat="post in posts.entries" ng-cloak>
+        <h2>{{ post.Date }}</h2>
+        <p ng-repeat="c in post.Content">{{ c.Text }} <a href="{{ c.Link }}" target="_blank">Link</a>
+        <span class="badge" ng-repeat="t in c.Tags">{{ t }}</span>
+        </p>
+      </div>	
     </div>
     <!-- /container -->
     
