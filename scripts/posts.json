@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2018-05-07",
+            "Content":
+                [
+                    { "Text": "How to reference a file in Azure function?", "Link": "http://www.itidea.nl/index.php/how-to-reference-a-file-in-azure-function-c-script-function-vs-c-function/", "Tags": ["Azure", "Serverless", "Functions"] }
+                ]
+        },           
+        {
             "Date": "2018-04-29",
             "Content":
                 [
