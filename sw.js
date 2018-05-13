@@ -1,6 +1,7 @@
 /*  Service Worker Experiment */
 /*  Inspired by: https://www.google.de/_/chrome/newtab-serviceworker.js */
-var FILES =  [
+/*  Inspired by: https://www.sblum.de/progressive-web-apps  */
+var FILES = [
   '/',
   'index.html',
   'content/style.css',
@@ -11,27 +12,34 @@ var FILES =  [
 var BLACKLIST = [];
 var CACHENAME = 'v1';
 
+// Pre-Cache all cacheable pages
 self.addEventListener('install', function(event) {
-  event.waitUntil(caches.open(CACHENAME).then(function(cache) {
-    return cache.addAll(FILES);
-  }));
+  event.waitUntil(caches.open(CACHENAME)
+      .then(cache => {
+        return cache.addAll(FILES);
+      })
+      .then(() => {
+        return self.skipWaiting();
+    })
+  );
 });
+
 
 self.addEventListener('activate', function(event) {
-    return event.waitUntil(caches.keys().then(function(keys) {
-    return Promise.all(keys.map(function(k) {
-      if (k != CACHENAME && k.indexOf('newtab-static-') == 0) {
-        return caches.delete(k);
-      } else {
-        return Promise.resolve();
-      }
+    return event.waitUntil(caches.keys().then(function(keys)
+    {
+      return Promise.all(keys.map(function(k)
+      {
+        if (k != CACHENAME)
+        {
+          return caches.delete(k);
+        }
+        else
+        {
+          return Promise.resolve();
+        }
+      }));
     }));
-  }));
-});
-
-self.addEventListener('push', function(event)
-{
-  console.log('push:' + event);
 });
 
 self.addEventListener('fetch', function(event) {
@@ -62,7 +70,8 @@ self.addEventListener('fetch', function(event) {
               cache.put(event.request, response.clone());
               return response;
             });
-          } else
+          }
+          else
           {
             return response;
           }
@@ -81,7 +90,7 @@ if (!Cache.prototype.addAll) {
   Cache.prototype.addAll = function addAll(requests) {
         var cache = this;
 
-        function NetworkError(message) {
+    function NetworkError(message) {
       this.name = 'NetworkError';
       this.code = 19;
       this.message = message;

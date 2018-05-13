@@ -18,6 +18,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Cool links for developers.">
+
   <title>Cool links for developers.</title>
  </head>
 <body ng-app="miniblog">
@@ -71,24 +72,24 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="scripts/posts.js"></script>
 <script>
-// register service worker
-if ('serviceWorker' in navigator)
-{
-  navigator.serviceWorker.register('sw.js', {scope: '.'})
-  .then(function(reg)
+  // register service worker
+  if ('serviceWorker' in navigator)
   {
-    if(reg.installing) {
-      console.log('Service worker installing');
-    } else if(reg.waiting) {
-      console.log('Service worker installed');
-    } else if(reg.active) {
-      console.log('Service worker active');
-    }
-  }).catch(function(error) {
-    // registration failed
-    console.log('Registration failed with ' + error);
-  });
-}
+    navigator.serviceWorker.register('sw.js', {scope: '.'})
+    .then(function(reg)
+    {
+      if(reg.installing) {
+        console.log('Service worker installing');
+      } else if(reg.waiting) {
+        console.log('Service worker installed');
+      } else if(reg.active) {
+        console.log('Service worker active');
+      }
+    }).catch(function(error) {
+      // registration failed
+      console.log('Registration failed with ' + error);
+    });
+  }
 </script>
 </body>
 </html>
