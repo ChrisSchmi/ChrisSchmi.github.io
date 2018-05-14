@@ -4,7 +4,7 @@
             "Date": "2018-05-13",
             "Content":
                 [
-                    { "Text": "Service Worker Cook Book", "Link": "https://serviceworke.rs/", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] }
+                    { "Text": "Service Worker Cook Book", "Link": "https://serviceworke.rs/", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] },
                     { "Text": "Progressively Approaching Service Workers", "Link": "https://marcoscaceres.github.io/codeconf-talk/#/", "Tags": ["PWA", "Web", "Progressive Web Apps"] },
                     { "Text": "NASA Service Worker", "Link": "https://code.nasa.gov/service-worker.js", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] }
                 ]
