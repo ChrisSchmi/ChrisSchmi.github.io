@@ -6,7 +6,7 @@ var FILES = [
   'index.html',
   'content/style.css',
   'scripts/posts.js',
-  'scripts/posts.json',
+  //'scripts/posts.json', // temporarily disabled
 ];
 
 var BLACKLIST = [];
