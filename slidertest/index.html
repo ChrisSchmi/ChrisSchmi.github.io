@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+
+<style>
+
+
+.slide {
+  position: relative;
+}
+
+.slide__caption
+{
+  background-color: rgba(134, 56, 56, 0.6);
+  color: #fff;
+  bottom: 150px;
+  min-height: 150px;
+  left: 0;
+  position: relative;
+  width: 100%;
+}
+
+.caption_margin
+{
+  margin: 5px 5px 5px 5px;
+}
+
+.slick-dots
+{
+  background-color: blueviolet;
+  bottom: -8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+</style>
+
+
+</head>
+
+<body>
+  <div class="slider one-time">
+      <div>
+          <img src="https://www.fillmurray.com/900/1600"/>
+          <div class="slide__caption">
+            <span class="caption_margin">
+            This is my caption 1
+          </span>
+          </div>
+      </div>
+
+      <div>
+          <img src="https://www.fillmurray.com/900/1600"/>
+          <div class="slide__caption">
+            <span class="caption_margin">
+            This is my caption 2
+          </span>
+          </div>
+      </div>
+
+      <div>
+          <img src="https://www.fillmurray.com/900/1600"/>
+          <div class="slide__caption">
+            <span class="caption_margin">
+            This is my caption 3
+          </span>
+          </div>
+      </div>
+    
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+<script>
+$(document).ready(function()
+{
+  $('.one-time').slick({
+    arrows: true,
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  });
+});
+</script>
+</body>
+
+</html>
