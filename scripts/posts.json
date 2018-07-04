@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2018-07-04",
+            "Content":
+                [
+                    { "Text": "Detect mobile Browser in any language", "Link": "http://detectmobilebrowsers.com/mobile", "Tags": [ "Web", "Browser"] },
+                    { "Text": "MVVM with WinForms", "Link": "https://softwareengineering.stackexchange.com/questions/277143/how-do-you-separate-view-from-logic-in-a-winform-application", "Tags": [ "WinForms", "C#", "MVVM", "Binding"] },
+                    { "Text": "Microcharts", "Link": "https://github.com/aloisdeniel/Microcharts", "Tags": [ "C#", "Xamarin", "Charting", "crossplatform"] }
+                ]
+        }, 
+        {
             "Date": "2018-05-13",
             "Content":
                 [
