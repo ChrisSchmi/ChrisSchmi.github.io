@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2018-08-20",
+            "Content":
+                [
+                    { "Text": "How to: Customize Data Field Validation in the Data Model Using Custom Attributes", "Link": "https://msdn.microsoft.com/en-us/library/cc668224.aspx", "Tags": [ "c#", ".NET", "Validation", "Attributes"] },
+                    { "Text": "How to create Custom Data Annotation Validators", "Link": "https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators", "Tags": [ "c#", ".NET", "Validation", "Attributes"] }
+                ]
+        }, 
+        {
             "Date": "2018-07-04",
             "Content":
                 [
