@@ -6,7 +6,7 @@ var FILES = [
   'index.html',
   'content/style.css',
   'scripts/posts.js',
-  //'scripts/posts.json',
+  //'scripts/posts.json', // temporarily disabled
 ];
 
 var BLACKLIST = [];
@@ -53,8 +53,7 @@ self.addEventListener('fetch', function(event) {
         return fetch(event.request).then(function(response) {
           var shouldCache = response.ok;
 
-          for (var i = 0; i < BLACKLIST.length; ++i)
-          {
+          for (var i = 0; i < BLACKLIST.length; ++i) {
             var b = new RegExp(BLACKLIST[i]);
             if (b.test(event.request.url)) {
               shouldCache = false;
@@ -87,35 +86,26 @@ if (!Cache.prototype.add) {
   };
 }
 
-if (!Cache.prototype.addAll)
-{
-  Cache.prototype.addAll = function addAll(requests)
-  {
+if (!Cache.prototype.addAll) {
+  Cache.prototype.addAll = function addAll(requests) {
         var cache = this;
 
-    function NetworkError(message)
-    {
+    function NetworkError(message) {
       this.name = 'NetworkError';
       this.code = 19;
       this.message = message;
     }
-
     NetworkError.prototype = Object.create(Error.prototype);
 
     return Promise.resolve()
         .then(function() {
           if (arguments.length < 1) throw new TypeError();
 
-          requests = requests.map(function(request)
-          {
-            if (request instanceof Request)
-            {
+          requests = requests.map(function(request) {
+            if (request instanceof Request) {
               return request;
-            }
-            else
-            {
-              return String(request);
-            }
+            } else {
+              return String(request);              }
           });
 
           return Promise.all(requests.map(function(request) {
@@ -137,23 +127,16 @@ if (!Cache.prototype.addAll)
   };
 }
 
-if (!CacheStorage.prototype.match)
-{
-  CacheStorage.prototype.match = function match(request, opts)
-  {
+if (!CacheStorage.prototype.match) {
+  CacheStorage.prototype.match = function match(request, opts) {
     var caches = this;
-    return caches.keys().then(function(cacheNames)
-    {
+    return caches.keys().then(function(cacheNames) {
       var match;
-      return cacheNames.reduce(function(chain, cacheName)
-      {
-        return chain.then(function()
-        {
-          return match || caches.open(cacheName).then(function(cache)
-          {
+      return cacheNames.reduce(function(chain, cacheName) {
+        return chain.then(function() {
+          return match || caches.open(cacheName).then(function(cache) {
             return cache.match(request, opts);
-          }).then(function(response)
-          {
+          }).then(function(response) {
             match = response;
             return match;
           });

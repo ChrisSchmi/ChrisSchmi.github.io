@@ -1,10 +1,27 @@
 {
     "entries": [
         {
+            "Date": "2018-08-20",
+            "Content":
+                [
+                    { "Text": "How to: Customize Data Field Validation in the Data Model Using Custom Attributes", "Link": "https://msdn.microsoft.com/en-us/library/cc668224.aspx", "Tags": [ "c#", ".NET", "Validation", "Attributes"] },
+                    { "Text": "How to create Custom Data Annotation Validators", "Link": "https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators", "Tags": [ "c#", ".NET", "Validation", "Attributes"] }
+                ]
+        }, 
+        {
+            "Date": "2018-07-04",
+            "Content":
+                [
+                    { "Text": "Detect mobile Browser in any language", "Link": "http://detectmobilebrowsers.com/mobile", "Tags": [ "Web", "Browser"] },
+                    { "Text": "MVVM with WinForms", "Link": "https://softwareengineering.stackexchange.com/questions/277143/how-do-you-separate-view-from-logic-in-a-winform-application", "Tags": [ "WinForms", "C#", "MVVM", "Binding"] },
+                    { "Text": "Microcharts", "Link": "https://github.com/aloisdeniel/Microcharts", "Tags": [ "C#", "Xamarin", "Charting", "crossplatform"] }
+                ]
+        }, 
+        {
             "Date": "2018-05-13",
             "Content":
                 [
-                    { "Text": "Service Worker Cook Book", "Link": "https://serviceworke.rs/", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] }
+                    { "Text": "Service Worker Cook Book", "Link": "https://serviceworke.rs/", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] },
                     { "Text": "Progressively Approaching Service Workers", "Link": "https://marcoscaceres.github.io/codeconf-talk/#/", "Tags": ["PWA", "Web", "Progressive Web Apps"] },
                     { "Text": "NASA Service Worker", "Link": "https://code.nasa.gov/service-worker.js", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] }
                 ]
