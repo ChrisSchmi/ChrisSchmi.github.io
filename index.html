@@ -18,8 +18,30 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Cool links for developers.">
-
   <title>Cool links for developers.</title>
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#000000",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "#ffffff",
+        "text": "#000"
+      }
+    },
+    "content": {
+      "dismiss": "OK"
+    }
+  })});
+  </script>
+
  </head>
 <body ng-app="miniblog">
     <!-- Fixed navbar -->
@@ -91,5 +113,10 @@
     });
   }
 </script>
+
+<center>
+  <a href="dataprotection.html" target="_blank">Dataprotection</a>
+</center>
+
 </body>
 </html>
