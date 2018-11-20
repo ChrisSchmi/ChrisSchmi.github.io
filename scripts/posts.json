@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2018-11-20",
+            "Content":
+                [
+                    { "Text": "Microsoft Application Architecture Guide, 2nd Edition", "Link": "https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650706(v%3dpandp.10)", "Tags": [ "c#", ".NET", "Architecture"] }
+                ]
+        }, 
+        {
             "Date": "2018-11-17",
             "Content":
                 [
