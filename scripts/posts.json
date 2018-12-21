@@ -1,25 +1,32 @@
 {
     "entries": [
         {
+            "Date": "2018-12-21",
+            "Content":
+                [
+                    { "Text": "Ensure.cs", "Link": "https://github.com/benfoster/Fabrik.Common/blob/master/src/Fabrik.Common/Ensure.cs", "Tags": [ "C#", ".NET", "Coding"] }
+                ]
+        }, 
+        {
             "Date": "2018-11-20",
             "Content":
                 [
-                    { "Text": "Microsoft Application Architecture Guide, 2nd Edition", "Link": "https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650706(v%3dpandp.10)", "Tags": [ "c#", ".NET", "Architecture"] }
+                    { "Text": "Microsoft Application Architecture Guide, 2nd Edition", "Link": "https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650706(v%3dpandp.10)", "Tags": [ "C#", ".NET", "Architecture"] }
                 ]
         }, 
         {
             "Date": "2018-11-17",
             "Content":
                 [
-                    { "Text": "Dependency Injection using Microsoft Unity Application block ", "Link": "https://www.youtube.com/watch?v=FuAhnqSDe-o", "Tags": [ "c#", ".NET", "IoC"] }
+                    { "Text": "Dependency Injection using Microsoft Unity Application block ", "Link": "https://www.youtube.com/watch?v=FuAhnqSDe-o", "Tags": [ "C#", ".NET", "IoC"] }
                 ]
         }, 
         {
             "Date": "2018-08-20",
             "Content":
                 [
-                    { "Text": "How to: Customize Data Field Validation in the Data Model Using Custom Attributes", "Link": "https://msdn.microsoft.com/en-us/library/cc668224.aspx", "Tags": [ "c#", ".NET", "Validation", "Attributes"] },
-                    { "Text": "How to create Custom Data Annotation Validators", "Link": "https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators", "Tags": [ "c#", ".NET", "Validation", "Attributes"] }
+                    { "Text": "How to: Customize Data Field Validation in the Data Model Using Custom Attributes", "Link": "https://msdn.microsoft.com/en-us/library/cc668224.aspx", "Tags": [ "C#", ".NET", "Validation", "Attributes"] },
+                    { "Text": "How to create Custom Data Annotation Validators", "Link": "https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators", "Tags": [ "C#", ".NET", "Validation", "Attributes"] }
                 ]
         }, 
         {
