@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-01-02",
+            "Content":
+                [
+                    { "Text": "Ensure.cs", "Link": "https://www.youtube.com/watch?v=E0_Y53ci9cw", "Tags": [ "Softwaredevelopment", "Antipattern", "Coding"] }
+                ]
+        }, 
+        {
             "Date": "2018-12-21",
             "Content":
                 [
