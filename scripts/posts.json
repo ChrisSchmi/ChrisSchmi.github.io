@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-02-15",
+            "Content":
+                [
+                    { "Text": "Use multiple JWT Bearer Authentication", "Link": "https://stackoverflow.com/questions/49694383/use-multiple-jwt-bearer-authentication", "Tags": [ "JWT", ".NET", "OAuth2", "NETCore"] }
+                ]
+        }, 
+        {
             "Date": "2019-01-02",
             "Content":
                 [
