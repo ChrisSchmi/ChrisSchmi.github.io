@@ -11,7 +11,7 @@
             "Date": "2019-01-02",
             "Content":
                 [
-                    { "Text": "Ensure.cs", "Link": "https://www.youtube.com/watch?v=E0_Y53ci9cw", "Tags": [ "Softwaredevelopment", "Antipattern", "Coding"] }
+                    { "Text": "Antipatterns und Missverständnisse in der Softwareentwicklung", "Link": "https://www.youtube.com/watch?v=E0_Y53ci9cw", "Tags": [ "Softwaredevelopment", "Antipattern", "Coding"] }
                 ]
         }, 
         {
