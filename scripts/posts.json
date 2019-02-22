@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-02-22",
+            "Content":
+                [
+                    { "Text": "ASP.NET Core Image Resizing Middleware", "Link": "https://www.paddo.org/asp-net-core-image-resizing-middleware/", "Tags": [ "Imagemanipulation", "Images", ".NET", "NETCore"] }
+                ]
+        },         
+        {
             "Date": "2019-02-15",
             "Content":
                 [
