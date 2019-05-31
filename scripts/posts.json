@@ -4,6 +4,13 @@
             "Date": "2019-02-22",
             "Content":
                 [
+                    { "Text": "Outlook auto-reply: exclude specific adresses", "Link": "https://www.extendoffice.com/documents/outlook/5306-outlook-out-of-office-exclude-address.html", "Tags": [ "Office", "Outlook", ".Exchange"] }
+                ]
+        }, 
+        {
+            "Date": "2019-02-22",
+            "Content":
+                [
                     { "Text": "ASP.NET Core Image Resizing Middleware", "Link": "https://www.paddo.org/asp-net-core-image-resizing-middleware/", "Tags": [ "Imagemanipulation", "Images", ".NET", "NETCore"] }
                 ]
         },         
