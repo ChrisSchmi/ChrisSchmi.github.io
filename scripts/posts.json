@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+        "Date": "2019-07-01",
+        "Content":
+            [
+                { "Text": "String Formatting Cheat Sheet", "Link": "http://www.independent-software.com/net-string-formatting-in-csharp-cheat-sheet.html", "Tags": [ ".NET", "C#", "Strings"] }
+            ]
+        }, 
+        {
             "Date": "2019-07-01",
             "Content":
                 [
