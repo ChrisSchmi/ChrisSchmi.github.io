@@ -5,8 +5,7 @@
         "Content":
             [
                 { "Text": "String Formatting Cheat Sheet", "Link": "http://www.independent-software.com/net-string-formatting-in-csharp-cheat-sheet.html", "Tags": [ ".NET", "C#", "Strings"] },
-                { "Text": "DeleteDocumentAsync – PartitionKey value must be supplied", "Link": "https://pauliom.com/2017/07/28/deletedocumentasync-partitionkey-value-must-be-supplied/", "Tags": [ ".NET", "C#", "Cosmos DB", "Document DB", "Azure"] }
-               
+                { "Text": "DeleteDocumentAsync – PartitionKey value must be supplied", "Link": "https://pauliom.com/2017/07/28/deletedocumentasync-partitionkey-value-must-be-supplied/", "Tags": [ ".NET", "C#", "Cosmos DB", "Document DB", "Azure"] }               
             ]
         }, 
         {
