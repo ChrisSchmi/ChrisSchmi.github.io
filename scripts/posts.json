@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-07-10",
+            "Content":
+                [
+                    { "Text": "Revalidate Model When Using WebAPI (TryValidateModel equivalent)", "Link": " https://stackoverflow.com/questions/12906359/revalidate-model-when-using-webapi-tryvalidatemodel-equivalent", "Tags": [ ".NET", "C#", "WebAPI", "Validation"] }
+                ]
+            },
+        {
         "Date": "2019-07-02",
         "Content":
             [
