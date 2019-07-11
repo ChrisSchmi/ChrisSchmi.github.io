@@ -4,8 +4,7 @@
 var FILES = [
   '/',
   'index.html',
-  'content/style.css',
-  'scripts/posts.js'
+  'content/style.css'
 ];
 
 var BLACKLIST = [];
