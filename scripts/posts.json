@@ -1,12 +1,20 @@
 {
     "entries": [
         {
+            "Date": "2019-08-10",
+            "Content":
+                [
+                    { "Text": "Under", "Link": "https://codepen.io/shubniggurath/pen/YmeovR", "Tags": [ "WebGL", "3D"] },
+                    { "Text": "GLSL: 3D rotational spatial modification", "Link": "https://codepen.io/shubniggurath/pen/GVQqjz", "Tags": [ "WebGL", "3D"] }
+                ]
+        },        
+        {
             "Date": "2019-07-10",
             "Content":
                 [
-                    { "Text": "Revalidate Model When Using WebAPI (TryValidateModel equivalent)", "Link": " https://stackoverflow.com/questions/12906359/revalidate-model-when-using-webapi-tryvalidatemodel-equivalent", "Tags": [ ".NET", "C#", "WebAPI", "Validation"] }
+                    { "Text": "Revalidate Model When Using WebAPI (TryValidateModel equivalent)", "Link": "https://stackoverflow.com/questions/12906359/revalidate-model-when-using-webapi-tryvalidatemodel-equivalent", "Tags": [ ".NET", "C#", "WebAPI", "Validation"] }
                 ]
-            },
+        },
         {
         "Date": "2019-07-02",
         "Content":
