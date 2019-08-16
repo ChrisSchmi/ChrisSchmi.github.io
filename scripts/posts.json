@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2019-08-16",
+            "Content":
+                [
+                    { "Text": "Capturing Audio & Video in HTML5", "Link": "https://www.html5rocks.com/en/tutorials/getusermedia/intro/", "Tags": [ "HTML5", "Audio", "Video"] }
+
+                ]
+        },  
+        {
             "Date": "2019-08-10",
             "Content":
                 [
