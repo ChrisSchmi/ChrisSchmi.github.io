@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2019-08-18",
+            "Content":
+                [
+                    { "Text": "Repository and UnitOfWork", "Link": "https://docs.microsoft.com/de-de/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application", "Tags": [ "Architecture", "UoW" ,"Repository"] },
+                    { "Text": "Repository Pattern with C# and Entity Framework, Done Right", "Link": "https://www.youtube.com/watch?v=rtXpYpZdOzM", "Tags": [ "Architecture", "Repository"] },
+                    { "Text": "Inversion of Control & Dependency Injection", "Link": "https://blogs.msdn.microsoft.com/codefest/2009/11/27/design-patterns-teil-1-inversion-of-control-dependency-injection/", "Tags": [ "Architecture", "Repository"] }
+                ]
+        },         
+        {
             "Date": "2019-08-16",
             "Content":
                 [
