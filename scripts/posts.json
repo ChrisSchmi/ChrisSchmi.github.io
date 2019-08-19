@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2019-08-19",
+            "Content":
+                [
+                    { "Text": "Quasar Framework", "Link": "https://quasar.dev/", "Tags": [ "Vue.js", "Vue" ,"Xplatform", "SPA", "PWA"] },
+                    { "Text": "Robot Framework CI/CD with Azure DevOps", "Link": "https://medium.com/@milannovovic/robot-framework-ci-cd-with-azure-devops-cf708a64b389", "Tags": [ "CI", "CD", "Robotframework", "Azure Devops"] }
+                ]
+        }, 
+        {
             "Date": "2019-08-18",
             "Content":
                 [
