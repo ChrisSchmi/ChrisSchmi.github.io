@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-08-21",
+            "Content":
+                [
+                    { "Text": "Enable AOT in Xamarin for Android", "Link": "https://stackoverflow.com/questions/37377106/enable-aot-in-xamarin-for-android-visual-studio", "Tags": [ "Xamarin", "Xamarin.Forms" ,"Android", "LLVM", "AOT", "Compiler"] }
+                ]
+        }, 
+        {
             "Date": "2019-08-19",
             "Content":
                 [
