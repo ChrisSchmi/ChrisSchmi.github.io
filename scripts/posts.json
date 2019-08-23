@@ -1,5 +1,13 @@
 {
     "entries": [
+        
+        {
+            "Date": "2019-08-23",
+            "Content":
+                [
+                    { "Text": "MvvmForms - Demo application for how to use MVVM in Windows Forms.", "Link": "https://bitbucket.org/lbras/mvvmforms/src/master/", "Tags": [ "MVVM", "WinForms" ,".NET", "c#"] }
+                ]
+        }, 
         {
             "Date": "2019-08-21",
             "Content":
