@@ -2,13 +2,11 @@
 /*  Inspired by: https://www.google.de/_/chrome/newtab-serviceworker.js */
 /*  Inspired by: https://www.sblum.de/progressive-web-apps  */
 var FILES = [
-  '/',
-  'index.html',
   'content/style.css'
 ];
 
 var BLACKLIST = [];
-var CACHENAME = '20190703';
+var CACHENAME = '20190922';
 
 // Pre-Cache all cacheable pages
 self.addEventListener('install', function(event) {
