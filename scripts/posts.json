@@ -4,7 +4,8 @@
             "Date": "2019-09-30",
             "Content":
                 [
-                    { "Text": "Agressive Inlining", "Link": "https://www.dotnetperls.com/aggressiveinlining", "Tags": [ "C#", "Compiler" ,".NET", "Optimization"] }
+                    { "Text": "Agressive Inlining", "Link": "https://www.dotnetperls.com/aggressiveinlining", "Tags": [ "C#", "Compiler" ,".NET", "Optimization"] },
+                    { "Text": "ProjectPSX is a C# coded emulator of the original Sony Playstation", "Link": "https://github.com/BluestormDNA/ProjectPSX/", "Tags": [ "C#", "PlayStation" ,"Emulator"] }
                 ]
         }, 
         {
