@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-09-30",
+            "Content":
+                [
+                    { "Text": "Agressive Inlining", "Link": "https://www.dotnetperls.com/aggressiveinlining", "Tags": [ "C#", "Compiler" ,".NET", "Optimization"] }
+                ]
+        }, 
+        {
             "Date": "2019-09-23",
             "Content":
                 [
