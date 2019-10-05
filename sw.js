@@ -3,11 +3,12 @@
 /*  Inspired by: https://www.sblum.de/progressive-web-apps  */
 var FILES = [
   'content/style.css',
-  'manifest.json'
+  'manifest.json',
+  'index.html'
 ];
 
 var BLACKLIST = [];
-var CACHENAME = '20190930';
+var CACHENAME = '20191005';
 
 // Pre-Cache all cacheable pages
 self.addEventListener('install', function(event) {

@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-10-05",
+            "Content":
+                [
+                    { "Text": "Nice example of C# Coding Style guidelines", "Link": "https://github.com/WildernessLabs/CSharp_Coding_Style", "Tags": [ "C#", "Codeing Style"] }
+                ]
+        },         
+        {
             "Date": "2019-10-04",
             "Content":
                 [
