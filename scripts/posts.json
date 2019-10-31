@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2019-10-31",
+            "Content":
+                [
+                    { "Text": "Enable Failed Request Tracing for an Azure App Service Web App", "Link": "https://blogs.msdn.microsoft.com/benjaminperkins/2017/01/27/enable-failed-reuqest-tracing-for-an-azure-app-service-web-app/", "Tags": [ "Profiling", "ASP.NET" ,".NET", "Azure"] }
+                ]
+        }, 
+        {
             "Date": "2019-10-05",
             "Content":
                 [
