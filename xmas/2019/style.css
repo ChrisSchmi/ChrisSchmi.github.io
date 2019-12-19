@@ -1,14 +1,15 @@
 body {
-    height: 100%; 
+    height: auto;
     background: #1b2735;
     /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
     overflow: hidden;
     /* filter: drop-shadow(0 0 10px white); */
+    font-size: 100%;
   }
 
   .neon {
     color: #fff;
-    font-size: 4em;
+    font-size: 3rem;
     text-shadow:
       0 0 5px #fff,
       0 0 10px #ffa,
@@ -18,12 +19,14 @@ body {
       0 0 90px #0b8,
       0 0 100px #0ba,
       0 0 150px #0bb;
+    text-transform: uppercase;
   }
 
   .container
   {
-      padding-top: 15%;
-      width: 50%;
+    font-size: 100%;
+      padding-top: 20px;
+      width: 75%;
       margin-left: auto;
       margin-right: auto;
       z-index: -1;
