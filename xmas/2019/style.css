@@ -1477,7 +1477,9 @@ body {
     transform: translate(10.5249vw, -10px) scale(0.3664);
     animation: fall-101 20s -27s linear infinite;
   }
-  @keyframes fall-101 {
+
+
+  /* @keyframes fall-101 {
     79.424% {
       transform: translate(9.1424vw, 79.424vh) scale(0.3664);
     }
@@ -2771,4 +2773,4 @@ body {
     to {
       transform: translate(44.86935vw, 100vh) scale(0.4803);
     }
-  }
+  } */
