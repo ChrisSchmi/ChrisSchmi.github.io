@@ -4,26 +4,28 @@
  https://codepen.io/Kwing/pen/qBEmjjr
 */
 
+html
+{
+  font-size: 100%;
+}
+
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
 
 body {
-    height: 100vh;
+    /* height: 100%; */
     background: #1b2735;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); 
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);  */
     overflow: hidden;
-    /* filter: drop-shadow(0 0 10px white); */
-    padding-bottom: 0;
-    margin-bottom:  0;
-
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
     width: 100%;
   }
 
   .neon {
     color: #fff;
-    font-size: 2em;
+    font-size: 2rem;
     text-shadow:
       0 0 5px #f00,
       0 0 10px #f00,
@@ -35,7 +37,7 @@ body {
 
   .neon2 {
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5rem;
     text-shadow:
       0 0 5px #0f0,
       0 0 10px #0f0,
@@ -47,19 +49,24 @@ body {
 
   .container
   {
+    margin-top: 7.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 100%;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
     text-align: center;
+    border-radius: 30px 5px 30px 5px;
+    box-shadow: 0 0 25px #00caed;
   }
 
   .tree {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 15%;
+    bottom: 12%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -117,6 +124,7 @@ body {
     font-size: 22px;
     z-index: 4;
   }
+
   .tree .star:before, .tree .star:after {
     display: block;
     position: absolute;
@@ -160,10 +168,9 @@ body {
   }
 
   .mound {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
-    right: 0;
     background-color: #fff;
     border-radius: 50% 50% 0 0;
     margin-left: 0;
@@ -174,8 +181,8 @@ body {
   
   .snow {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background: white;
     border-radius: 50%;
     transform: translateZ(0);
