@@ -1,15 +1,29 @@
+/*
+ inspired by:
+ https://codepen.io/Nexxon/pen/vYEmaBm
+ https://codepen.io/Kwing/pen/qBEmjjr
+*/
+
+
 body {
-    height: auto;
+    height: 100vh;
     background: #1b2735;
-    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); 
     overflow: hidden;
     /* filter: drop-shadow(0 0 10px white); */
-    font-size: 100%;
+    padding-bottom: 0;
+    margin-bottom:  0;
+
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
   }
 
   .neon {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2em;
     text-shadow:
       0 0 5px #fff,
       0 0 10px #ffa,
@@ -25,12 +39,128 @@ body {
   .container
   {
     font-size: 100%;
-      padding-top: 20px;
-      width: 75%;
-      margin-left: auto;
-      margin-right: auto;
-      z-index: -1;
-      text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    text-align: center;
+  }
+
+  .tree {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  .tree .stump {
+    margin: 0 auto;
+    background-color: #654321;
+    width: 20px;
+    height: 40px;
+  }
+  .tree .tree-section {
+    margin-left: 50%;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #57857d;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+    width: 0;
+    height: 0;
+  }
+  .tree .tree-section.section-one {
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #79a83f;
+    transform: translate(-50%, 82%);
+    z-index: 3;
+  }
+  .tree .tree-section.section-two {
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid #709c3b;
+    transform: translate(-50%, 35%);
+    z-index: 2;
+  }
+  .tree .tree-section.section-three {
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid #689137;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .tree .star {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    margin-left: 0.9em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid #fc0;
+    border-left: 0.3em solid transparent;
+    width: 0;
+    height: 0;
+    transform: translate(-196%, 164%);
+    font-size: 22px;
+    z-index: 4;
+  }
+  .tree .star:before, .tree .star:after {
+    display: block;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid #fc0;
+    border-left: 1em solid transparent;
+    width: 0;
+    height: 0;
+    transform: rotate(-35deg);
+    content: "";
+  }
+  .tree .star:after {
+    transform: rotate(35deg);
+  }
+  .tree .decorations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 100%;
+    z-index: 4;
+  }
+  .tree .decorations .tinsel {
+    background-color: #ff0000;
+    width: 44%;
+    height: 2px;
+  }
+  .tree .decorations .tinsel.tinsel-one {
+    width: 44%;
+    transform: translate(77%, 86px) rotate(30deg);
+  }
+  .tree .decorations .tinsel.tinsel-two {
+    width: 56%;
+    transform: translate(46%, 139px) rotate(30deg);
+  }
+  .tree .decorations .tinsel.tinsel-three {
+    width: 54%;
+    transform: translate(46%, 191px) rotate(30deg);
+  }
+
+  .mound {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50% 50% 0 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 15%;
   }
   
   .snow {
@@ -45,6 +175,7 @@ body {
     transform: translate(83.1965vw, -10px) scale(0.2528);
     animation: fall-1 19s -17s linear infinite;
   }
+ 
 
   @keyframes fall-1 {
     49.1% {
