@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="style.css?v=2.0">
 </head>
 
-<body scroll="no">
+<body scroll="no" id="fixed">
 
 <div class="snow"></div>
 <div class="snow"></div>
@@ -89,5 +89,16 @@
   <div class="stump"></div>
 </div>
 <div class="mound"></div>
+
+<script>
+var fixed = document.getElementById('fixed');
+
+fixed.addEventListener('touchmove', function(e) {
+
+        e.preventDefault();
+
+}, false);
+</script>
+
 </body>
 </html>
