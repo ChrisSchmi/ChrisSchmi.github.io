@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-01-23",
+            "Content":
+                [
+                    { "Text": "A self-contained C# game in 8 kB", "Link": "https://github.com/MichalStrehovsky/SeeSharpSnake", "Tags": [ "C#", ".NET" ,"netcore", "CoreRT"] },
+                    { "Text": "Building a self-contained game in C# under 8 kilobytes", "Link": "https://medium.com/@MStrehovsky/building-a-self-contained-game-in-c-under-8-kilobytes-74c3cf60ea04", "Tags": [ "C#", ".NET" ,"netcore", "CoreRT"] },
+                    { "Text": "Optimizing reflection in C# via dynamic code generation", "Link": "https://medium.com/@SergioPedri/optimizing-reflection-with-dynamic-code-generation-6e15cef4b1a2", "Tags": [ "C#", ".NET", "netcore" ] }
+                ]
+        }, 
+        {
             "Date": "2019-10-31",
             "Content":
                 [
