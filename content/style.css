@@ -12,3 +12,8 @@ body {
 {
   margin-right: 2px;
 }
+
+[v-cloak]
+{
+  display: none;
+}
