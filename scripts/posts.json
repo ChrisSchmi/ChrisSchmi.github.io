@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2020-02-03",
+            "Content":
+                [
+                    { "Text": "Microsoft.Net.Compilers is only supported on MSBuild v16.3 and above", "Link": "https://github.com/dotnet/roslyn/issues/40129", "Tags": [ "C#", ".NET" ,"Compiler", "MSBuild"] }
+                ]
+        },         
+        {
             "Date": "2020-01-23",
             "Content":
                 [
