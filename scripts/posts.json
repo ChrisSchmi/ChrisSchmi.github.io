@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2020-02-28",
+            "Content":
+                [
+                    { "Text": "Microsoft Removal Tool", "Link": "https://www.file.net/prozess/mrt.exe.html", "Tags": [ "Tools", "Malware"] }
+                ]
+        },          
+        {
             "Date": "2020-02-03",
             "Content":
                 [
