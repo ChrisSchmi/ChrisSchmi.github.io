@@ -10,6 +10,13 @@
 //     });
 // });
 
+// https://coderwall.com/p/nilaba/simple-pure-javascript-array-unique-method-with-5-lines-of-code
+Array.prototype.unique = function() {
+  return this.filter(function (value, index, self) { 
+    return self.indexOf(value) === index;
+  });
+}
+
 const app = new Vue({
     el: '#app',
     data: {
@@ -57,7 +64,7 @@ const app = new Vue({
 
           self.posts = new Object();
 
-          self.posts.entries = filtered;
+          self.posts.entries = filtered.unique();
 
       }
     },
