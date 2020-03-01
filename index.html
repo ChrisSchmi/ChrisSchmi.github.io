@@ -91,6 +91,11 @@
 
 
       <p v-if="loading">Loading...</p>
+
+      <div class="jumbotron" v-if="(!loading && !hasSearchResults)">
+        <p>Sorry - no search results</p>
+      </div>
+
       <div class='jumbotron' v-if="!loading" v-for="post in posts.entries" v-cloak>
         <h4>{{ post.Date }}</h4>
         <p v-for="c in post.Content">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>

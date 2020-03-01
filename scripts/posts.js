@@ -24,7 +24,8 @@ const app = new Vue({
       loading: false,
       allPosts: [],
       posts: [],
-      searchphrase: ''
+      searchphrase: '',
+      hasSearchResults: true
     },
     methods: 
     {
@@ -36,6 +37,7 @@ const app = new Vue({
           {
             console.log('searchphrase empty');
             self.posts = self.allPosts;
+            self.hasSearchResults = true;
             return;
           }
 
@@ -60,10 +62,9 @@ const app = new Vue({
             })
           });
 
-          console.log(filtered.length);
+          self.hasSearchResults = filtered.length > 0;
 
           self.posts = new Object();
-
           self.posts.entries = filtered.unique();
 
       }
