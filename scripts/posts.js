@@ -15,10 +15,52 @@ const app = new Vue({
     data: {
       search: '',
       loading: false,
-      posts: []
+      allPosts: [],
+      posts: [],
+      searchphrase: ''
     },
-    computed: { },
-    methods: { },
+    methods: 
+    {
+      filteredList() {
+        var self = this;
+          
+
+          if(self.searchphrase == '')
+          {
+            console.log('searchphrase empty');
+            self.posts = self.allPosts;
+            return;
+          }
+
+          console.log('searching for: ' + self.searchphrase);
+
+          var filtered = [];
+
+          self.allPosts.entries.forEach(entry =>
+          {
+            entry.Content.forEach( c =>
+            {
+              if(typeof c.Tags !== 'undefined')
+              {
+                c.Tags.forEach( t =>
+                {
+                  if(t.toLowerCase() == self.searchphrase.toLowerCase())
+                  {
+                    filtered.push(entry);
+                  }
+                })
+              }
+            })
+          });
+
+          console.log(filtered.length);
+
+          self.posts = new Object();
+
+          self.posts.entries = filtered;
+
+      }
+    },
     mounted: function()
     {
       var self = this;
@@ -27,6 +69,7 @@ const app = new Vue({
 
       axios.get(link)
       .then(response => {
+        self.allPosts = response.data;
         self.posts = response.data;
         self.loading = false;
       })
@@ -38,3 +81,6 @@ const app = new Vue({
       )
     }
   });
+
+
+  

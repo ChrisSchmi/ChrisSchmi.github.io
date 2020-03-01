@@ -79,6 +79,17 @@
     </div> -->
 
     <div class="container" id="app">
+
+    <div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Search Tags</span>
+        </div>
+        <input type="text" class="form-control" placeholder="search for keywords" v-model="searchphrase" v-on:input="filteredList">
+      </div>
+    </div>
+
+
       <p v-if="loading">Loading...</p>
       <div class='jumbotron' v-if="!loading" v-for="post in posts.entries" v-cloak>
         <h4>{{ post.Date }}</h4>
