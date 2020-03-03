@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-03-03",
+            "Content":
+                [
+                    { "Text": "Image hover Zoom n’ Rotate effect with Pure CSS", "Link": "https://w3bits.com/css-image-hover-zoom/", "Tags": [ "CSS", "Effect", "Zoom"] },
+                    { "Text": "Measure - See how well your website performs.", "Link": "https://web.dev/measure/", "Tags": [ "HTML", "Web", "Performance"] },
+                    { "Text": "Learn - Realize what the web can be.", "Link": "https://web.dev/learn/", "Tags": [ "HTML", "Web", "Performance"] }
+                ]
+        }, 
+        {
             "Date": "2020-02-28",
             "Content":
                 [
