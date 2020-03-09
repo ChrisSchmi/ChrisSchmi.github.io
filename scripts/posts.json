@@ -4,7 +4,9 @@
             "Date": "2020-03-09",
             "Content":
                 [
-                    { "Text": "10 Essential Debugging Tools for C# .NET Development", "Link": "https://michaelscodingspot.com/dotnet-debugging-tools/", "Tags": [ "C#", ".NET", "Debugging", "Debug"] }
+                    { "Text": "10 Essential Debugging Tools for C# .NET Development", "Link": "https://michaelscodingspot.com/dotnet-debugging-tools/", "Tags": [ "C#", ".NET", "Debugging", "Debug"] },
+                    { "Text": "How to write a Roslyn Analyzer", "Link": "https://devblogs.microsoft.com/dotnet/how-to-write-a-roslyn-analyzer/", "Tags": [ "C#", ".NET", "Roslyn", "Analyzer"] },
+                    { "Text": "Decompilation of C# code made easy with Visual Studio", "Link": "https://devblogs.microsoft.com/visualstudio/decompilation-of-c-code-made-easy-with-visual-studio", "Tags": [ "C#", ".NET", "Decompilation", "ILSpy", "Tools", "Visual Studio"] }
                 ]
         }, 
         {
