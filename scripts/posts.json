@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2020-03-09",
+            "Content":
+                [
+                    { "Text": "10 Essential Debugging Tools for C# .NET Development", "Link": "https://michaelscodingspot.com/dotnet-debugging-tools/", "Tags": [ "C#", ".NET", "Debugging", "Debug"] }
+                ]
+        }, 
+        {
             "Date": "2020-03-03",
             "Content":
                 [
