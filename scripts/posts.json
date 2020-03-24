@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-03-24",
+            "Content":
+                [
+                    { "Text": "Der Pfad von 4G zu 5G", "Link": "https://www.youtube.com/watch?v=_Sq00NU5Xww", "Tags": [ "5G", "Network", "Mobile", "LTE", "Mobile-Network"] },
+                    { "Text": "Mit dem Getränkeautomaten in die Cloud", "Link": "https://www.youtube.com/watch?v=3-zxXaBawxA", "Tags": [ "Cloud", "IoT", "Hack", "CCC"] }
+
+                ]
+        }, 
+        {
             "Date": "2020-03-09",
             "Content":
                 [
