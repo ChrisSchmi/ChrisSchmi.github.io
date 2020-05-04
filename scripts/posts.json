@@ -1,6 +1,13 @@
 {
     "entries": [
         {
+            "Date": "2020-05-04",
+            "Content":
+                [
+                    { "Text": "Softwareentwurfsmuster", "Link": "https://docs.microsoft.com/de-de/azure/architecture/patterns/", "Tags": [ "Designpatterns", "Patterns", "Architecture", "Design"] }
+                ]
+        }, 
+        {
             "Date": "2020-03-24",
             "Content":
                 [
