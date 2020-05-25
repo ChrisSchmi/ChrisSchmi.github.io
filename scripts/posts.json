@@ -1,6 +1,17 @@
 {
     "entries": [
         {
+            "Date": "2020-05-25",
+            "Title": "Highlights of the MS Build Conference 2020",
+            "Content":
+                [
+                    { "Text": "Developing with the Fluid Framework", "Link": "https://www.youtube.com/watch?v=Iw9XFtfWxl8", "Tags": [ ".NET", "Build2020", "Highlights2020", "Azure"]  },
+                    { "Text": "Azure Synapse Link | Cloud-natives HTAP mit Azure Cosmos DB", "Link": "https://www.youtube.com/watch?v=yd8vynwA36A", "Tags": [ ".NET", "Build2020", "Highlights2020", "Azure"]  },
+                    { "Text": "Introduction to Azure RTOS", "Link": "https://www.youtube.com/watch?v=TGWg7yQATqQ", "Tags": [ "IoT", "Build2020", "Highlights2020", "Azure"]  },
+                    { "Text": "The journey to one .net", "Link": "https://www.youtube.com/watch?v=aIRb4TWZhks", "Tags": [ "IoT", "Build2020", "Highlights2020", "Azure", "Hanselman"]  }
+                ]
+        }, 
+        {
             "Date": "2020-05-11",
             "Content":
                 [
