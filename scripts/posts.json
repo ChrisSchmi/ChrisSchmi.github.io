@@ -2,7 +2,7 @@
     "entries": [
         {
             "Date": "2020-05-25",
-            "Title": "Highlights of the MS Build Conference 2020",
+            "Title": "",
             "Content":
                 [
                     { "Text": "https://dmarcian.com - DMARC Wizard", "Link": "https://dmarcian.com/dmarc-record-wizard/", "Tags": [ "SPAM", "Mailsecurity", "DMARC"]  },
