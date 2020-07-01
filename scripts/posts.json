@@ -5,9 +5,10 @@
             "Title": "",
             "Content":
                 [
-                    { "Text": "https://dmarcian.com - DMARC Wizard", "Link": "https://dmarcian.com/dmarc-record-wizard/", "Tags": [ "SPAM", "Mailsecurity", "DMARC"]  },
-                    { "Text": "Gmail Help about sending secure mails", "Link": "https://support.google.com/mail/thread/12228756?hl=de&fl=1", "Tags": [ "SPAM", "Mailsecurity"]  },
-                    { "Text": "mxtoolbox - Domain Health Check", "Link": "https://mxtoolbox.com/domain/", "Tags": [ "SPAM", "Mailsecurity", "Domain", "Helper"]  }
+                    { "Text": "https://dmarcian.com - DMARC Wizard", "Link": "https://dmarcian.com/dmarc-record-wizard/", "Tags": [ "SPAM", "Mailsecurity", "DMARC", "DNS"]  },
+                    { "Text": "dnschecker - DMARC record validation", "Link": "https://dnschecker.org/dmarc-record-validation.php", "Tags": [ "SPAM", "Mailsecurity", "DMARC", "DNS"]  },
+                    { "Text": "Gmail Help about sending secure mails", "Link": "https://support.google.com/mail/thread/12228756?hl=de&fl=1", "Tags": [ "SPAM", "Mailsecurity", "DNS"]  },
+                    { "Text": "mxtoolbox - Domain Health Check", "Link": "https://mxtoolbox.com/domain/", "Tags": [ "SPAM", "Mailsecurity", "Domain", "Helper", "DNS"]  }
                 ]
         }, 
         {
