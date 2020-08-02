@@ -7,7 +7,7 @@ var FILES = [
 ];
 
 var BLACKLIST = [];
-var CACHENAME = '20200303';
+var CACHENAME = '20200802';
 
 // Pre-Cache all cacheable pages
 self.addEventListener('install', function(event) {
