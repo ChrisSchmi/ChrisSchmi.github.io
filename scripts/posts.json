@@ -5,7 +5,8 @@
             "Title": "",
             "Content":
                 [
-                    { "Text": "Clean ASP.NET Core API using MediatR and CQRS", "Link": "https://www.youtube.com/watch?v=YzOBrVlthMk", "Tags": [ "Pattern", "CQRS", "C#", "ASP.NET", "API", "Architecture"]  }
+                    { "Text": "Clean ASP.NET Core API using MediatR and CQRS", "Link": "https://www.youtube.com/watch?v=YzOBrVlthMk", "Tags": [ "Pattern", "CQRS", "C#", "ASP.NET", "API", "Architecture"]  },
+                    { "Text": "Clean service decoration in .NET Core using Scrutor", "Link": "https://www.youtube.com/watch?v=m77s48tTdfU", "Tags": [ "Cache", "C#", "ASP.NET", "API", "Architecture"]  }
                 ]
         }, 
         {
