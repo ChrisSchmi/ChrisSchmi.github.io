@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-08-12",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Querying in Entity Framework Core", "Link": "https://www.entityframeworktutorial.net/efcore/querying-in-ef-core.aspx", "Tags": [ "Entity Framework Core", ".net core", "C#", "EF Core", "EF"]  }
+
+                ]
+        },
+        {
             "Date": "2020-08-11",
             "Title": "",
             "Content":
