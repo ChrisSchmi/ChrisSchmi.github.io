@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-09-27",
+            "Title": "Repair Bootprocedure after migrating MBR to GPT",
+            "Content":
+                [
+                    { "Text": "How to Repair EFI Bootloader in Windows 10", "Link": "https://forums.tomshardware.com/faq/how-to-repair-efi-bootloader-in-windows-10.3275168/", "Tags": [ "Windows 10", "EFI", "MBR", "GPT"]  },
+                    { "Text": "Systemwiederherstellung für Fortgeschrittene", "Link": "https://nt4admins.de/windows-server-familie/systemstartwiederherstellung-fuer-fortgeschrittene/", "Tags": [ "Windows 10", "EFI", "MBR", "GPT"]  }
+                ]
+        },
+        {
             "Date": "2020-08-12",
             "Title": "",
             "Content":
