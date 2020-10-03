@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-10-03",
+            "Title": "Google Workbox",
+            "Content":
+                [
+                    { "Text": "Google Workbox", "Link": "https://developers.google.com/web/tools/workbox/", "Tags": [ "PWA", "JS", "Web", "JavaScript", "Web App", "Progressive Web App"]  },
+                    { "Text": "Workbox Tutorial – PWA von Google | Progressive Web Apps", "Link": "https://lippke.li/workbox-tutorial-guide/#3nbsp-wichtigsten-Features-von-Google-Workbox-PWA", "Tags": [ "PWA", "JS", "Web", "JavaScript", "Web App", "Progressive Web App"]  }
+                ]
+        },
+        {
             "Date": "2020-09-27",
             "Title": "Repair Bootprocedure after migrating MBR to GPT",
             "Content":
