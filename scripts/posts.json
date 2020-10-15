@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2020-10-15",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Software Architektur - Refactoring oder Rewrite?", "Link": "https://www.youtube.com/watch?v=7lUE5NVen6c", "Tags": [ "Architecture", "Coding", "Refactoring", "Rewrite"]  },
+                    { "Text": "ASP.NET Core 3.1 - JWT Authentication Tutorial with Example API", "Link": "https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api", "Tags": [ "JWT", "Authorization", ".net core", "c#", "Token"]  }
+                ]
+        },
+        {
             "Date": "2020-10-03",
             "Title": "Google Workbox",
             "Content":
