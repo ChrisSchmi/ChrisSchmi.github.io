@@ -1,7 +1,6 @@
 {
     "entries": [
         {
-<<<<<<< HEAD
             "Date": "2020-11-19",
             "Title": "",
             "Content":
@@ -9,7 +8,8 @@
                     { "Text": "Xamarin Forms detect SIGABRT Crash on Startup", "Link": "https://stackoverflow.com/questions/60873678/xamarin-ios-sigabrt-crash-on-startup", "Tags": [ "Xamarin", "XF", "Crash", "Appcenter", "Xamarin Forms"]  }
                 ]
         },
-=======
+        {
+
             "Date": "2020-10-29",
             "Title": "",
             "Content":
@@ -20,7 +20,6 @@
                     
                 ]
         },        
->>>>>>> 5e175a34be08fcf8f5395a9731fa78730561e2aa
         {
             "Date": "2020-10-16",
             "Title": "",
