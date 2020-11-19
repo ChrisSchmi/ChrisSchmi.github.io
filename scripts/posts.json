@@ -1,6 +1,7 @@
 {
     "entries": [
         {
+<<<<<<< HEAD
             "Date": "2020-11-19",
             "Title": "",
             "Content":
@@ -8,6 +9,18 @@
                     { "Text": "Xamarin Forms detect SIGABRT Crash on Startup", "Link": "https://stackoverflow.com/questions/60873678/xamarin-ios-sigabrt-crash-on-startup", "Tags": [ "Xamarin", "XF", "Crash", "Appcenter", "Xamarin Forms"]  }
                 ]
         },
+=======
+            "Date": "2020-10-29",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Implementieren der Microserviceanwendungsschicht mithilfe der Web-API", "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api", "Tags": [ "DDD", "CQRS", "microservices"]  },
+                    { "Text": "Using Blazor Components In An Existing MVC Application", "Link": "https://chrissainty.com/using-blazor-components-in-an-existing-mvc-application/", "Tags": [ "netcore", "asp.net core", "Blazor", "asp.net core mvc", "dotnet"]  },
+                    { "Text": "Adding Server-Side Blazor to an existing MVC Core app", "Link": "https://stackoverflow.com/questions/56241125/adding-server-side-blazor-to-an-existing-mvc-core-app", "Tags": [ "netcore", "asp.net core", "Blazor", "asp.net core mvc", "dotnet"]  }
+                    
+                ]
+        },        
+>>>>>>> 5e175a34be08fcf8f5395a9731fa78730561e2aa
         {
             "Date": "2020-10-16",
             "Title": "",
