@@ -117,7 +117,8 @@
         <h5 v-if="(post.Title != null)">{{ post. Title }}</h5>
         <p v-for="c in post.Content">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
         <span class="badge badge-secondary rightspace" v-for="t in c.Tags">
-          <a v-on:click="setsearch({{t}})">{{ t }}</a>
+          <!-- <a v-on:click="setsearch({{t}})">{{ t }}</a> -->
+          {{ t }}
         </span>
         </p>
       </div>	
