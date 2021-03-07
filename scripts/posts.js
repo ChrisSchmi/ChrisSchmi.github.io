@@ -50,14 +50,12 @@ const app = new Vue({
           });
 
           self.hasSearchResults = filtered.length > 0;
-
           self.posts = new Object();
           self.posts.entries = filtered.unique();
 
       },
       setsearch: function (phrase)
       {
-        console.log('setsearch: ' + phrase);
         var self = this;
         self.searchphrase = phrase;
         self.filteredList();
@@ -89,6 +87,3 @@ const app = new Vue({
       )
     }
   });
-
-
-  
