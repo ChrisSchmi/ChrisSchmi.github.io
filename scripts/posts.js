@@ -57,8 +57,16 @@ const app = new Vue({
       },
       setsearch: function (phrase)
       {
+        console.log('setsearch: ' + phrase);
         var self = this;
-        self.search = phrase;
+        self.searchphrase = phrase;
+        self.filteredList();
+      },
+      clearsearch: function (phrse)
+      {
+        var self = this;
+        self.searchphrase = '';
+        self.filteredList();
       }
     },
     mounted: function()

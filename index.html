@@ -102,7 +102,11 @@
           <span class="input-group-text">Search Tags</span>
         </div>
         <input type="text" class="form-control" placeholder="search for tags" v-model="searchphrase" v-on:input="filteredList">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" v-on:click="clearsearch();">x</button>
+        </div>
       </div>
+
     </div>
 
 
@@ -117,8 +121,7 @@
         <h5 v-if="(post.Title != null)">{{ post. Title }}</h5>
         <p v-for="c in post.Content">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
         <span class="badge badge-secondary rightspace" v-for="t in c.Tags">
-          <!-- <a v-on:click="setsearch({{t}})">{{ t }}</a> -->
-          {{ t }}
+          <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
         </span>
         </p>
       </div>	
