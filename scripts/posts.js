@@ -55,7 +55,7 @@ const app = new Vue({
           self.posts.entries = filtered.unique();
 
       },
-      setsetach: function (phrase)
+      setsearch: function (phrase)
       {
         var self = this;
         self.search = phrase;
