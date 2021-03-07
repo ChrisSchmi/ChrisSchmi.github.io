@@ -7,7 +7,7 @@ var FILES = [
 ];
 
 var BLACKLIST = [];
-var CACHENAME = '20210307';
+var CACHE_NAME = '20210307';
 const OFFLINE_URL = '/offline.html';
 
 self.addEventListener('install',
