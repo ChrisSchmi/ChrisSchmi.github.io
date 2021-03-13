@@ -7,7 +7,7 @@
                 [
                     { "Text": "Sempervideo Blocklisten", "Link": "https://github.com/RPiList/specials/blob/master/Blocklisten.md", "Tags": [ "Pihole", "Adblock", "Security", "Network", "DNS"  ]},
                     { "Text": "AdGuard CNAME disguised trackers list", "Link": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt", "Tags": [ "Pihole", "Adblock", "Security", "Network", "CNAME", "DNS"]  },
-                    { "Text": "SemperVideo - 6000 CNAME Tracker blockieren", "Link": "https://www.youtube.com/watch?v=HkpE-dB15Dw", "Tags": [ "SemperVideo", "Pihole", "Adblock", "Security", "Network", "DNS"  ]},
+                    { "Text": "SemperVideo - 6000 CNAME Tracker blockieren", "Link": "https://www.youtube.com/watch?v=HkpE-dB15Dw", "Tags": [ "SemperVideo", "Pihole", "Adblock", "Security", "Network", "DNS"  ]}
                 ]
         },        
         {
