@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2021-03-16",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Raising Multiple Exceptions With Aggregateexception", "Link": "https://bryanavery.co.uk/raising-multiple-exceptions-with-aggregateexception/", "Tags": [ "dotnet", "dot net", ".net", "C#", ".NET"]}
+
+                ]
+        }, 
+        {
             "Date": "2021-03-11",
             "Title": "Pi-Hole Blocklists",
             "Content":
