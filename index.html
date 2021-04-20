@@ -118,7 +118,7 @@
 
       <div class='jumbotron' v-if="!loading" v-for="post in posts.entries" v-cloak>
         <h4>{{ post.Date }}</h4>
-        <h5 v-if="(post.Title != null)">{{ post. Title }}</h5>
+        <h5 class="title-gradient" v-if="(post.Title != null)">{{ post. Title }}</h5>
         <p v-for="c in post.Content">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
         <span class="badge badge-secondary rightspace" v-for="t in c.Tags">
           <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
