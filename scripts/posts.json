@@ -2,6 +2,15 @@
     "entries": [
         {
             "Date": "2021-05-09",
+            "Title": "I <3 WebGL",
+            "Content":
+                [
+                    { "Text": "Alien cocoons", "Link": "https://www.shadertoy.com/view/MsdGz2", "Tags":[ "WebGL", "Shader", "Animation", "3D" ,"shadertoy"] },
+                    { "Text": "fractal pyramid", "Link": "https://www.shadertoy.com/view/tsXBzS", "Tags":[ "WebGL", "Shader", "Animation", "3D", "shadertoy"] }
+                ]
+        }, 
+        {
+            "Date": "2021-05-09",
             "Title": "",
             "Content":
                 [
