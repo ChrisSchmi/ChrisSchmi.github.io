@@ -5,6 +5,17 @@
             "Title": "",
             "Content":
                 [
+                    { "Text": "Herstellen einer Verbindung mit Exchange Online PowerShell mittels moderner Authentifizierung mit oder ohne mehrstufige Authentifizierung", "Link": "https://docs.microsoft.com/de-de/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps", "Tags":[ "Exchange", "Powershell", "EWS" ] },
+                    { "Text": "Versioning in an Event Sourced System", "Link": "https://leanpub.com/esversioning/read", "Tags":[ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ] },
+                    { "Text": "Why Event Sourced Systems Fail", "Link": "https://www.youtube.com/watch?v=FKFu78ZEIi8", "Tags":[ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ] },
+                    { "Text": "Song Sim", "Link": "https://colinmorris.github.io/SongSim", "Tags":[ "Simulation", "Song", "Songs", "UI" ] }
+                ]
+        }, 
+        {
+            "Date": "2021-05-15",
+            "Title": "",
+            "Content":
+                [
                     { "Text": "Coding Adventure: Ant and Slime Simulations", "Link": "https://www.youtube.com/watch?v=X-iSQQgOd1A", "Tags":[ "Graphics", "Animations", "Animation", "3D", "2D", "Simulating", "Simulation" ] }
                 ]
         }, 
