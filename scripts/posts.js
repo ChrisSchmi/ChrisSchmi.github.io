@@ -65,6 +65,15 @@ const app = new Vue({
         var self = this;
         self.searchphrase = '';
         self.filteredList();
+      },
+      clearlocalcache: function()
+      {
+          caches.keys().then(function(names) {
+            for (let name of names)
+                caches.delete(name);
+
+          window.location.reload();
+        });
       }
     },
     mounted: function()
