@@ -895,7 +895,10 @@
         },
         {
             "Date": "2015-05-03",
-            "Content": [ { "Text": "Entiers are stored as local JSON file now", "Link": "" }, { "Text": "Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link": "" } ]
+            "Content": [
+                { "Text": "Entiers are stored as local JSON file now", "Link": "http://www.christianschmidt.info" },
+                { "Text": "Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link": "http://www.christianschmidt.info" }
+            ]
         },
         {
             "Date": "2015-04-30",
@@ -907,7 +910,7 @@
         },
         {
             "Date": "2015-04-29",
-            "Content": [ { "Text": "ChrisSchmis interesting link collection!", "Link": "" } ]
+            "Content": [ { "Text": "ChrisSchmis interesting link collection!", "Link": "http://www.christianschmidt.info" } ]
         }
     ]
 }
