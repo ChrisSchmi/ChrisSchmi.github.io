@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2021-08-09",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Testing a website from Linux command line", "Link": "https://docs.microsoft.com/de-de/dotnet/spark/how-to-guides/dotnet-spark-jupyter-notebooks", "Tags":[ "Jupyter Notebook", "c#", "Spark", "Apache", "Apache Spark" ] }
+                ]
+        }, 
+        {
             "Date": "2021-07-13",
             "Title": "",
             "Content":
