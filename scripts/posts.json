@@ -5,7 +5,9 @@
             "Title": "",
             "Content":
                 [
-                    { "Text": "Design Patterns", "Link": "https://sourcemaking.com/design_patterns", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] }
+                    { "Text": "Design Patterns", "Link": "https://sourcemaking.com/design_patterns", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] },
+                    { "Text": "C# Design Patterns", "Link": "https://www.dofactory.com/net/design-patterns", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] },
+                    { "Text": "How to detect if the User's OS prefers dark mode and change your site with CSS and JS", "Link": "https://www.hanselman.com/blog/how-to-detect-if-the-users-os-prefers-dark-mode-and-change-your-site-with-css-and-js", "Tags":[ "Darkmode", "Dark Mode", "Theme", "Design", "Javascript", "CSS", "Mediaquery" ] }
                 ]
         }, 
         {
