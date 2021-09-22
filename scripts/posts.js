@@ -5,6 +5,18 @@ Array.prototype.unique = function() {
   });
 }
 
+function clearlocalcache()
+{
+  console.log("Clearing cache...");
+  caches.keys().then(function(names) {
+      for (let name of names)
+      {
+          caches.delete(name);
+      }
+  });
+  window.location.reload();
+}
+
 const app = new Vue({
     el: '#app',
     data: {
@@ -65,15 +77,6 @@ const app = new Vue({
         var self = this;
         self.searchphrase = '';
         self.filteredList();
-      },
-      clearlocalcache: function()
-      {
-          caches.keys().then(function(names) {
-            for (let name of names)
-                caches.delete(name);
-
-          window.location.reload();
-        });
       }
     },
     mounted: function()
@@ -96,3 +99,4 @@ const app = new Vue({
       )
     }
   });
+
