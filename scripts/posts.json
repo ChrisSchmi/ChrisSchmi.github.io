@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2021-09-26",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Refactoring.Guru - Design Patterns", "Link": "https://refactoring.guru/", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] },
+                ]
+        }, 
+        {
             "Date": "2021-09-22",
             "Title": "",
             "Content":
