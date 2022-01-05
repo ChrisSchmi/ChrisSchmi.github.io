@@ -1,6 +1,16 @@
 {
     "entries": [
         {
+            "Date": "2022-01-05",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "kkrieger: Making an Impossible FPS | Nostalgia Nerd", "Link": "https://www.youtube.com/watch?v=bD1wWY1YD-M", "Tags":[ "retrocomputing", "Demo", "demoscene", "history", "oldschool"]},
+                    { "Text": "Trackers: The Sound of 16-Bit", "Link": "https://www.youtube.com/watch?v=roBkg-iPrbw", "Tags":[ "retrocomputing", "tracker", "demo", "demoscene", "sound", "history", "oldschool"]},
+                    { "Text": "A Brief History of Graphics", "Link": "https://www.youtube.com/watch?v=QyjyWUrHsFc", "Tags":[ "retrocomputing", "graphics", "game", "games", "youth", "history", "oldschool"]}
+                ]
+        }, 
+        {
             "Date": "2021-12-20",
             "Title": "",
             "Content":
