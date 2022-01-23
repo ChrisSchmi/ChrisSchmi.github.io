@@ -1,6 +1,18 @@
 {
     "entries": [
         {
+            "Date": "2022-01-23",
+            "Title": "New Art & Culture Stuff",
+            "Content":
+                [
+                    { "Text": "That colorful font", "Link": "https://observablehq.com/@kelleyvanevert/that-colorful-font", "Tags":[ "font", "js", "JavaScript", "fontart"]},
+                    { "Text": "That colorful font", "Link": "https://github.com/observablehq/plot", "Tags":[ "chart", "js", "JavaScript", "plot"]},
+                    { "Text": "NDR Kultur à la carte - Felix Lehrmann", "Link": "https://www.ndr.de/kultur/sendungen/ndr_kultur_a_la_carte/Felix-Lehrmann-trommelt-fuer-die-Stars-der-Musikbranche,sendung1219490.html", "Tags":[ "Drums", "Drummer", "Interview"]},
+                    { "Text": "My Merry Messy Life", "Link": "https://www.youtube.com/channel/UCzNkWqatFmMmar8Tvd44tAA", "Tags":[ "Culture", "Cultureshock", "Cultureshocks", "emigration"]},
+                    { "Text": "Our Story to Tell", "Link": "https://www.youtube.com/channel/UCbo0scC5qoicOOC1WET3xzA", "Tags":[ "Culture", "Cultureshock", "Cultureshocks", "emigration"]}
+                ]
+        },         
+        {
             "Date": "2022-01-05",
             "Title": "",
             "Content":
