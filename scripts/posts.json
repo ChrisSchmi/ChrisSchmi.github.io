@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2022-02-05",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "How I hacked a hardware crypto wallet and recovered $2 million", "Link": "https://www.youtube.com/watch?v=dT9y-KQbqi4", "Tags":[ "crypto", "hack", "hardware", "wallet"]}
+                ]
+        }, 
+        {
             "Date": "2022-01-23",
             "Title": "New Art & Culture Stuff",
             "Content":
