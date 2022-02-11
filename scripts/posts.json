@@ -1,6 +1,16 @@
 {
     "entries": [
         {
+            "Date": "2022-02-11",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Azure Event Hubs", "Link": "https://azure.microsoft.com/de-de/services/event-hubs/", "Tags":[ "Azure", "EventHub", "Event Hub", "data", "bigdata"]},
+                    { "Text": "Explained Use Case - Azure event hubs and Azure functions", "Link": "https://www.youtube.com/watch?v=oLcTwe-aKqQ", "Tags":[ "Azure", "EventHub", "Event Hub", "data", "bigdata"]},
+                    { "Text": "Terraform - infrastructure in code", "Link": "https://www.hashicorp.com/products/terraform", "Tags":[ "IaaS", "infrastructure", "Terraform"]}
+                ]
+        }, 
+        {
             "Date": "2022-02-05",
             "Title": "",
             "Content":
