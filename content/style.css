@@ -27,8 +27,6 @@ body {
   display: none;
 }
 
-
-
 @media (prefers-color-scheme: dark) {
   .jumbotron {
     padding: 2rem 1rem;

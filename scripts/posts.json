@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2022-02-13",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Planoplan Editor - 3D Room Editor", "Link": "https://planoplan.com/de/download/windows/", "Tags":[ "3D", "room", "Raumplanung", "room planning", "editor"]},
+                    { "Text": "Workaround: Turn off Wiki comments", "Link": "https://developercommunity.visualstudio.com/t/is-it-possible-to-delete-comments-of-other-users-i/1228916", "Tags":[ "TFS", "devops", "azure", "azuredevops", "wiki", "comment"]}
+                ]
+        },         
+        {
             "Date": "2022-02-11",
             "Title": "",
             "Content":
