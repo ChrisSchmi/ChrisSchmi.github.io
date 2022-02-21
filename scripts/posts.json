@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2022-02-21",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Resize Ubuntu /dev/sda1 partition", "Link": "https://askubuntu.com/questions/958114/resize-ubuntu-dev-sda1-partition-in-virtualbox-vmdk-when-dev-sda-is-already-la", "Tags":[ "Linux", "Ubuntu", "partidion", "parted", "resize"]}
+                ]
+        },    
+        {
             "Date": "2022-02-13",
             "Title": "",
             "Content":
