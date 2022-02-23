@@ -7,6 +7,7 @@
                 [
                     { "Text": "New C# templates generate top-level statements", "Link": "https://docs.microsoft.com/en-us/dotnet/core/tutorials/top-level-templates", "Tags":[ "C#", "dotnet", ".net", "6", ".net6", "dotnet6"]},
                     { "Text": "RTutorial: Explore ideas using top-level statements to build code as you learn", "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/top-level-statements", "Tags":[ "C#", "dotnet", ".net", "6", ".net6", "dotnet6"]}
+                    { "Text": "App startup in ASP.NET Core", "Link": "https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-6.0", "Tags":[ "C#", "dotnet", ".net", "6", ".net6", "dotnet6", "asp.net", "aspnet"]}
                 ]
         },   
         {
