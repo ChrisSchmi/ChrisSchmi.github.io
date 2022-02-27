@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "Date": "2022-02-27",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Azure devops users cant see repos even though they have full read/contribute permissions. How could we fix?", "Link": "https://developercommunity.visualstudio.com/t/azure-devops-users-cant-see-repos-even-though-they/918777", "Tags":[ "azure", "devops", ".devopsservie", "tfs"]}
+                ]
+        }, 
+        {
             "Date": "2022-02-26",
             "Title": ".net 6 Templates \"hell\"? or not?",
             "Content":
