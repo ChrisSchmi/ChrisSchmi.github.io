@@ -1,6 +1,17 @@
 {
     "entries": [
         {
+            "Date": "2022-03-13",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "View the origin of a repeating call stack", "Link": "https://www.poppastring.com/blog/view-the-origin-of-a-repeating-call-stack", "Tags":[ "c#", "csharp", ".dotnet", "exception", "callstack"]},
+                    { "Text": "Moondisaster - Can you spot a deepfake?", "Link": "https://moondisaster.org/quiz/", "Tags":[ "fake", "deepfake", "ai", "ki"]},
+                    { "Text": "gRPC-Dienste mit ASP.NET Core", "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/aspnetcore?view=aspnetcore-6.0&tabs=visual-studio", "Tags":[ "c#", "csharp", ".dotnet", "gRPC", "netcore"]},
+                    { "Text": "Versionsverwaltung für gRPC-Dienste", "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/versioning?view=aspnetcore-6.0", "Tags":[ "c#", "csharp", ".dotnet", "gRPC", "netcore"]}
+                ]
+        }, 
+        {
             "Date": "2022-02-27",
             "Title": "",
             "Content":
