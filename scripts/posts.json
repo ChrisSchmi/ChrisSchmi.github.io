@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2022-03-14",
+            "Title": "A little bit about hitory",
+            "Content":
+                [
+                    { "Text": "Zwei-plus-Vier-Vertrag", "Link": "https://de.wikipedia.org/wiki/Zwei-plus-Vier-Vertrag", "Tags":[ "history", "peace", "stophate"]},
+                    { "Text": "Hat die Bundesrepublik Deutschland nach 1945 einen Friedensvertrag unterzeichnet?", "Link": "https://www.swr.de/wissen/1000-antworten/hat-die-bundesrepublik-deutschland-nach-1945-einen-friedensvertrag-unterzeichnet-100.html", "Tags":[ "history", "peace", "stophate"]}
+                ]
+        }, 
+        {
             "Date": "2022-03-13",
             "Title": "",
             "Content":
