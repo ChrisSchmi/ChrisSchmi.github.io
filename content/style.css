@@ -14,6 +14,8 @@ body {
 
 .badgelink {
   cursor: grab;
+  color: #fff;
+  text-decoration: none;
 }
 
 .title-gradient {

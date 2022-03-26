@@ -7,8 +7,8 @@
 	<meta name="author" content="ChrisSchmi">
   <meta name="theme-color" content="#000000">
   <meta name="description" content="Cool links for developers. Somzimes a little food stuff.">
-	
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <link rel="stylesheet" href="content/style.css">
   <link rel="manifest" href="/manifest.json">
   <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
@@ -59,6 +59,7 @@
 <body>
   <div class="line" id="scrollIndicator"></div>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
       <a class="navbar-brand" href="#">ChrisSchmi.github.io</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,29 +70,47 @@
             <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-          <a  class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">Repositories</a>
+            <a  class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">Repositories</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About me
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="https://www.linkedin.com/in/chrisschmi" target="_blank" rel="noopener">LinkedIn</a>
-                <a class="dropdown-item"  href="https://www.xing.com/profile/Christian_Schmidt832" target="_blank" rel="noopener">XING</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Publications
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="./publications/2009-poster-cvci.pdf" target="_blank" rel="noopener">Poster PDF</a>
-                <a class="dropdown-item"  href="https://www.hivemq.com/case-studies/caso/" target="_blank" rel="noopener">Case Study</a>
-            </div>
-          </li>
-
         </ul>
+      </div>
+    </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ChrisSchmi.github.io</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">Repositories</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">About me</a>
+                <div class="dropdown-menu bg-dark">
+                  <a class="dropdown-item nav-link" href="https://www.linkedin.com/in/chrisschmi" target="_blank" rel="noopener">LinkedIn</a>
+                  <a class="dropdown-item nav-link"  href="https://www.xing.com/profile/Christian_Schmidt832" target="_blank" rel="noopener">XING</a>
+                </div>
+            </div>
+            </li>
+            <li class="nav-item">
+            <div class="dropdown">
+              <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Publications</a>
+              <div class="dropdown-menu bg-dark">
+                <a class="dropdown-item nav-link" href="./publications/2009-poster-cvci.pdf" target="_blank" rel="noopener">Poster PDF</a>
+                <a class="dropdown-item nav-link"  href="https://www.hivemq.com/case-studies/caso/" target="_blank" rel="noopener">Case Study</a>
+              </div>
+            </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -113,15 +132,15 @@
 
       <p v-if="loading">Loading...</p>
 
-      <div class="jumbotron" v-if="(!loading && !hasSearchResults)">
+      <div class="container-fluid bg-light rounded-3" v-if="(!loading && !hasSearchResults)">
         <p>Sorry - no search results</p>
       </div>
 
-      <div class='jumbotron' v-if="!loading" v-for="post in posts.entries" v-cloak>
+      <div class='container-fluid bg-light rounded-3 mb-3' v-if="!loading" v-for="post in posts.entries" v-cloak>
         <h4>{{ post.Date }}</h4>
         <h5 v-if="(post.Title != null)">{{ post. Title }}</h5>
-        <p v-for="c in post.Content">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
-        <span class="badge badge-secondary rightspace" v-for="t in c.Tags">
+        <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
+        <span class="badge bg-secondary rightspace" v-for="t in c.Tags">
           <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
         </span>
         </p>
@@ -133,12 +152,12 @@
   <!-- Scripts section -->
   
   <!-- external scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   <script src="scripts/posts.js"></script>
   <script>
     // register service worker
@@ -161,7 +180,7 @@
     }
   </script>
 
-<footer class="footer mt-auto py-3 bg-dark">
+<footer class="footer mt-auto py-3 bg-dark position-relative bottom">
   <div class="container mt-auto">
     <a href="dataprotection.html" target="_blank">Dataprotection</a>
     <a href="javascript:clearlocalcache();">Clear local Cache</a>
