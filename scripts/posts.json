@@ -9,8 +9,6 @@
                     { "Text": "Performance Improvements in .NET 6", "Link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#peanut-butter", "Tags":[ ".net", "dotnet", "net6", ".net6", "dotnet6" ]},
                     { "Text": "Axiom - connects to a mqtt server and provides an interface to the WhatsApp messaging service.", "Link": "https://github.com/xanecs/axiom", "Tags":[ "MQTT", "Whatsapp", "python" ]},
                     { "Text": "Build High Performant Microservices using gRPC and .NET 6", "Link": "https://medium.com/geekculture/build-high-performant-microservices-using-grpc-and-net-6-adde158c5ac", "Tags":[ "Microservices", ".net6", "dotnet6", "gRPC"]}
-
-                    
                 ]
         },         
         {
