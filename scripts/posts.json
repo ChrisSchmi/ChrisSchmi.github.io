@@ -1,6 +1,19 @@
 {
     "entries": [
         {
+            "Date": "2022-03-26",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": ".NET Framework 4.5.2, 4.6, 4.6.1 will reach End of Support", "Link": "https://devblogs.microsoft.com/dotnet/net-framework-4-5-2-4-6-4-6-1-will-reach-end-of-support-on-april-26-2022/", "Tags":[ ".net", "dotnet", "net45", "net46", "net461" ]},
+                    { "Text": "Performance Improvements in .NET 6", "Link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#peanut-butter", "Tags":[ ".net", "dotnet", "net6", ".net6", "dotnet6" ]},
+                    { "Text": "Axiom - connects to a mqtt server and provides an interface to the WhatsApp messaging service.", "Link": "https://github.com/xanecs/axiom", "Tags":[ "MQTT", "Whatsapp", "python" ]},
+                    { "Text": "Build High Performant Microservices using gRPC and .NET 6", "Link": "https://medium.com/geekculture/build-high-performant-microservices-using-grpc-and-net-6-adde158c5ac", "Tags":[ "Microservices", ".net6", "dotnet6", "gRPC"]}
+
+                    
+                ]
+        },         
+        {
             "Date": "2022-03-14",
             "Title": "A little bit about hitory",
             "Content":
@@ -18,7 +31,7 @@
                     { "Text": "Moondisaster - Can you spot a deepfake?", "Link": "https://moondisaster.org/quiz/", "Tags":[ "fake", "deepfake", "ai", "ki"]},
                     { "Text": "gRPC-Dienste mit ASP.NET Core", "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/aspnetcore?view=aspnetcore-6.0&tabs=visual-studio", "Tags":[ "c#", "csharp", ".dotnet", "gRPC", "netcore"]},
                     { "Text": "Versionsverwaltung für gRPC-Dienste", "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/versioning?view=aspnetcore-6.0", "Tags":[ "c#", "csharp", ".dotnet", "gRPC", "netcore"]},
-                    { "Text": "gRPC-Dienste mit ASP.NET Core", "Link": "https://www.cncf.io/about/who-we-are/", "Tags":[ "cloud", "cloudnative",  "gRPC"]}
+                    { "Text": "Cloud Native Computin Foundation", "Link": "https://www.cncf.io/about/who-we-are/", "Tags":[ "cloud", "cloudnative",  "gRPC"]}
                 ]
         }, 
         {
