@@ -72,7 +72,7 @@ const app = new Vue({
         self.searchphrase = phrase;
         self.filteredList();
       },
-      clearsearch: function (phrse)
+      clearsearch: function ()
       {
         var self = this;
         self.searchphrase = '';
@@ -99,4 +99,3 @@ const app = new Vue({
       )
     }
   });
-

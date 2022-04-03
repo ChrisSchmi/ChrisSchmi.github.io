@@ -115,7 +115,6 @@
     </nav>
 
     <div class="container" id="app">
-
     <div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
@@ -126,9 +125,7 @@
           <button class="btn btn-primary" type="button" v-on:click="clearsearch();">x</button>
         </div>
       </div>
-
     </div>
-
 
       <p v-if="loading">Loading...</p>
 
@@ -136,7 +133,7 @@
         <p>Sorry - no search results</p>
       </div>
 
-      <div class='container-fluid bg-light rounded-3 mb-3' v-if="!loading" v-for="post in posts.entries" v-cloak>
+      <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="post in posts.entries" v-cloak>
         <h4>{{ post.Date }}</h4>
         <h5 v-if="(post.Title != null)">{{ post. Title }}</h5>
         <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
@@ -148,11 +145,18 @@
     </div>
 
     <!-- /container -->
+
+    <footer class="footer mt-auto py-3 bg-dark position-relative bottom">
+      <div class="container mt-auto">
+        <a href="dataprotection.html" target="_blank">Dataprotection</a>
+        <a href="javascript:clearlocalcache();">Clear local Cache</a>
+      </div>
+    </footer>
+
     
   <!-- Scripts section -->
   
   <!-- external scripts -->
-  
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -180,15 +184,10 @@
     }
   </script>
 
-<footer class="footer mt-auto py-3 bg-dark position-relative bottom">
-  <div class="container mt-auto">
-    <a href="dataprotection.html" target="_blank">Dataprotection</a>
-    <a href="javascript:clearlocalcache();">Clear local Cache</a>
-  </div>
-</footer>
+
 
 <script>
-  var css = "fon-size:3em; color: #000000; text-shadow: -1px -1px hsl(0,100%,50%);";
+  var css = "font-size:1.5em; color: #000000; text-shadow: -1px -1px hsl(0,100%,50%);";
   console.log("%c%s", css, 'Colored Console - cool :D');
 </script>
 </body>

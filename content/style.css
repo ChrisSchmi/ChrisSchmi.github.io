@@ -20,6 +20,7 @@ body {
 
 .title-gradient {
   background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#ff6969 89.95%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -29,12 +30,22 @@ body {
   display: none;
 }
 
+@media (prefers-color-scheme: light) {
+  .blogcontent {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #eaecef!important;
+    border-radius: .8rem;
+    color: #343a40;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
-  .jumbotron {
+  .blogcontent {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
     background-color: #343a40!important;
-    border-radius: .3rem;
+    border-radius: .8rem;
     color: #cdcdcd;
   }
 }
