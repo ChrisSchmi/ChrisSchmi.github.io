@@ -1,6 +1,28 @@
 {
     "entries": [
         {
+            "Date": "2022-06-01",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "Web-App mit Blazor in Azure Static Web Apps", "Link": "https://docs.microsoft.com/de-de/azure/static-web-apps/deploy-blazor", "Tags":[ "Azure", "Blazot", "Static", "Appservice" ]},
+                    { "Text": "Nuoc Cham – Vietnamesische Dressing", "Link": "https://shayankocht.de/2015/10/nuoc-cham-klassischer-vietnamesischer-dressing/", "Tags":[ "Asiafood", "Food", "Recipe" ]},
+                    { "Text": "Bun Bo Nam Bo – Vietnam auf einem Teller", "Link": "https://www.easycookasia.de/rezept/bun-bo-nam-bo", "Tags":[ "Asiafood", "Food", "Recipe" ]},
+                    { "Text": "Nethereum - How to connect to Ethereum using .NET", "Link": "https://www.quicknode.com/guides/web3-sdks/how-to-connect-to-ethereum-using-net-nethereum", "Tags":[ "Crypto", "Ethereum", "dotnet", "net", ".net" ]},
+                    { "Text": "How to create your own language with ANTLR in .NET?", "Link": "https://medium.com/@konstantin.poklonskiy/how-to-create-your-own-language-with-antlr-in-net-a57beba84ecc", "Tags":[ "ANTLR", "DSL", "Language","dotnet", "net", ".net" ]},
+                    { "Text": "YARP tunnel demo", "Link": "https://github.com/davidfowl/YarpTunnelDemo", "Tags":[ "proxy", "tunnel", "dotnet", "net", ".net" ]},
+                    { "Text": "Javascript Snake Game", "Link": "https://github.com/servetgulnaroglu/ytb_snake_js", "Tags":[ "JS", "JavaScript", "Java Script", "Snake", "Game", "Gamedev" ]},
+                    { "Text": "Implementieren eines Microservicedomänenmodells mit .NET", "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/net-core-microservice-domain-model", "Tags":[ "dotnet", "net", ".net", "domain", "domäne", "service", "microservice" ]},
+                    { "Text": "CSS Grid Layouts", "Link": "https://raidboxes.io/blog/webdesign-development/css-grid-layout/", "Tags":[ "CSS", "Grid", "Layout", "Design", "CSS Grid", "CSS Layout" ]},
+                    { "Text": "MethodTimer.Fody", "Link": "https://github.com/Fody/MethodTimer", "Tags":[ "dotnet", "net", ".net", "performance", "measure", "runtime", "debugging" ]},
+                    { "Text": "Resize an Image in C#", "Link": "https://www.c-sharpcorner.com/UploadFile/ishbandhu2009/resize-an-image-in-C-Sharp/", "Tags":[ "dotnet", "net", ".net", "c#", "csharp", "image", "resize" ]},
+                    { "Text": "C# Pattern matching overview", "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching", "Tags":[ "dotnet", "net", ".net", "c#", "csharp", "pattern", "patternmatching" ]},
+                    { "Text": "What's new in ASP.NET Core 6.0", "Link": "https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-6.0?view=aspnetcore-6.0", "Tags":[ "dotnet", "net", ".net", "aspnet", "aspnetcore", "core", ".netcore", "netcore", "asp" ]},
+                    { "Text": "Erstellen eines DDD-orientierten Microservices", "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice", "Tags":[ "dotnet", "net", ".net", "domain", "domäne", "service", "microservice"  ]},
+                    { "Text": "CSS in JS", "Link": "https://cssinjs.org/", "Tags":[ "CSS", "js", "Layout", "Design", "javascript" ]},
+                ]
+        },    
+        {
             "Date": "2022-03-26",
             "Title": "",
             "Content":
