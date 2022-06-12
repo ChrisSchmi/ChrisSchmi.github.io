@@ -1,6 +1,15 @@
 {
     "entries": [
         {
+            "Date": "2022-06-12",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "C# Design Patterns", "Link": "https://www.dofactory.com/net/facade-design-pattern", "Tags":[ "C#", "Pattern", "Design", "Architecture", "Designpattern", "Designpatterns" ]},
+                    { "Text": "Dr. Michael Klaper - Pflanzliche Ernährung ", "Link": "https://www.youtube.com/watch?v=Vbw9SMLiAis", "Tags":[ "food", "veggie", "health", "Gesungheit"  ]}
+                ]
+        }, 
+        {
             "Date": "2022-06-01",
             "Title": "",
             "Content":
