@@ -1,1116 +1,2196 @@
 {
-    "entries": [
+  "entries": [
+    {
+      "Date": "2022-07-19",
+      "Title": "",
+      "Content": [
         {
-            "Date": "2022-07-19",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "C# Getting the max value of an enum", "Link": "https://stackoverflow.com/questions/203377/getting-the-max-value-of-an-enum", "Tags":[ "C#", ".NET", "Enums" ]},
-                    { "Text": "What hacking AOL taught a generation of programmers", "Link": "https://github.com/readme/featured/aol-programming-culture", "Tags":[ "AOL", "Hacking", "BASIC " ]},
-                    { "Text": "Upgrade an ASP.NET MVC app to .NET 6 with the .NET Upgrade Assistant", "Link": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-aspnetmvc", "Tags":[ ".NET", "asp.net", "MVC" , "dotnet" ]},
-                    { "Text": "How to write custom actionResult in asp.net core", "Link": "https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core", "Tags": [ ".NET", "asp.net", "MVC" , "dotnet", "netcore", "dotnetcore"  ]},
-                    { "Text": "Google Local Inventory Ads: So bewirbst du online deine stationären Produkte", "Link": "https://t3n.de/news/google-local-inventory-ads-983466/", "Tags":[ "Marketing", "Google", "Ads", "Local Inventory" ]},
-                    { "Text": "Application Insights for .NET Apps", "Link": "https://github.com/microsoft/ApplicationInsights-dotnet/", "Tags":[ ".NET", "asp.net", "MVC" , "dotnet", "netcore", "dotnetcore", "Telemetry" ]},
-                    { "Text": "Google Data Studio", "Link": "https://datastudio.google.com/", "Tags":[ "Google", "Data Studio", "Data", "BI", "Businessintelligence", "Reports", "Reporting" ]},
-                    { "Text": "How can I list ALL DNS records?", "Link": "https://stackoverflow.com/questions/19322962/how-can-i-list-all-dns-records", "Tags":[ "DNS", "dig", "Linux", "nslookup"]},
-                    { "Text": "Microcharts: Elegant Cross-Platform Charts for Every App", "Link": "https://devblogs.microsoft.com/xamarin/microcharts-elegant-cross-platform-charts-for-any-app/", "Tags":[ "Xamarin", "Xplatform", "App", "Charts", "Charting", "Crossplatform", "Visualization" ]},
-                    { "Text": "C# Design Patterns", "Link": "https://www.dofactory.com/net/builder-design-pattern", "Tags":[ "C#", "Architecture", "Pattern", "Patterns", "Design", ""]},
-                    { "Text": "Hidden C# Keywords", "Link": "https://www.reddit.com/r/csharp/comments/6k8j1g/anyone_ever_used_any_of_the_hidden_c_keywords/", "Tags":[ "C#", "dotnet", ".net", "csharp", "IL" ]},
-                    { "Text": "Generating random Modern Houses", "Link": "https://www.reddit.com/r/csharp/comments/v2osjd/generating_random_modern_houses_an_example_from/", "Tags":[ "Markov", "MarkovJunior", "C#", "Algorithm" ]},
-                ]
-        },         
-        {
-            "Date": "2022-06-12",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "C# Design Patterns", "Link": "https://www.dofactory.com/net/facade-design-pattern", "Tags":[ "C#", "Pattern", "Design", "Architecture", "Designpattern", "Designpatterns" ]},
-                    { "Text": "Dr. Michael Klaper - Pflanzliche Ernährung ", "Link": "https://www.youtube.com/watch?v=Vbw9SMLiAis", "Tags":[ "food", "veggie", "health", "Gesungheit"  ]}
-                ]
-        }, 
-        {
-            "Date": "2022-06-01",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Web-App mit Blazor in Azure Static Web Apps", "Link": "https://docs.microsoft.com/de-de/azure/static-web-apps/deploy-blazor", "Tags":[ "Azure", "Blazot", "Static", "Appservice" ]},
-                    { "Text": "Nuoc Cham – Vietnamesische Dressing", "Link": "https://shayankocht.de/2015/10/nuoc-cham-klassischer-vietnamesischer-dressing/", "Tags":[ "Asiafood", "Food", "Recipe" ]},
-                    { "Text": "Bun Bo Nam Bo – Vietnam auf einem Teller", "Link": "https://www.easycookasia.de/rezept/bun-bo-nam-bo", "Tags":[ "Asiafood", "Food", "Recipe" ]},
-                    { "Text": "Nethereum - How to connect to Ethereum using .NET", "Link": "https://www.quicknode.com/guides/web3-sdks/how-to-connect-to-ethereum-using-net-nethereum", "Tags":[ "Crypto", "Ethereum", "dotnet", "net", ".net" ]},
-                    { "Text": "How to create your own language with ANTLR in .NET?", "Link": "https://medium.com/@konstantin.poklonskiy/how-to-create-your-own-language-with-antlr-in-net-a57beba84ecc", "Tags":[ "ANTLR", "DSL", "Language","dotnet", "net", ".net" ]},
-                    { "Text": "YARP tunnel demo", "Link": "https://github.com/davidfowl/YarpTunnelDemo", "Tags":[ "proxy", "tunnel", "dotnet", "net", ".net" ]},
-                    { "Text": "Javascript Snake Game", "Link": "https://github.com/servetgulnaroglu/ytb_snake_js", "Tags":[ "JS", "JavaScript", "Java Script", "Snake", "Game", "Gamedev" ]},
-                    { "Text": "Implementieren eines Microservicedomänenmodells mit .NET", "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/net-core-microservice-domain-model", "Tags":[ "dotnet", "net", ".net", "domain", "domäne", "service", "microservice" ]},
-                    { "Text": "CSS Grid Layouts", "Link": "https://raidboxes.io/blog/webdesign-development/css-grid-layout/", "Tags":[ "CSS", "Grid", "Layout", "Design", "CSS Grid", "CSS Layout" ]},
-                    { "Text": "MethodTimer.Fody", "Link": "https://github.com/Fody/MethodTimer", "Tags":[ "dotnet", "net", ".net", "performance", "measure", "runtime", "debugging" ]},
-                    { "Text": "Resize an Image in C#", "Link": "https://www.c-sharpcorner.com/UploadFile/ishbandhu2009/resize-an-image-in-C-Sharp/", "Tags":[ "dotnet", "net", ".net", "c#", "csharp", "image", "resize" ]},
-                    { "Text": "C# Pattern matching overview", "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching", "Tags":[ "dotnet", "net", ".net", "c#", "csharp", "pattern", "patternmatching" ]},
-                    { "Text": "What's new in ASP.NET Core 6.0", "Link": "https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-6.0?view=aspnetcore-6.0", "Tags":[ "dotnet", "net", ".net", "aspnet", "aspnetcore", "core", ".netcore", "netcore", "asp" ]},
-                    { "Text": "Erstellen eines DDD-orientierten Microservices", "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice", "Tags":[ "dotnet", "net", ".net", "domain", "domäne", "service", "microservice"  ]},
-                    { "Text": "CSS in JS", "Link": "https://cssinjs.org/", "Tags":[ "CSS", "js", "Layout", "Design", "javascript" ]}
-                ]
-        },    
-        {
-            "Date": "2022-03-26",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": ".NET Framework 4.5.2, 4.6, 4.6.1 will reach End of Support", "Link": "https://devblogs.microsoft.com/dotnet/net-framework-4-5-2-4-6-4-6-1-will-reach-end-of-support-on-april-26-2022/", "Tags":[ ".net", "dotnet", "net45", "net46", "net461" ]},
-                    { "Text": "Performance Improvements in .NET 6", "Link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#peanut-butter", "Tags":[ ".net", "dotnet", "net6", ".net6", "dotnet6" ]},
-                    { "Text": "Axiom - connects to a mqtt server and provides an interface to the WhatsApp messaging service.", "Link": "https://github.com/xanecs/axiom", "Tags":[ "MQTT", "Whatsapp", "python" ]},
-                    { "Text": "Build High Performant Microservices using gRPC and .NET 6", "Link": "https://medium.com/geekculture/build-high-performant-microservices-using-grpc-and-net-6-adde158c5ac", "Tags":[ "Microservices", ".net6", "dotnet6", "gRPC"]}
-                ]
-        },         
-        {
-            "Date": "2022-03-14",
-            "Title": "A little bit about hitory",
-            "Content":
-                [
-                    { "Text": "Zwei-plus-Vier-Vertrag", "Link": "https://de.wikipedia.org/wiki/Zwei-plus-Vier-Vertrag", "Tags":[ "history", "peace", "stophate"]},
-                    { "Text": "Hat die Bundesrepublik Deutschland nach 1945 einen Friedensvertrag unterzeichnet?", "Link": "https://www.swr.de/wissen/1000-antworten/hat-die-bundesrepublik-deutschland-nach-1945-einen-friedensvertrag-unterzeichnet-100.html", "Tags":[ "history", "peace", "stophate"]}
-                ]
-        }, 
-        {
-            "Date": "2022-03-13",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "View the origin of a repeating call stack", "Link": "https://www.poppastring.com/blog/view-the-origin-of-a-repeating-call-stack", "Tags":[ "c#", "csharp", ".dotnet", "exception", "callstack"]},
-                    { "Text": "Moondisaster - Can you spot a deepfake?", "Link": "https://moondisaster.org/quiz/", "Tags":[ "fake", "deepfake", "ai", "ki"]},
-                    { "Text": "gRPC-Dienste mit ASP.NET Core", "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/aspnetcore?view=aspnetcore-6.0&tabs=visual-studio", "Tags":[ "c#", "csharp", ".dotnet", "gRPC", "netcore"]},
-                    { "Text": "Versionsverwaltung für gRPC-Dienste", "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/versioning?view=aspnetcore-6.0", "Tags":[ "c#", "csharp", ".dotnet", "gRPC", "netcore"]},
-                    { "Text": "Cloud Native Computin Foundation", "Link": "https://www.cncf.io/about/who-we-are/", "Tags":[ "cloud", "cloudnative",  "gRPC"]}
-                ]
-        }, 
-        {
-            "Date": "2022-02-27",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Azure devops users cant see repos even though they have full read/contribute permissions. How could we fix?", "Link": "https://developercommunity.visualstudio.com/t/azure-devops-users-cant-see-repos-even-though-they/918777", "Tags":[ "azure", "devops", ".devopsservie", "tfs"]}
-                ]
-        }, 
-        {
-            "Date": "2022-02-26",
-            "Title": ".net 6 Templates \"hell\"? or not?",
-            "Content":
-                [
-                    { "Text": "New C# templates generate top-level statements", "Link": "https://docs.microsoft.com/en-us/dotnet/core/tutorials/top-level-templates", "Tags":[ "C#", "dotnet", ".net", "6", ".net6", "dotnet6"]},
-                    { "Text": "RTutorial: Explore ideas using top-level statements to build code as you learn", "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/top-level-statements", "Tags":[ "C#", "dotnet", ".net", "6", ".net6", "dotnet6"]},
-                    { "Text": "App startup in ASP.NET Core", "Link": "https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-6.0", "Tags":[ "C#", "dotnet", ".net", "6", ".net6", "dotnet6", "asp.net", "aspnet"]}
-                ]
-        },   
-        {
-            "Date": "2022-02-21",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Resize Ubuntu /dev/sda1 partition", "Link": "https://askubuntu.com/questions/958114/resize-ubuntu-dev-sda1-partition-in-virtualbox-vmdk-when-dev-sda-is-already-la", "Tags":[ "Linux", "Ubuntu", "partidion", "parted", "resize"]}
-                ]
-        },    
-        {
-            "Date": "2022-02-13",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Planoplan Editor - 3D Room Editor", "Link": "https://planoplan.com/de/download/windows/", "Tags":[ "3D", "room", "Raumplanung", "room planning", "editor"]},
-                    { "Text": "Workaround: Turn off Wiki comments", "Link": "https://developercommunity.visualstudio.com/t/is-it-possible-to-delete-comments-of-other-users-i/1228916", "Tags":[ "TFS", "devops", "azure", "azuredevops", "wiki", "comment"]}
-                ]
-        },         
-        {
-            "Date": "2022-02-11",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Azure Event Hubs", "Link": "https://azure.microsoft.com/de-de/services/event-hubs/", "Tags":[ "Azure", "EventHub", "Event Hub", "data", "bigdata"]},
-                    { "Text": "Explained Use Case - Azure event hubs and Azure functions", "Link": "https://www.youtube.com/watch?v=oLcTwe-aKqQ", "Tags":[ "Azure", "EventHub", "Event Hub", "data", "bigdata"]},
-                    { "Text": "Terraform - infrastructure in code", "Link": "https://www.hashicorp.com/products/terraform", "Tags":[ "IaaS", "infrastructure", "Terraform"]},
-                    { "Text": "draw.io - Security-first diagramming for teams ", "Link": "https://app.diagrams.net/", "Tags":[ "diagrams", "infrastructure", "uml" ]}
-                ]
-        }, 
-        {
-            "Date": "2022-02-05",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "How I hacked a hardware crypto wallet and recovered $2 million", "Link": "https://www.youtube.com/watch?v=dT9y-KQbqi4", "Tags":[ "crypto", "hack", "hardware", "wallet"]}
-                ]
-        }, 
-        {
-            "Date": "2022-01-23",
-            "Title": "New Art & Culture Stuff",
-            "Content":
-                [
-                    { "Text": "That colorful font", "Link": "https://observablehq.com/@kelleyvanevert/that-colorful-font", "Tags":[ "font", "js", "JavaScript", "fontart"]},
-                    { "Text": "Observable Plot", "Link": "https://github.com/observablehq/plot", "Tags":[ "chart", "js", "JavaScript", "plot"]},
-                    { "Text": "NDR Kultur à la carte - Felix Lehrmann", "Link": "https://www.ndr.de/kultur/sendungen/ndr_kultur_a_la_carte/Felix-Lehrmann-trommelt-fuer-die-Stars-der-Musikbranche,sendung1219490.html", "Tags":[ "Drums", "Drummer", "Interview"]},
-                    { "Text": "My Merry Messy Life", "Link": "https://www.youtube.com/channel/UCzNkWqatFmMmar8Tvd44tAA", "Tags":[ "Culture", "Cultureshock", "Cultureshocks", "emigration"]},
-                    { "Text": "Our Story to Tell", "Link": "https://www.youtube.com/channel/UCbo0scC5qoicOOC1WET3xzA", "Tags":[ "Culture", "Cultureshock", "Cultureshocks", "emigration"]}
-                ]
-        },         
-        {
-            "Date": "2022-01-05",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "kkrieger: Making an Impossible FPS | Nostalgia Nerd", "Link": "https://www.youtube.com/watch?v=bD1wWY1YD-M", "Tags":[ "retrocomputing", "Demo", "demoscene", "history", "oldschool"]},
-                    { "Text": "Trackers: The Sound of 16-Bit", "Link": "https://www.youtube.com/watch?v=roBkg-iPrbw", "Tags":[ "retrocomputing", "tracker", "demo", "demoscene", "sound", "history", "oldschool"]},
-                    { "Text": "A Brief History of Graphics", "Link": "https://www.youtube.com/watch?v=QyjyWUrHsFc", "Tags":[ "retrocomputing", "graphics", "game", "games", "youth", "history", "oldschool"]}
-                ]
-        }, 
-        {
-            "Date": "2021-12-20",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "UDON KNOW HOW DELICIOUS THIS LEMONGRASS NOODLES RECIPE IS UNTIL YOU'VE TRIED IT", "Link": "https://www.youtube.com/watch?v=DrWn16I-DZQ", "Tags":[ "Asiafood", "Udon", "Cook", "cooking", "Recipe"]}
-                ]
-        }, 
-        {
-            "Date": "2021-09-26",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Refactoring.Guru - Design Patterns", "Link": "https://refactoring.guru/", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-09-22",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Design Patterns", "Link": "https://sourcemaking.com/design_patterns", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] },
-                    { "Text": "C# Design Patterns", "Link": "https://www.dofactory.com/net/design-patterns", "Tags":[ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ] },
-                    { "Text": "How to detect if the User's OS prefers dark mode and change your site with CSS and JS", "Link": "https://www.hanselman.com/blog/how-to-detect-if-the-users-os-prefers-dark-mode-and-change-your-site-with-css-and-js", "Tags":[ "Darkmode", "Dark Mode", "Theme", "Design", "Javascript", "CSS", "Mediaquery" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-08-09",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Verwenden von .NET für Apache Spark in Jupyter Notebook", "Link": "https://docs.microsoft.com/de-de/dotnet/spark/how-to-guides/dotnet-spark-jupyter-notebooks", "Tags":[ "Jupyter Notebook", "c#", "Spark", "Apache", "Apache Spark" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-07-13",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Testing a website from Linux command line", "Link": "https://serverfault.com/questions/124952/testing-a-website-from-linux-command-line", "Tags":[ "curl", "wget", "CLI", "Linux", "tools" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-05-18",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Web Audio API", "Link": "https://webaudioapi.com/samples/", "Tags":[ "Audio", "Web", "Audio API", "AudioAPI","Web Audio API", "Web Audio" ] },
-                    { "Text": "Getting Started with Web Audio API", "Link": "https://www.html5rocks.com/en/tutorials/webaudio/intro/", "Tags":[ "Audio", "Web", "Audio API", "AudioAPI","Web Audio API", "Web Audio" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-05-16",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Herstellen einer Verbindung mit Exchange Online PowerShell mittels moderner Authentifizierung mit oder ohne mehrstufige Authentifizierung", "Link": "https://docs.microsoft.com/de-de/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps", "Tags":[ "Exchange", "Powershell", "EWS" ] },
-                    { "Text": "Versioning in an Event Sourced System", "Link": "https://leanpub.com/esversioning/read", "Tags":[ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ] },
-                    { "Text": "Why Event Sourced Systems Fail", "Link": "https://www.youtube.com/watch?v=FKFu78ZEIi8", "Tags":[ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ] },
-                    { "Text": "Song Sim", "Link": "https://colinmorris.github.io/SongSim", "Tags":[ "Simulation", "Song", "Songs", "UI" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-05-15",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Coding Adventure: Ant and Slime Simulations", "Link": "https://www.youtube.com/watch?v=X-iSQQgOd1A", "Tags":[ "Graphics", "Animations", "Animation", "3D", "2D", "Simulating", "Simulation" ] }
-                ]
-        }, 
-        {
-            "Date": "2021-05-12",
-            "Title": "I <3 WebGL",
-            "Content":
-                [
-                    { "Text": "Alien cocoons", "Link": "https://www.shadertoy.com/view/MsdGz2", "Tags":[ "WebGL", "Shader", "Animation", "3D" ,"shadertoy"] },
-                    { "Text": "fractal pyramid", "Link": "https://www.shadertoy.com/view/tsXBzS", "Tags":[ "WebGL", "Shader", "Animation", "3D", "shadertoy"] }
-                ]
-        }, 
-        {
-            "Date": "2021-05-09",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "The Science of Great UI", "Link": "https://www.youtube.com/watch?v=nx1tOOc_3fU", "Tags":[ "UI"] }
-                ]
-        }, 
-        {
-            "Date": "2021-04-27",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "The Responses I Got From a Software Developer Candidate That Made Me Hire Him", "Link": "https://medium.com/illumination/the-responses-i-got-from-a-software-developer-candidate-that-made-me-hire-him-98ff8bf01298", "Tags":[ "Interview","Job", "Developer", "Mindset"] }
-                ]
-        }, 
-        {
-            "Date": "2021-04-20",
-            "Title": "Asiafood 😍 Part 2 + RSA Encryption",
-            "Content":
-                [
-                    { "Text": "Public Key Cryptography: RSA Encryption Algorithm", "Link": "https://www.youtube.com/watch?v=wXB-V_Keiu8", "Tags":[ "RSA","Security", "Encryption", "Verschlüsselung"] },
-                    { "Text": "Gebratene Udon Nudeln", "Link": "https://www.eat-this.org/schnelle-gebratene-udon-nudeln/", "Tags":[ "Asiafood", "Udon", "Cook", "cooking", "Recipe"] }
-                ]
-        }, 
-        {
-            "Date": "2021-04-18",
-            "Title": "Asiafood 😍",
-            "Content":
-                [
-                    { "Text": "Bun Chay Reisnudelsalat", "Link": "https://cheapandcheerfulcooking.com/bun-chay-vietnamesischer-reisnudel-salat/", "Tags":[ "Asiafood"] },
-                    { "Text": "Schnelle Udon Nudeln", "Link": "https://cheapandcheerfulcooking.com/schnelle-udon-nudeln/", "Tags":[ "Asiafood", "Udon", "Cook", "cooking", "Recipe"] }
-                ]
-        }, 
-        {
-            "Date": "2021-03-18",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Builder Pattern in C#", "Link": "https://refactoring.guru/design-patterns/builder/csharp/example", "Tags":[ "Architecture", "Software Architecture", "Pattern", "Software Pattern"] },
-                    { "Text": "Asserting Exceptions in MSTest with Assert.Throws()", "Link": "http://www.bradoncode.com/blog/2012/01/asserting-exceptions-in-mstest-with.html", "Tags": [ "Testing", "Quality", "Softwarequality", "Test", "Unit Test", "UnitTest"]},
-                    { "Text": "Ralf Dümmel: Wie der Gründervater und DHDL-Investor Unternehmer wurde und über Investitionen entscheidet", "Link": "https://www.shopify.de/blog/ralf-duemmel", "Tags": [ "Podcast", "Shopify", "Shopify Podcast", "Ralf Dümmel"]}
-                ]
-        }, 
-        {
-            "Date": "2021-03-16",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Raising Multiple Exceptions With Aggregateexception", "Link": "https://bryanavery.co.uk/raising-multiple-exceptions-with-aggregateexception/", "Tags": [ "dotnet", "dot net", ".net", "C#", ".NET"]}
-
-                ]
-        }, 
-        {
-            "Date": "2021-03-11",
-            "Title": "Pi-Hole Blocklists",
-            "Content":
-                [
-                    { "Text": "Sempervideo Blocklisten", "Link": "https://github.com/RPiList/specials/blob/master/Blocklisten.md", "Tags": [ "Pihole", "Adblock", "Security", "Network", "DNS"  ]},
-                    { "Text": "AdGuard CNAME disguised trackers list", "Link": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt", "Tags": [ "Pihole", "Adblock", "Security", "Network", "CNAME", "DNS"]  },
-                    { "Text": "SemperVideo - 6000 CNAME Tracker blockieren", "Link": "https://www.youtube.com/watch?v=HkpE-dB15Dw", "Tags": [ "SemperVideo", "Pihole", "Adblock", "Security", "Network", "DNS"  ]}
-                ]
-        },        
-        {
-            "Date": "2021-03-09",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Solution Architecture: Link Collection", "Link": "https://github.com/unlight/solution-architecture", "Tags": [ "Architecture", "Software Architecture", "Pattern"]  }
-                ]
+          "Text": "C# Getting the max value of an enum",
+          "Link": "https://stackoverflow.com/questions/203377/getting-the-max-value-of-an-enum",
+          "Tags": [ "C#", ".NET", "Enums" ]
         },
         {
-            "Date": "2020-11-19",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Xamarin Forms detect SIGABRT Crash on Startup", "Link": "https://stackoverflow.com/questions/60873678/xamarin-ios-sigabrt-crash-on-startup", "Tags": [ "Xamarin", "XF", "Crash", "Appcenter", "Xamarin Forms"]  }
-                ]
+          "Text": "What hacking AOL taught a generation of programmers",
+          "Link": "https://github.com/readme/featured/aol-programming-culture",
+          "Tags": [ "AOL", "Hacking", "BASIC" ]
         },
         {
-
-            "Date": "2020-10-29",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Implementieren der Microserviceanwendungsschicht mithilfe der Web-API", "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api", "Tags": [ "DDD", "CQRS", "microservices"]  },
-                    { "Text": "Using Blazor Components In An Existing MVC Application", "Link": "https://chrissainty.com/using-blazor-components-in-an-existing-mvc-application/", "Tags": [ "netcore", "asp.net core", "Blazor", "asp.net core mvc", "dotnet"]  },
-                    { "Text": "Adding Server-Side Blazor to an existing MVC Core app", "Link": "https://stackoverflow.com/questions/56241125/adding-server-side-blazor-to-an-existing-mvc-core-app", "Tags": [ "netcore", "asp.net core", "Blazor", "asp.net core mvc", "dotnet"]  }
-                    
-                ]
-        },        
-        {
-            "Date": "2020-10-16",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "HEML - HTML Email Editor", "Link": "https://heml.io/", "Tags": [ "E-Mail", "Responsive", "HTML", "Mail", "Layout"]  }
-                ]
+          "Text": "Upgrade an ASP.NET MVC app to .NET 6 with the .NET Upgrade Assistant",
+          "Link": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-aspnetmvc",
+          "Tags": [ ".NET", "asp.net", "MVC", "dotnet" ]
         },
         {
-            "Date": "2020-10-15",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Software Architektur - Refactoring oder Rewrite?", "Link": "https://www.youtube.com/watch?v=7lUE5NVen6c", "Tags": [ "Architecture", "Coding", "Refactoring", "Rewrite"]  },
-                    { "Text": "ASP.NET Core 3.1 - JWT Authentication Tutorial with Example API", "Link": "https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api", "Tags": [ "JWT", "Authorization", ".net core", "c#", "Token"]  }
-                ]
+          "Text": "How to write custom actionResult in asp.net core",
+          "Link": "https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core",
+          "Tags": [ ".NET", "asp.net", "MVC", "dotnet", "netcore", "dotnetcore" ]
         },
         {
-            "Date": "2020-10-03",
-            "Title": "Google Workbox",
-            "Content":
-                [
-                    { "Text": "Google Workbox", "Link": "https://developers.google.com/web/tools/workbox/", "Tags": [ "PWA", "JS", "Web", "JavaScript", "Web App", "Progressive Web App"]  },
-                    { "Text": "Workbox Tutorial – PWA von Google | Progressive Web Apps", "Link": "https://lippke.li/workbox-tutorial-guide/#3nbsp-wichtigsten-Features-von-Google-Workbox-PWA", "Tags": [ "PWA", "JS", "Web", "JavaScript", "Web App", "Progressive Web App"]  }
-                ]
+          "Text": "Google Local Inventory Ads: So bewirbst du online deine stationären Produkte",
+          "Link": "https://t3n.de/news/google-local-inventory-ads-983466/",
+          "Tags": [ "Marketing", "Google", "Ads", "Local Inventory" ]
         },
         {
-            "Date": "2020-09-27",
-            "Title": "Repair Bootprocedure after migrating MBR to GPT",
-            "Content":
-                [
-                    { "Text": "How to Repair EFI Bootloader in Windows 10", "Link": "https://forums.tomshardware.com/faq/how-to-repair-efi-bootloader-in-windows-10.3275168/", "Tags": [ "Windows 10", "EFI", "MBR", "GPT"]  },
-                    { "Text": "Systemwiederherstellung für Fortgeschrittene", "Link": "https://nt4admins.de/windows-server-familie/systemstartwiederherstellung-fuer-fortgeschrittene/", "Tags": [ "Windows 10", "EFI", "MBR", "GPT"]  }
-                ]
+          "Text": "Application Insights for .NET Apps",
+          "Link": "https://github.com/microsoft/ApplicationInsights-dotnet/",
+          "Tags": [ ".NET", "asp.net", "MVC", "dotnet", "netcore", "dotnetcore", "Telemetry" ]
         },
         {
-            "Date": "2020-08-12",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Querying in Entity Framework Core", "Link": "https://www.entityframeworktutorial.net/efcore/querying-in-ef-core.aspx", "Tags": [ "Entity Framework Core", ".net core", "C#", "EF Core", "EF"]  }
-
-                ]
+          "Text": "Google Data Studio",
+          "Link": "https://datastudio.google.com/",
+          "Tags": [ "Google", "Data Studio", "Data", "BI", "Businessintelligence", "Reports", "Reporting" ]
         },
         {
-            "Date": "2020-08-11",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "AddTransient, AddScoped and AddSingleton Services Differences", "Link": "https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences?rq=1", "Tags": [ "dotnet", ".net core", "C#", "ASP.NET", "API", "WebAPI"]  }
-
-                ]
+          "Text": "How can I list ALL DNS records?",
+          "Link": "https://stackoverflow.com/questions/19322962/how-can-i-list-all-dns-records",
+          "Tags": [ "DNS", "dig", "Linux", "nslookup" ]
         },
         {
-            "Date": "2020-08-02",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "Clean ASP.NET Core API using MediatR and CQRS", "Link": "https://www.youtube.com/watch?v=YzOBrVlthMk", "Tags": [ "Pattern", "CQRS", "C#", "ASP.NET", "API", "Architecture"]  },
-                    { "Text": "Clean service decoration in .NET Core using Scrutor", "Link": "https://www.youtube.com/watch?v=m77s48tTdfU", "Tags": [ "Cache", "C#", "ASP.NET", "API", "Architecture"]  }
-                ]
-        }, 
-        {
-            "Date": "2020-07-01",
-            "Title": "",
-            "Content":
-                [
-                    { "Text": "https://dmarcian.com - DMARC Wizard", "Link": "https://dmarcian.com/dmarc-record-wizard/", "Tags": [ "SPAM", "Mailsecurity", "DMARC", "DNS"]  },
-                    { "Text": "dnschecker - DMARC record validation", "Link": "https://dnschecker.org/dmarc-record-validation.php", "Tags": [ "SPAM", "Mailsecurity", "DMARC", "DNS"]  },
-                    { "Text": "Gmail Help about sending secure mails", "Link": "https://support.google.com/mail/thread/12228756?hl=de&fl=1", "Tags": [ "SPAM", "Mailsecurity", "DNS"]  },
-                    { "Text": "mxtoolbox - Domain Health Check", "Link": "https://mxtoolbox.com/domain/", "Tags": [ "SPAM", "Mailsecurity", "Domain", "Helper", "DNS"]  }
-                ]
-        }, 
-        {
-            "Date": "2020-05-25",
-            "Title": "Highlights of the MS Build Conference 2020",
-            "Content":
-                [
-                    { "Text": "Developing with the Fluid Framework", "Link": "https://www.youtube.com/watch?v=Iw9XFtfWxl8", "Tags": [ ".NET", "Build2020", "Highlights2020", "Azure"]  },
-                    { "Text": "Azure Synapse Link | Cloud-natives HTAP mit Azure Cosmos DB", "Link": "https://www.youtube.com/watch?v=yd8vynwA36A", "Tags": [ ".NET", "Build2020", "Highlights2020", "Azure"]  },
-                    { "Text": "Introduction to Azure RTOS", "Link": "https://www.youtube.com/watch?v=TGWg7yQATqQ", "Tags": [ "IoT", "Build2020", "Highlights2020", "Azure"]  },
-                    { "Text": "The journey to one .net", "Link": "https://www.youtube.com/watch?v=aIRb4TWZhks", "Tags": [ "IoT", "Build2020", "Highlights2020", "Azure", "Hanselman"]  }
-                ]
-        }, 
-        {
-            "Date": "2020-05-11",
-            "Content":
-                [
-                    { "Text": "WebGL shader examples", "Link": "https://webgl-shaders.com/", "Tags": [ "WebGL", "Shader", "Web", "Graphics"]  }
-                ]
-        }, 
-        {
-            "Date": "2020-05-09",
-            "Content":
-                [
-                    { "Text": "Chatbot für Informationen", "Link": "https://azure.microsoft.com/de-de/solutions/architecture/information-chatbot/", "Tags": [ "Bot", "QnA", "Azure", "Botframework"]  },
-                    { "Text": "Qna Maker - From Data To Bot", "Link": "https://www.qnamaker.ai/", "Tags": [ "Bot", "QnA", "Azure", "Botframework"] }
-                ]
-        }, 
-        {
-            "Date": "2020-05-04",
-            "Content":
-                [
-                    { "Text": "Softwareentwurfsmuster", "Link": "https://docs.microsoft.com/de-de/azure/architecture/patterns/", "Tags": [ "Designpatterns", "Patterns", "Architecture", "Design"] }
-                ]
-        }, 
-        {
-            "Date": "2020-03-24",
-            "Content":
-                [
-                    { "Text": "Der Pfad von 4G zu 5G", "Link": "https://www.youtube.com/watch?v=_Sq00NU5Xww", "Tags": [ "5G", "Network", "Mobile", "LTE", "Mobile-Network"] },
-                    { "Text": "Mit dem Getränkeautomaten in die Cloud", "Link": "https://www.youtube.com/watch?v=3-zxXaBawxA", "Tags": [ "Cloud", "IoT", "Hack", "CCC"] }
-
-                ]
-        }, 
-        {
-            "Date": "2020-03-09",
-            "Content":
-                [
-                    { "Text": "10 Essential Debugging Tools for C# .NET Development", "Link": "https://michaelscodingspot.com/dotnet-debugging-tools/", "Tags": [ "C#", ".NET", "Debugging", "Debug"] },
-                    { "Text": "How to write a Roslyn Analyzer", "Link": "https://devblogs.microsoft.com/dotnet/how-to-write-a-roslyn-analyzer/", "Tags": [ "C#", ".NET", "Roslyn", "Analyzer"] },
-                    { "Text": "Decompilation of C# code made easy with Visual Studio", "Link": "https://devblogs.microsoft.com/visualstudio/decompilation-of-c-code-made-easy-with-visual-studio", "Tags": [ "C#", ".NET", "Decompilation", "ILSpy", "Tools", "Visual Studio"] }
-                ]
-        }, 
-        {
-            "Date": "2020-03-03",
-            "Content":
-                [
-                    { "Text": "Image hover Zoom n’ Rotate effect with Pure CSS", "Link": "https://w3bits.com/css-image-hover-zoom/", "Tags": [ "CSS", "Effect", "Zoom"] },
-                    { "Text": "Measure - See how well your website performs.", "Link": "https://web.dev/measure/", "Tags": [ "HTML", "Web", "Performance"] },
-                    { "Text": "Learn - Realize what the web can be.", "Link": "https://web.dev/learn/", "Tags": [ "HTML", "Web", "Performance"] }
-                ]
-        }, 
-        {
-            "Date": "2020-02-28",
-            "Content":
-                [
-                    { "Text": "Microsoft Removal Tool", "Link": "https://www.file.net/prozess/mrt.exe.html", "Tags": [ "Tools", "Malware"] }
-                ]
-        },          
-        {
-            "Date": "2020-02-03",
-            "Content":
-                [
-                    { "Text": "Microsoft.Net.Compilers is only supported on MSBuild v16.3 and above", "Link": "https://github.com/dotnet/roslyn/issues/40129", "Tags": [ "C#", ".NET" ,"Compiler", "MSBuild"] }
-                ]
-        },         
-        {
-            "Date": "2020-01-23",
-            "Content":
-                [
-                    { "Text": "A self-contained C# game in 8 kB", "Link": "https://github.com/MichalStrehovsky/SeeSharpSnake", "Tags": [ "C#", ".NET" ,"netcore", "CoreRT"] },
-                    { "Text": "Building a self-contained game in C# under 8 kilobytes", "Link": "https://medium.com/@MStrehovsky/building-a-self-contained-game-in-c-under-8-kilobytes-74c3cf60ea04", "Tags": [ "C#", ".NET" ,"netcore", "CoreRT"] },
-                    { "Text": "Optimizing reflection in C# via dynamic code generation", "Link": "https://medium.com/@SergioPedri/optimizing-reflection-with-dynamic-code-generation-6e15cef4b1a2", "Tags": [ "C#", ".NET", "netcore" ] }
-                ]
-        }, 
-        {
-            "Date": "2019-10-31",
-            "Content":
-                [
-                    { "Text": "Enable Failed Request Tracing for an Azure App Service Web App", "Link": "https://blogs.msdn.microsoft.com/benjaminperkins/2017/01/27/enable-failed-reuqest-tracing-for-an-azure-app-service-web-app/", "Tags": [ "Profiling", "ASP.NET" ,".NET", "Azure"] }
-                ]
-        }, 
-        {
-            "Date": "2019-10-05",
-            "Content":
-                [
-                    { "Text": "Nice example of C# Coding Style guidelines", "Link": "https://github.com/WildernessLabs/CSharp_Coding_Style", "Tags": [ "C#", "Codeing Style"] }
-                ]
-        },         
-        {
-            "Date": "2019-10-04",
-            "Content":
-                [
-                    { "Text": "Wie du nie auf Schwächen antworten solltest", "Link": "https://t3n.de/news/bewerbung-n26-schwaechen-staerken-vorstellungsgespraech-1203813", "Tags": [ "Job", "Recruiting" ,"HR"] }
-                ]
-        }, 
-        {
-            "Date": "2019-09-30",
-            "Content":
-                [
-                    { "Text": "Agressive Inlining", "Link": "https://www.dotnetperls.com/aggressiveinlining", "Tags": [ "C#", "Compiler" ,".NET", "Optimization"] },
-                    { "Text": "ProjectPSX is a C# coded emulator of the original Sony Playstation", "Link": "https://github.com/BluestormDNA/ProjectPSX/", "Tags": [ "C#", "PlayStation" ,"Emulator"] }
-                ]
-        }, 
-        {
-            "Date": "2019-09-23",
-            "Content":
-                [
-                    { "Text": "Google Chrome Service Worker Examples", "Link": "https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker", "Tags": [ "JavaScript", "PWA" ,"Web", "Service Worker"] }
-                ]
-        }, 
-        {
-            "Date": "2019-08-23",
-            "Content":
-                [
-                    { "Text": "MvvmForms - Demo application for how to use MVVM in Windows Forms.", "Link": "https://bitbucket.org/lbras/mvvmforms/src/master/", "Tags": [ "MVVM", "WinForms" ,".NET", "c#"] }
-                ]
-        }, 
-        {
-            "Date": "2019-08-21",
-            "Content":
-                [
-                    { "Text": "Enable AOT in Xamarin for Android", "Link": "https://stackoverflow.com/questions/37377106/enable-aot-in-xamarin-for-android-visual-studio", "Tags": [ "Xamarin", "Xamarin.Forms" ,"Android", "LLVM", "AOT", "Compiler"] }
-                ]
-        }, 
-        {
-            "Date": "2019-08-19",
-            "Content":
-                [
-                    { "Text": "Quasar Framework", "Link": "https://quasar.dev/", "Tags": [ "Vue.js", "Vue" ,"Xplatform", "SPA", "PWA"] },
-                    { "Text": "Robot Framework CI/CD with Azure DevOps", "Link": "https://medium.com/@milannovovic/robot-framework-ci-cd-with-azure-devops-cf708a64b389", "Tags": [ "CI", "CD", "Robotframework", "Azure Devops"] }
-                ]
-        }, 
-        {
-            "Date": "2019-08-18",
-            "Content":
-                [
-                    { "Text": "Repository and UnitOfWork", "Link": "https://docs.microsoft.com/de-de/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application", "Tags": [ "Architecture", "UoW" ,"Repository"] },
-                    { "Text": "Repository Pattern with C# and Entity Framework, Done Right", "Link": "https://www.youtube.com/watch?v=rtXpYpZdOzM", "Tags": [ "Architecture", "Repository"] },
-                    { "Text": "Inversion of Control & Dependency Injection", "Link": "https://blogs.msdn.microsoft.com/codefest/2009/11/27/design-patterns-teil-1-inversion-of-control-dependency-injection/", "Tags": [ "Architecture", "Repository"] }
-                ]
-        },         
-        {
-            "Date": "2019-08-16",
-            "Content":
-                [
-                    { "Text": "Capturing Audio & Video in HTML5", "Link": "https://www.html5rocks.com/en/tutorials/getusermedia/intro/", "Tags": [ "HTML5", "Audio", "Video"] }
-
-                ]
-        },  
-        {
-            "Date": "2019-08-10",
-            "Content":
-                [
-                    { "Text": "Under", "Link": "https://codepen.io/shubniggurath/pen/YmeovR", "Tags": [ "WebGL", "3D"] },
-                    { "Text": "GLSL: 3D rotational spatial modification", "Link": "https://codepen.io/shubniggurath/pen/GVQqjz", "Tags": [ "WebGL", "3D"] }
-                ]
-        },        
-        {
-            "Date": "2019-07-10",
-            "Content":
-                [
-                    { "Text": "Revalidate Model When Using WebAPI (TryValidateModel equivalent)", "Link": "https://stackoverflow.com/questions/12906359/revalidate-model-when-using-webapi-tryvalidatemodel-equivalent", "Tags": [ ".NET", "C#", "WebAPI", "Validation"] }
-                ]
+          "Text": "Microcharts: Elegant Cross-Platform Charts for Every App",
+          "Link": "https://devblogs.microsoft.com/xamarin/microcharts-elegant-cross-platform-charts-for-any-app/",
+          "Tags": [ "Xamarin", "Xplatform", "App", "Charts", "Charting", "Crossplatform", "Visualization" ]
         },
         {
-        "Date": "2019-07-02",
-        "Content":
-            [
-                { "Text": "String Formatting Cheat Sheet", "Link": "http://www.independent-software.com/net-string-formatting-in-csharp-cheat-sheet.html", "Tags": [ ".NET", "C#", "Strings"] },
-                { "Text": "DeleteDocumentAsync – PartitionKey value must be supplied", "Link": "https://pauliom.com/2017/07/28/deletedocumentasync-partitionkey-value-must-be-supplied/", "Tags": [ ".NET", "C#", "Cosmos DB", "Document DB", "Azure"] }               
-            ]
-        }, 
-        {
-            "Date": "2019-07-01",
-            "Content":
-                [
-                    { "Text": "Shrinking Your Android App Size", "Link": "https://devblogs.microsoft.com/xamarin/shrinking-android-app-size/", "Tags": [ ".NET", "Xamarin", "Android"] }
-                ]
-        }, 
-        {
-            "Date": "2019-05-31",
-            "Content":
-                [
-                    { "Text": "Outlook auto-reply: exclude specific adresses", "Link": "https://www.extendoffice.com/documents/outlook/5306-outlook-out-of-office-exclude-address.html", "Tags": [ "Office", "Outlook", ".Exchange"] }
-                ]
-        }, 
-        {
-            "Date": "2019-02-22",
-            "Content":
-                [
-                    { "Text": "ASP.NET Core Image Resizing Middleware", "Link": "https://www.paddo.org/asp-net-core-image-resizing-middleware/", "Tags": [ "Imagemanipulation", "Images", ".NET", "NETCore"] }
-                ]
-        },         
-        {
-            "Date": "2019-02-15",
-            "Content":
-                [
-                    { "Text": "Use multiple JWT Bearer Authentication", "Link": "https://stackoverflow.com/questions/49694383/use-multiple-jwt-bearer-authentication", "Tags": [ "JWT", ".NET", "OAuth2", "NETCore"] }
-                ]
-        }, 
-        {
-            "Date": "2019-01-02",
-            "Content":
-                [
-                    { "Text": "Antipatterns und Missverständnisse in der Softwareentwicklung", "Link": "https://www.youtube.com/watch?v=E0_Y53ci9cw", "Tags": [ "Softwaredevelopment", "Antipattern", "Coding"] }
-                ]
-        }, 
-        {
-            "Date": "2018-12-21",
-            "Content":
-                [
-                    { "Text": "Ensure.cs", "Link": "https://github.com/benfoster/Fabrik.Common/blob/master/src/Fabrik.Common/Ensure.cs", "Tags": [ "C#", ".NET", "Coding"] }
-                ]
-        }, 
-        {
-            "Date": "2018-11-20",
-            "Content":
-                [
-                    { "Text": "Microsoft Application Architecture Guide, 2nd Edition", "Link": "https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650706(v%3dpandp.10)", "Tags": [ "C#", ".NET", "Architecture"] }
-                ]
-        }, 
-        {
-            "Date": "2018-11-17",
-            "Content":
-                [
-                    { "Text": "Dependency Injection using Microsoft Unity Application block ", "Link": "https://www.youtube.com/watch?v=FuAhnqSDe-o", "Tags": [ "C#", ".NET", "IoC"] }
-                ]
-        }, 
-        {
-            "Date": "2018-08-20",
-            "Content":
-                [
-                    { "Text": "How to: Customize Data Field Validation in the Data Model Using Custom Attributes", "Link": "https://msdn.microsoft.com/en-us/library/cc668224.aspx", "Tags": [ "C#", ".NET", "Validation", "Attributes"] },
-                    { "Text": "How to create Custom Data Annotation Validators", "Link": "https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators", "Tags": [ "C#", ".NET", "Validation", "Attributes"] }
-                ]
-        }, 
-        {
-            "Date": "2018-07-04",
-            "Content":
-                [
-                    { "Text": "Detect mobile Browser in any language", "Link": "http://detectmobilebrowsers.com/mobile", "Tags": [ "Web", "Browser"] },
-                    { "Text": "MVVM with WinForms", "Link": "https://softwareengineering.stackexchange.com/questions/277143/how-do-you-separate-view-from-logic-in-a-winform-application", "Tags": [ "WinForms", "C#", "MVVM", "Binding"] },
-                    { "Text": "Microcharts", "Link": "https://github.com/aloisdeniel/Microcharts", "Tags": [ "C#", "Xamarin", "Charting", "crossplatform"] }
-                ]
-        }, 
-        {
-            "Date": "2018-05-13",
-            "Content":
-                [
-                    { "Text": "Service Worker Cook Book", "Link": "https://serviceworke.rs/", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] },
-                    { "Text": "Progressively Approaching Service Workers", "Link": "https://marcoscaceres.github.io/codeconf-talk/#/", "Tags": ["PWA", "Web", "Progressive Web Apps"] },
-                    { "Text": "NASA Service Worker", "Link": "https://code.nasa.gov/service-worker.js", "Tags": ["PWA", "Web", "Progressive Web Apps","Service Worker"] }
-                ]
-        }, 
-        {
-            "Date": "2018-05-07",
-            "Content":
-                [
-                    { "Text": "How to reference a file in Azure function?", "Link": "http://www.itidea.nl/index.php/how-to-reference-a-file-in-azure-function-c-script-function-vs-c-function/", "Tags": ["Azure", "Serverless", "Functions"] }
-                ]
-        },           
-        {
-            "Date": "2018-04-29",
-            "Content":
-                [
-                    { "Text": "Managing DbContext the right way with Entity Framework 6: an in-depth guide", "Link": "http://mehdi.me/ambient-dbcontext-in-ef6/", "Tags": ["EF", "Entity Framework"] },
-                    { "Text": "PyTorch", "Link": "http://pytorch.org/", "Tags": ["Neural Networks", "Machine Learning", "Deep Learning"] }
-                ]
-        },         
-        {
-            "Date": "2018-03-29",
-            "Content":
-                [
-                    { "Text": "Multicast - Convert IP to MAC address", "Link": "https://www.youtube.com/watch?v=Pz6HfqJtbok", "Tags": ["IP", "Multicast"] },
-                    { "Text": "ASP.NET Web Applications Architecture Guide", "Link": "https://github.com/dotnet-architecture/eShopOnWeb", "Tags": ["C#", ".NET", "Architecture", "dotnet"] }
-                ]
-        },          
-        {
-            "Date": "2018-02-19",
-            "Content":
-                [
-                    { "Text": "A Day in the Life of Americans", "Link": "http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/", "Tags": ["BigData", "Charting"] },
-                    { "Text": "Jeff Bezos interview on 60 minutes in 1999 ...", "Link": "https://www.youtube.com/watch?v=SWUIxqWPktQ", "Tags": ["Entrepreneurship", "Interview"] }
-                ]
-        },  
-        {
-            "Date": "2017-12-20",
-            "Content":
-                [
-                    { "Text": "Install Anti Malware with Powershell", "Link": "https://blogs.msdn.microsoft.com/madan/2016/09/27/installing-microsoft-antimalware-extension-in-azure-govt-vm-using-powershell/", "Tags": ["Azure", "AzureGermany"] },
-                    { "Text": "Installing Microsoft Anti Virus Extension to Azure Resource Manager VM using Set-AzureRmVMExtension", "Link": "https://miteshc.wordpress.com/2016/02/18/msav-extension-on-azurearm-vm/", "Tags": ["Azure", "AzureGermany"] }
-                ]
-        },  
-        {
-            "Date": "2017-12-06",
-            "Content":
-                [
-                    { "Text": "Share Intent on Both Iphone and Android", "Link": "https://forums.xamarin.com/discussion/42465/share-intent-on-both-iphone-and-android", "Tags": ["Xamarin", "Android", "C#"] },
-                    { "Text": "Share Dialog with Xamarin Forms", "Link": "https://xamarinhelp.com/share-dialog-xamarin-forms/", "Tags": ["Xamarin", "Android", "C#"] }
-                ]
-        },        
-        {
-            "Date": "2017-11-06",
-            "Content":
-                [
-                    { "Text": "200ms: The Magical Number for Faster Response Times", "Link": "https://www.apteligent.com/2014/03/200ms-the-magical-number-for-faster-response-times/", "Tags": ["API", "REST", "MOBILE"] }
-                ]
-        }, 
-        {
-            "Date": "2017-10-20",
-            "Content":
-                [
-                    { "Text": "Add a /.well-known/ Directory to an ASP.net Application", "Link": "https://phil.me/add-a-well-known-directory-to-an-asp-net-application/", "Tags": ["ASP.NET", "IIS", ".NET"] }
-                ]
-        }, 
-        {
-            "Date": "2017-08-22",
-            "Content":
-                [
-                    { "Text": "OAuth / OWin: Send additional parameters", "Link": "https://stackoverflow.com/questions/31442364/owin-oauth-send-additional-parameters", "Tags": ["Auth", "Owin", ".NET"] }
-                ]
-        }, 
-        {
-            "Date": "2017-08-08",
-            "Content":
-                [
-                    { "Text": "apple-app-site-association with Azure", "Link": "https://codedump.io/share/WdavBo0CTtIb/1/apple-app-site-association-to-return-as-applicationjson-from-a-azure-request", "Tags": ["apple-app-site-association", "Azure", ".NET"] }
-                ]
-        }, 
-        {
-            "Date": "2017-08-01",
-            "Content":
-                [
-                    { "Text": "Disable size limits in ImageResizer", "Link": "https://stackoverflow.com/questions/41022738/imageresizer-disable-size-limitation-of-resizing", "Tags": ["C#", "Azure Functions", ".NET"] }
-                ]
-        },  
-        {
-            "Date": "2017-07-18",
-            "Content":
-                [
-                    { "Text": "Fünf Tricks, wie Sie jede Diskussion gewinnen", "Link": "http://www.xing-news.com/reader/news/articles/826871", "Tags": ["Softskills"] }
-                ]
-        },         
-        {
-            "Date": "2017-07-17",
-            "Content":
-                [
-                    { "Text": "Defined Responses with Swagger", "Link": "https://mattfrear.com/2015/04/21/generating-swagger-example-responses-with-swashbuckle/", "Tags": ["C#", "Swagger", "API"] }
-                ]
-        },        
-        {
-            "Date": "2017-07-13",
-            "Content":
-                [
-                    { "Text": "Image Processing Lab in C#", "Link": "https://www.codeproject.com/Articles/9727/Image-Processing-Lab-in-C", "Tags": ["C#", "Images", "aForge"] },
-                    { "Text": "Erste Schritte mit Azure Blob Storage mit .NET", "Link": "https://docs.microsoft.com/de-de/azure/storage/storage-dotnet-how-to-use-blobs", "Tags": ["C#", "Azure", "Blob"] }
-                ]
+          "Text": "C# Design Patterns",
+          "Link": "https://www.dofactory.com/net/builder-design-pattern",
+          "Tags": [ "C#", "Architecture", "Pattern", "Patterns", "Design" ]
         },
         {
-            "Date": "2017-06-26",
-            "Content":
-                [
-                    { "Text": "Azure SQL:Creating Primary Keys Across Databases", "Link": "https://azure.microsoft.com/en-us/blog/creating-primary-keys-across-databases/", "Tags": ["Azure", "SQL", "Cloud"] },
-                    { "Text": "Azure SQL:Uniqueidentifier and Clustered Indexes", "Link": "https://azure.microsoft.com/en-us/blog/uniqueidentifier-and-clustered-indexes/", "Tags": ["Azure", "SQL", "Cloud"] }
-                ]
-        }, 
-        {
-            "Date": "2017-03-23",
-            "Content":
-                [
-                    { "Text": "Abusing C#", "Link": "https://www.youtube.com/watch?v=JIlO_EebEQI", "Tags": ["C#", "Jon Skeet", "NDC"] },
-                    { "Text": "Bobby Tables: A guide to preventing SQL injection", "Link": "http://bobby-tables.com/", "Tags": ["SQL", "Attack", "SQL Injection"] }                  
-                ]
-        }, 
-        {
-            "Date": "2017-03-08",
-            "Content":
-                [
-                    { "Text": "Build Lambda Expressions Dynamically", "Link": "https://www.codeproject.com/Articles/1079028/Build-Lambda-Expressions-Dynamically", "Tags": ["C#", "Lambda", "Expression"] }
-                ]
-        }, 
-        {
-            "Date": "2017-03-07",
-            "Content":
-                [
-                    { "Text": "ASP.NET MVC 5 Internationalization", "Link": "http://afana.me/post/aspnet-mvc-internationalization.aspx", "Tags": ["ASP.NET", "MVC 5", "i18n"] },
-                    { "Text": "ASP.NET MVC 5 Internationalization · Date and Time", "Link": "http://afana.me/post/aspnet-mvc-internationalization-date-time.aspx", "Tags": ["ASP.NET", "MVC 5", "i18n"] },
-                    { "Text": "Heise Netwars - Episode 1-5", "Link": "http://heise.netwars-project.com/de/webdoc", "Tags": ["Security", "Internet"] }
-                ]
-        },         
-        {
-            "Date": "2017-03-06",
-            "Content":
-                [
-                    { "Text": "Messing with Docker", "Link": "https://www.youtube.com/watch?v=4nviEODZlsA&list=PL0M0zPgJ3HSftTAAHttA3JQU4vOjXFquF", "Tags": ["Docker", "Hanselman", "ASP.NET"] }
-                ]
-        }, 
-        {
-            "Date": "2017-01-31",
-            "Content":
-                [
-                    { "Text": "CSS Grid – Table layout is back. Be there and be square.", "Link": "https://developers.google.com/web/updates/2017/01/css-grid", "Tags": ["HTML5", "CSS", "Layout"] },
-                    { "Text": "Front-End Developer Handbook 2017", "Link": "https://www.gitbook.com/book/frontendmasters/front-end-handbook-2017/details", "Tags": ["Front-End", "Layout", "2017"] }
-                ]
-        },         
-        {
-            "Date": "2017-01-26",
-            "Content":
-                [
-                    { "Text": "Fix for “could not connect to the debugger” while deploying Xamarin Forms apps to the Visual Studio Android Emulator", "Link": "http://dotnetbyexample.blogspot.de/2016/02/fix-for-could-not-connect-to-debugger.html", "Tags": ["Xamarin", "Emulator", "Hyper-V"] },
-                    { "Text": "Could not connect to the debugger ", "Link": "https://forums.xamarin.com/discussion/50696/could-not-connect-to-the-debugger", "Tags": ["Xamarin", "Emulator", "Hyper-V"] }
-                ]
-        }, 
-        {
-            "Date": "2017-01-25",
-            "Content":
-                [
-                    { "Text": "Cool Projects by Evan Wallace", "Link": "http://madebyevan.com/", "Tags": ["WebGL", "C++", "Cool"] }
-                ]
-        },         
-        {
-            "Date": "2017-01-10",
-            "Content":
-                [
-                    { "Text": "HTTP Status Codes in ASP.NET Web API - A Guided Tour", "Link": "https://www.exceptionnotfound.net/http-status-codes-in-asp-net-web-api-a-guided-tour/", "Tags": ["ASP.NET", "Web API", "http"] },
-                    { "Text": "Detect if Android device has Internet connection", "Link": "http://stackoverflow.com/questions/6493517/detect-if-android-device-has-internet-connection", "Tags": ["Android", "Internet", "http"] },
-                    { "Text": "When and how to use Task.Yield?", "Link": "http://stackoverflow.com/questions/22645024/when-would-i-use-task-yield", "Tags": ["C#", "Concurrent", "Nonblocking"] }                    
-                ]
-        }, 
-        {
-            "Date": "2017-01-02",
-            "Content":
-                [
-                    { "Text": "How and why the leap second affected Cloudflare DNS", "Link": "https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/", "Tags": ["DNS", "Internet", "Go"] },
-                    { "Text": "Discoid Animation", "Link": "http://codepen.io/tmrDevelops/pen/ygBgVL", "Tags": ["JavaScript", "2D", "Animation"] },
-                    { "Text": "Goodbye 2016", "Link": "http://codepen.io/elifitch/pen/qRWqpO", "Tags": ["JavaScript", "2D", "Desktop"] },
-                    { "Text": "WebGL Tour of the Solar System: Jupiter", "Link": "http://codepen.io/dudleystorey/pen/yVmQaN", "Tags": ["JavaScript", "3D", "Animation"] },
-                    { "Text": "Dynamic Point Mesh Animation with HTML5 Canvas", "Link": "http://codepen.io/dudleystorey/pen/NbNjjX", "Tags": ["JavaScript", "2D", "Animation"] },
-                    { "Text": "8086tiny - a tiny PC emulator/virtual machine", "Link": "https://github.com/adriancable/8086tiny", "Tags": ["Assembly", "x86", "Emulator"] }
-                ]
-        }, 
-        {
-            "Date": "2016-12-22",
-            "Content":
-                [
-                    { "Text": "Xamarin - Shared Preferences", "Link": "https://forums.xamarin.com/discussion/4758/android-shared-preference", "Tags": ["Xamarin", "Config", "C#"] }
-                ]
-        }, 
-        {
-            "Date": "2016-12-15",
-            "Content":
-                [
-                    { "Text": "Store a dictionary object in my web.config file", "Link": "http://stackoverflow.com/questions/338242/how-do-i-store-a-dictionary-object-in-my-web-config-file", "Tags": ["ASP.NET", "Config"] }
-                ]
-        }, 
-        {
-            "Date": "2016-12-13",
-            "Content":
-                [
-                    { "Text": "JavaScript Drum Set", "Link": "http://codepen.io/shshaw/pen/gLdpGv", "Tags": ["JavaScript", "CSS", "3D"] }
-                ]
-        }, 
-        {
-            "Date": "2016-10-21",
-            "Content":
-                [
-                    { "Text": "Automatically create and publish a NuGet package using TFS", "Link": "https://technologies.live/2016/04/01/automatically-create-and-publish-a-nuget-package/", "Tags": ["C#", "TFS", "Nuget", "ALM"] }
-                ]
-        }, 
-
-        {
-            "Date": "2016-10-18",
-            "Content":
-                [
-                    { "Text": "Best Talk about IQueryable<T> vs. IEnumerable<T>", "Link": "https://www.youtube.com/watch?v=H2KkiRbDZyc", "Tags": ["C#", "Hanselman", "dotnet"] }
-                ]
-        }, 
-        {
-            "Date": "2016-06-02",
-            "Content":
-                [
-                    { "Text": "4D Firefly Dance", "Link": "http://codepen.io/jagarikin/pen/NrWXWm", "Tags": ["JavaScript", "CSS", "Animation"] },
-                    { "Text": "Responsive Background Image Fade on Scroll", "Link": "http://codepen.io/dudleystorey/pen/RRwryd", "Tags": ["JavaScript", "CSS", "Animation"] },
-                    { "Text": "Ken Burns Effect fullscreen without js", "Link": "http://codepen.io/ibanez182/pen/LZPgrY", "Tags": ["CSS", "Animation"] },
-                    { "Text": "Animation & Layers", "Link": "http://codepen.io/Haru89ka/pen/ZOzMGp", "Tags": ["CSS", "Animation"] },
-                    { "Text": "Grain", "Link": "http://codepen.io/renarsvilnis/pen/YWKRvE", "Tags": ["JavaScript", "CSS", "Animation"] },
-                    { "Text": "Shader Template", "Link": "http://codepen.io/jhnsnc/pen/wWwprB", "Tags": ["JavaScript", "WebGL", "Animation"] },
-                    { "Text": "interstellar starlight", "Link": "http://codepen.io/tmrDevelops/pen/oLvbYP", "Tags": ["JavaScript", "CSS", "Animation"] }
-                ]
-        },         
-        {
-            "Date": "2016-03-07",
-            "Content":
-                [
-                    { "Text": "Quake IO - Q3 in the browser", "Link": "https://dl.dropboxusercontent.com/u/62064441/ioquake3.js/ioquake3.html", "Tags": ["JavaScript", "3D","WebGL"] }                 
-                ]
-        }, 
-        {
-            "Date": "2016-03-07",
-            "Content":
-                [
-                    { "Text": "Triangle with a twist", "Link": "http://codepen.io/DonKarlssonSan/pen/YqyQgd", "Tags": ["JavaScript", "Canvas","Animation"] },
-                    { "Text": "Crazy color animation", "Link": "http://codepen.io/cathbailh/pen/vGNjJB", "Tags": ["JavaScript", "WebGL","Animation"] },
-                    { "Text": "Curly smoke", "Link": "http://codepen.io/enxaneta/pen/wGKygy", "Tags": ["JavaScript", "Canvas","Animation"] }                  
-                ]
-        },         
-        {
-        "Date": "2016-03-03",
-        "Content":
-            [
-                { "Text": "VS2015 - Html Editor Power!", "Link": "https://youtu.be/oXi6fay_eHs?t=5m40s", "Tags": ["VisualStudio", "HTML5","Hanselman"] },
-                { "Text": "Emmet Cheat Sheet", "Link": "http://docs.emmet.io/cheat-sheet/", "Tags": ["Emmet", "HTML5"] },     
-                { "Text": "Stack Overflow: The Architecture - 2016 Edition", "Link": "http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/", "Tags": ["Server", "ASP.NET","Stackoverflow","Hosting"] },
-                { "Text": "Docfx - documentation for .NET", "Link": "http://reynders.co/docfx-helps-us-make-documentation-easier-for-net/", "Tags": [".NET", "Documentation"] }
-            
-            ]
-        },   
-         {
-            "Date": "2016-03-02",
-            "Content":
-                [
-                    { "Text": "Awesome Android UI Designs", "Link": "https://github.com/wasabeef/awesome-android-ui", "Tags": ["Android", "UI"] },
-                    { "Text": "Android Material Design Activity Transitions", "Link": "http://www.androiduipatterns.com/2014/09/material-design-activity-transition.html", "Tags": ["Android", "UI"] },
-                    { "Text": "15 beautiful App designs", "Link": "http://www.creativebloq.com/app-design/beautiful-android-app-ui-designs-11121271", "Tags": ["Android", "UI"] },
-                    { "Text": "Awesome Android UI Designs", "Link": "https://github.com/wasabeef/awesome-android-ui", "Tags": ["Android", "UI"] },
-                    { "Text": "20 beautiful mobile UI designs", "Link": "http://theultralinx.com/2011/10/20-beautiful-mobile-ui-screenshots/ ", "Tags": ["Android", "UI"] }
-                ]
-        },             
-         {
-            "Date": "2016-02-25",
-            "Content":
-                [
-                    { "Text": "Kaleidoskop", "Link": "http://codepen.io/cathbailh/pen/obKLRB", "Tags": ["2D", "Canvas", "WebGL"] },
-                    { "Text": "Inferno", "Link": "http://codepen.io/jagarikin/pen/qZWrPR", "Tags": ["2D", "Canvas", "WebGL"] },
-                    { "Text": "WebGL Framebuffer", "Link": "http://codepen.io/ykob/pen/NNKdLX", "Tags": ["2D", "Canvas", "WebGL"] }
-                ]
-        },      
-        {
-            "Date": "2016-02-19",
-            "Content":
-                [
-                    { "Text": "Canvas Heart Particle", "Link": "http://codepen.io/enxaneta/pen/gPEGLR", "Tags": ["JavaScript", "Canvas", "Animation"] },
-                    { "Text": "Radial Clock", "Link": "http://codepen.io/Escu/pen/wMZpQz", "Tags": ["JavaScript", "Canvas", "Animation"] },
-                    { "Text": "WebGL Simplex Noise - Sphere", "Link": "http://codepen.io/ykob/pen/qbwLaYz", "Tags": ["JavaScript", "WebGL", "Animation"] },
-                    { "Text": "dragging elements with JavaScript (mouse events)", "Link": "http://codepen.io/rachsmith/pen/vLMKvz", "Tags": ["JavaScript", "HTML5", "CSS"] },
-                    { "Text": "ditigal clock", "Link": "http://codepen.io/nodoubt0322/pen/vLMxjo", "Tags": ["JavaScript", "WebGL", "Animation"] },
-                    { "Text": "Fried Chicken Simulator", "Link": "http://codepen.io/austinmayer/pen/MKRwgX", "Tags": ["JavaScript", "WebGL", "3D"] },
-                    { "Text": "Simplex Noise Flow 2D", "Link": "http://codepen.io/browles/pen/eJXroP", "Tags": ["JavaScript", "WebGL", "Animation"] },
-                    { "Text": "Wavescroll (drag background)", "Link": "http://codepen.io/suez/pen/wMOVXz", "Tags": ["JavaScript", "WebGL", "Animation", "Scrolleffect"] }
-                ]
-        },         
-        {
-            "Date": "2016-02-17",
-            "Content":
-                [
-                    { "Text": "The Differences Between Rijndael and AES", "Link": "http://blogs.msdn.com/b/shawnfa/archive/2006/10/09/the-differences-between-rijndael-and-aes.aspx", "Tags": ["Encryption", "Rijndael", "AES"] },
-                    { "Text": "Was mir das Lernen von 11 Fremdsprachen beigebracht hat", "Link": "https://de.babbel.com/de/magazine/lektionen-von-11-fremdsprachen", "Tags": ["LAnguages", "Learning"] },
-                    { "Text": "Dieser kleine Glaspuck speichert 360 Terabyte Daten", "Link": "http://t3n.de/news/glaspuck-360-terabyte-daten-680693/", "Tags": ["Storage", "Technology"] }
-                ]
-        },          
-        {
-            "Date": "2016-02-16",
-            "Content":
-                [
-                    { "Text": "The Hash Function Lounge", "Link": "http://www.larc.usp.br/~pbarreto/hflounge.html", "Tags": ["Encryption", "Hash"] },
-                    { "Text": "The Whirlpool Hash Function", "Link": "http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html", "Tags": ["Encryption", "Hash", "Whirlpool"] }
-                ]
-        },  
-        {
-            "Date": "2016-02-15",
-            "Content":
-                [
-                    { "Text": "Why do so many people seem to hate JavaScript?", "Link": "https://www.quora.com/Why-do-so-many-people-seem-to-hate-JavaScript", "Tags": ["JavaScript"] },
-                    { "Text": "FIX: W550s - horrible performance", "Link": "https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/W550s-horrible-performance/td-p/2125957", "Tags": ["Thinkpad", "Performance"] }                    
-                ]
-        },         
-         {
-            "Date": "2016-02-11",
-            "Content":
-                [
-                 { "Text": "OS.js", "Link": "https://osjsv2.0o.no/", "Tags": ["OS", "JavaScript","Web"] },
-                 { "Text": "Markdown with VS Code", "Link":"https://code.visualstudio.com/Docs/languages/markdown", "Tags": ["VSCode", "Markdown"] },
-                 { "Text": "neon hexagon-forming particles", "Link": "http://codepen.io/towc/pen/mJzOWJ/", "Tags": ["Animation", "JavaScript","Canvas"] }
-                ]
-        },  
-        {
-            "Date": "2016-02-10",
-            "Content":
-                [
-                 { "Text": "Streich einfach diese 2 Wörter aus deinem Vokabular und du bist erfolgreicher – sagt ein Stanford-Professor", "Link": "http://t3n.de/news/woerter-erfolgreicher-stanford-678079/ ", "Tags": ["t3n", "Thinking"] },
-                 { "Text": "Tooltips CSS only", "Link": "https://github.com/chinchang/hint.css", "Tags": ["CSS", "Tooltip"] }
-                ]
-        },        
-        {
-            "Date": "2015-10-02",
-            "Content":
-                [
-                 { "Text": "ASP.NET Wire Format for Model Bindung", "Link": "http://www.hanselman.com/blog/ASPNETWireFormatForModelBindingToArraysListsCollectionsDictionaries.aspx", "Tags": ["ASP.NET", "MVC", "Models"] },
-                 { "Text": "Fractal Tree", "Link": "http://chrisma1.github.io/FractalTree/", "Tags": ["Fractals","JavaScript","2D"] },
-                 { "Text": "Fractal Tree Source", "Link": "https://github.com/APCSLowell/FractalTree", "Tags": ["Fractals","JavaScript","2D"] },
-                 { "Text": "RIMRAF - delete very long directory names", "Link": "http://superuser.com/questions/78434/how-to-delete-directories-with-path-names-too-long-for-normal-delete", "Tags": ["Tools","NPM"] },
-                 { "Text": "GPU Wireframe Canvas", "Link": "http://mattatz.github.io/GPUFluidWireframe/", "Tags": ["Canvas","Chrome Experiment","2D"] },
-                 { "Text": "NOGS IoT Hardware", "Link": "http://www.heise.de/make/meldung/Nogs-IoT-Board-bei-Watterott-2781381.html", "Tags": ["IoT"] },
-                 { "Text": "How to debug silent crashes?", "Link": "http://blog.functionalfun.net/2013/05/how-to-debug-silent-crashes-in-net.html", "Tags": [".NET","Debug"] },
-                 { "Text": "Runtime Flow RT Monitor", "Link": "https://vlasovstudio.com/runtime-flow/index.html", "Tags": [".NET","Debug"] },
-                 { "Text": "Create Process Dump (How to debug a program when it crashes w/out exception?)", "Link": "http://stackoverflow.com/questions/3792456/how-to-debug-a-program-when-it-crashes-w-out-exception", "Tags": [".NET","Debug","Dump","Crashdump"] },
-                 { "Text": "Steven Hawking Speech Synth (Assistive Context-Aware Toolkit)", "Link": "http://www.golem.de/news/intel-stephen-hawkings-sprachsynthese-software-ist-open-source-1508-115857.html", "Tags": ["ACAT","Intel","OpenSource",".NET"] },
-                 { "Text": "LCD for RaspberryPi2 with Win10 IoT", "Link": "https://www.hackster.io/jtlns/adafruit-5-lcd-on-windows-10-iot-core", "Tags": ["Win10","Iot","LCD","Touch","RaspberryPi2"] },                 
-                 { "Text": "Blur effect with D3", "Link": "http://tributary.io/inlet/5584636", "Tags": ["JavaScript","Effect","D3.JS"] },
-                 { "Text": "Fuse.js - Fuzzy Text Search", "Link": "http://kiro.me/projects/fuse.html", "Tags": ["JavaScript","FuzzyLogic","Textsearch"] }
-                ]
-        },  
-        {
-            "Date": "2015-08-16",
-            "Content":
-                [
-                 { "Text": "Neon Bubbles", "Link": "http://codepen.io/giana/pen/LVvaNQ", "Tags": ["Animation", "2D"] },
-                 { "Text": "Particle System Animation", "Link": "http://codepen.io/carmination/pen/vOMrxJ", "Tags": ["Animation", "2D", "Particle"] }
-                ]
-        },        
-        {
-            "Date": "2015-08-07",
-            "Content":
-                [
-                 { "Text": "Unity C# Tutorial", "Link": "http://catlikecoding.com/unity/tutorials/", "Tags": [ "C#", "3D", "Unity"] },
-                 { "Text": "Swagger - API Framework", "Link": "http://swagger.io/", "Tags": [ "API", "REST"] },
-                 { "Text": "Darwin Tunes", "Link": "http://soundcloud.com/uncoolbob/", "Tags": [ "Music", "Algorithms"] }
-                ]
+          "Text": "Hidden C# Keywords",
+          "Link": "https://www.reddit.com/r/csharp/comments/6k8j1g/anyone_ever_used_any_of_the_hidden_c_keywords/",
+          "Tags": [ "C#", "dotnet", ".net", "csharp", "IL" ]
         },
         {
-            "Date": "2015-07-17",
-            "Content": [
-                 { "Text": "Running ASP.NET 5 on Linux", "Link": "https://vimeo.com/131631887", "Tags": [ "ASP.NET", "Linux"] },
-                 { "Text": "14 JavaScript / jquery-plugins for nice effects", "Link": "http://t3n.de/news/javascript-funktionen-jquery-plugins-455543/", "Tags": [ "jQuery", "t3n", "JavaScript"] }
-                 ]
-        },
-        {
-            "Date": "2015-05-14",
-            "Content": [ { "Text": "HTML 5 Canvas Circle Tutorial", "Link": "http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/", "Tags": [ "HTML5", "Canvas","2D" ] } ]
-        },
-         {
-		 "Date":"2015-05-13",
-		 "Content":
-				[
-					{"Text":"Oclouds CSS Animation", "Link":"http://codepen.io/cathbailh/pen/MwKder", "Tags": [ "CSS", "Animation", "JavaScript" ] },
-                    { "Text": "Rainbow Loader CSS Animation", "Link": "http://codepen.io/jackrugile/pen/JddmaX", "Tags": [ "CSS", "Animation" ] },
-                    { "Text": "Samsung Artik Boards", "Link": "http://t3n.de/news/samsung-artik-arduino-610428/", "Tags": [ "Embedded" ] },  
-                    { "Text": "Tunnel Effect", "Link": "http://codepen.io/Mombasa/pen/BJflK", "Tags": [ "3D", "Animation", "ThreeJS" ] },
-                    { "Text": "Electric Lines Effect", "Link": "http://codepen.io/natewiley/pen/dPmXyW", "Tags": [ "2D", "Animation", "Canvas" ] },
-                    { "Text": "Fractal Tree", "Link": "http://codepen.io/pixelass/pen/rVxQdV", "Tags": [ "CSS", "HTML"] }                    
-				]
-		},	
-        {
-            "Date": "2015-05-12",
-            "Content": [ { "Text": "BUILD 2015 ASP.NET 5 Training Videos - Introduction and Deep Dive", "Link": "http://www.hanselman.com/blog/BUILD2015ASPNET5TrainingVideosIntroductionAndDeepDive.aspx", "Tags": [ "ASP.NET", "VS2015" ] } ]
-        },
-        {
-		 "Date":"2015-05-04",
-		 "Content":
-				[
-					{"Text":"I don't know c", "Link":"http://kukuruku.co/hub/programming/i-do-not-know-c"},
-					{"Text":"Julia Set", "Link":"http://kukuruku.co/hub/algorithms/julia-set"}
-				]
-		},	
-        {
-            "Date": "2015-05-03",
-            "Content": [
-                { "Text": "Visual Studio CODE", "Link": "https://code.visualstudio.com/" },
-                { "Text": "WebGL human skin demo", "Link": "http://alteredqualia.com/three/examples/webgl_materials_skin.html" },
-                { "Text": "OnPropertyChanged -> .NET 4.5 Version", "Link": "http://danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/" },
-                { "Text": "Conversion of .NET unsigned integral types", "Link": "https://msdn.microsoft.com/de-de/library/e9s326kw.aspx" },
-                { "Text": "Nice discussion of .NET string vs. String", "Link": "http://stackoverflow.com/questions/7074/whats-the-difference-between-string-and-string?rq=1" },
-                { "Text": "Very cool plasma wall made with 'neopixels'", "Link": "http://solderlab.de/index.php/led-projects/modular-plasma-wall" },
-                { "Text": "Selfhosting ASP.NET Web API", "Link": "http://www.dotnetcurry.com/showarticle.aspx?ID=896" },
-                { "Text": "very nice Git guide", "Link": "http://rogerdudler.github.io/git-guide/index.de.html" },
-                { "Text": "Use material design with AngularJS", "Link": "https://material.angularjs.org/" },
-                { "Text": "ASP.NET on a Raspberry Pi", "Link": "http://j.tlns.be/2014/11/running-asp-net-on-a-raspberry-pi-with-mono-and-owin/" }
-            ]
-        },
-        {
-            "Date": "2015-05-03",
-            "Content": [ { "Text": "famo.us - a very cool UI framework combinable with AngularJS", "Link": "http://famo.us" } ]
-        },
-        {
-            "Date": "2015-05-03",
-            "Content": [
-                { "Text": "Entiers are stored as local JSON file now", "Link": "http://www.christianschmidt.info" },
-                { "Text": "Today I'll add some more links from my local browser bookmarks. Have fun :)", "Link": "http://www.christianschmidt.info" }
-            ]
-        },
-        {
-            "Date": "2015-04-30",
-            "Content": [
-                { "Text": "Using 'nolock' in TSQL Queries", "Link": "http://www.izenda.com/blog/high-performance-sql-views-using-withnolock/" },
-                { "Text": "Hint for clearing Sql Connection Pools", "Link": "http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22" },
-                { "Text": "Why use 'Dispose(false)' in a C# Destruktor", "Link": "http://stackoverflow.com/questions/628752/why-call-disposefalse-in-the-destructor" }
-            ]
-        },
-        {
-            "Date": "2015-04-29",
-            "Content": [ { "Text": "ChrisSchmis interesting link collection!", "Link": "http://www.christianschmidt.info" } ]
+          "Text": "Generating random Modern Houses",
+          "Link": "https://www.reddit.com/r/csharp/comments/v2osjd/generating_random_modern_houses_an_example_from/",
+          "Tags": [ "Markov", "MarkovJunior", "C#", "Algorithm" ]
         }
-    ]
+      ]
+    },
+    {
+      "Date": "2022-06-12",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "C# Design Patterns",
+          "Link": "https://www.dofactory.com/net/facade-design-pattern",
+          "Tags": [ "C#", "Pattern", "Design", "Architecture", "Designpattern", "Designpatterns" ]
+        },
+        {
+          "Text": "Dr. Michael Klaper - Pflanzliche Ernährung ",
+          "Link": "https://www.youtube.com/watch?v=Vbw9SMLiAis",
+          "Tags": [ "food", "veggie", "health", "Gesungheit" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-06-01",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Web-App mit Blazor in Azure Static Web Apps",
+          "Link": "https://docs.microsoft.com/de-de/azure/static-web-apps/deploy-blazor",
+          "Tags": [ "Azure", "Blazot", "Static", "Appservice" ]
+        },
+        {
+          "Text": "Nuoc Cham – Vietnamesische Dressing",
+          "Link": "https://shayankocht.de/2015/10/nuoc-cham-klassischer-vietnamesischer-dressing/",
+          "Tags": [ "Asiafood", "Food", "Recipe" ]
+        },
+        {
+          "Text": "Bun Bo Nam Bo – Vietnam auf einem Teller",
+          "Link": "https://www.easycookasia.de/rezept/bun-bo-nam-bo",
+          "Tags": [ "Asiafood", "Food", "Recipe" ]
+        },
+        {
+          "Text": "Nethereum - How to connect to Ethereum using .NET",
+          "Link": "https://www.quicknode.com/guides/web3-sdks/how-to-connect-to-ethereum-using-net-nethereum",
+          "Tags": [ "Crypto", "Ethereum", "dotnet", "net", ".net" ]
+        },
+        {
+          "Text": "How to create your own language with ANTLR in .NET?",
+          "Link": "https://medium.com/@konstantin.poklonskiy/how-to-create-your-own-language-with-antlr-in-net-a57beba84ecc",
+          "Tags": [ "ANTLR", "DSL", "Language", "dotnet", "net", ".net" ]
+        },
+        {
+          "Text": "YARP tunnel demo",
+          "Link": "https://github.com/davidfowl/YarpTunnelDemo",
+          "Tags": [ "proxy", "tunnel", "dotnet", "net", ".net" ]
+        },
+        {
+          "Text": "Javascript Snake Game",
+          "Link": "https://github.com/servetgulnaroglu/ytb_snake_js",
+          "Tags": [ "JS", "JavaScript", "Java Script", "Snake", "Game", "Gamedev" ]
+        },
+        {
+          "Text": "Implementieren eines Microservicedomänenmodells mit .NET",
+          "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/net-core-microservice-domain-model",
+          "Tags": [ "dotnet", "net", ".net", "domain", "domäne", "service", "microservice" ]
+        },
+        {
+          "Text": "CSS Grid Layouts",
+          "Link": "https://raidboxes.io/blog/webdesign-development/css-grid-layout/",
+          "Tags": [ "CSS", "Grid", "Layout", "Design", "CSS Grid", "CSS Layout" ]
+        },
+        {
+          "Text": "MethodTimer.Fody",
+          "Link": "https://github.com/Fody/MethodTimer",
+          "Tags": [ "dotnet", "net", ".net", "performance", "measure", "runtime", "debugging" ]
+        },
+        {
+          "Text": "Resize an Image in C#",
+          "Link": "https://www.c-sharpcorner.com/UploadFile/ishbandhu2009/resize-an-image-in-C-Sharp/",
+          "Tags": [ "dotnet", "net", ".net", "c#", "csharp", "image", "resize" ]
+        },
+        {
+          "Text": "C# Pattern matching overview",
+          "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching",
+          "Tags": [ "dotnet", "net", ".net", "c#", "csharp", "pattern", "patternmatching" ]
+        },
+        {
+          "Text": "What's new in ASP.NET Core 6.0",
+          "Link": "https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-6.0?view=aspnetcore-6.0",
+          "Tags": [ "dotnet", "net", ".net", "aspnet", "aspnetcore", "core", ".netcore", "netcore", "asp" ]
+        },
+        {
+          "Text": "Erstellen eines DDD-orientierten Microservices",
+          "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice",
+          "Tags": [ "dotnet", "net", ".net", "domain", "domäne", "service", "microservice" ]
+        },
+        {
+          "Text": "CSS in JS",
+          "Link": "https://cssinjs.org/",
+          "Tags": [ "CSS", "js", "Layout", "Design", "javascript" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-03-26",
+      "Title": "",
+      "Content": [
+        {
+          "Text": ".NET Framework 4.5.2, 4.6, 4.6.1 will reach End of Support",
+          "Link": "https://devblogs.microsoft.com/dotnet/net-framework-4-5-2-4-6-4-6-1-will-reach-end-of-support-on-april-26-2022/",
+          "Tags": [ ".net", "dotnet", "net45", "net46", "net461" ]
+        },
+        {
+          "Text": "Performance Improvements in .NET 6",
+          "Link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#peanut-butter",
+          "Tags": [ ".net", "dotnet", "net6", ".net6", "dotnet6" ]
+        },
+        {
+          "Text": "Axiom - connects to a mqtt server and provides an interface to the WhatsApp messaging service.",
+          "Link": "https://github.com/xanecs/axiom",
+          "Tags": [ "MQTT", "Whatsapp", "python" ]
+        },
+        {
+          "Text": "Build High Performant Microservices using gRPC and .NET 6",
+          "Link": "https://medium.com/geekculture/build-high-performant-microservices-using-grpc-and-net-6-adde158c5ac",
+          "Tags": [ "Microservices", ".net6", "dotnet6", "gRPC" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-03-14",
+      "Title": "A little bit about hitory",
+      "Content": [
+        {
+          "Text": "Zwei-plus-Vier-Vertrag",
+          "Link": "https://de.wikipedia.org/wiki/Zwei-plus-Vier-Vertrag",
+          "Tags": [ "history", "peace", "stophate" ]
+        },
+        {
+          "Text": "Hat die Bundesrepublik Deutschland nach 1945 einen Friedensvertrag unterzeichnet?",
+          "Link": "https://www.swr.de/wissen/1000-antworten/hat-die-bundesrepublik-deutschland-nach-1945-einen-friedensvertrag-unterzeichnet-100.html",
+          "Tags": [ "history", "peace", "stophate" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-03-13",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "View the origin of a repeating call stack",
+          "Link": "https://www.poppastring.com/blog/view-the-origin-of-a-repeating-call-stack",
+          "Tags": [ "c#", "csharp", ".dotnet", "exception", "callstack" ]
+        },
+        {
+          "Text": "Moondisaster - Can you spot a deepfake?",
+          "Link": "https://moondisaster.org/quiz/",
+          "Tags": [ "fake", "deepfake", "ai", "ki" ]
+        },
+        {
+          "Text": "gRPC-Dienste mit ASP.NET Core",
+          "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/aspnetcore?view=aspnetcore-6.0&tabs=visual-studio",
+          "Tags": [ "c#", "csharp", ".dotnet", "gRPC", "netcore" ]
+        },
+        {
+          "Text": "Versionsverwaltung für gRPC-Dienste",
+          "Link": "https://docs.microsoft.com/de-de/aspnet/core/grpc/versioning?view=aspnetcore-6.0",
+          "Tags": [ "c#", "csharp", ".dotnet", "gRPC", "netcore" ]
+        },
+        {
+          "Text": "Cloud Native Computin Foundation",
+          "Link": "https://www.cncf.io/about/who-we-are/",
+          "Tags": [ "cloud", "cloudnative", "gRPC" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-02-27",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Azure devops users cant see repos even though they have full read/contribute permissions. How could we fix?",
+          "Link": "https://developercommunity.visualstudio.com/t/azure-devops-users-cant-see-repos-even-though-they/918777",
+          "Tags": [ "azure", "devops", ".devopsservie", "tfs" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-02-26",
+      "Title": ".net 6 Templates \"hell\"? or not?",
+      "Content": [
+        {
+          "Text": "New C# templates generate top-level statements",
+          "Link": "https://docs.microsoft.com/en-us/dotnet/core/tutorials/top-level-templates",
+          "Tags": [ "C#", "dotnet", ".net", "6", ".net6", "dotnet6" ]
+        },
+        {
+          "Text": "RTutorial: Explore ideas using top-level statements to build code as you learn",
+          "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/top-level-statements",
+          "Tags": [ "C#", "dotnet", ".net", "6", ".net6", "dotnet6" ]
+        },
+        {
+          "Text": "App startup in ASP.NET Core",
+          "Link": "https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-6.0",
+          "Tags": [ "C#", "dotnet", ".net", "6", ".net6", "dotnet6", "asp.net", "aspnet" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-02-21",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Resize Ubuntu /dev/sda1 partition",
+          "Link": "https://askubuntu.com/questions/958114/resize-ubuntu-dev-sda1-partition-in-virtualbox-vmdk-when-dev-sda-is-already-la",
+          "Tags": [ "Linux", "Ubuntu", "partidion", "parted", "resize" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-02-13",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Planoplan Editor - 3D Room Editor",
+          "Link": "https://planoplan.com/de/download/windows/",
+          "Tags": [ "3D", "room", "Raumplanung", "room planning", "editor" ]
+        },
+        {
+          "Text": "Workaround: Turn off Wiki comments",
+          "Link": "https://developercommunity.visualstudio.com/t/is-it-possible-to-delete-comments-of-other-users-i/1228916",
+          "Tags": [ "TFS", "devops", "azure", "azuredevops", "wiki", "comment" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-02-11",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Azure Event Hubs",
+          "Link": "https://azure.microsoft.com/de-de/services/event-hubs/",
+          "Tags": [ "Azure", "EventHub", "Event Hub", "data", "bigdata" ]
+        },
+        {
+          "Text": "Explained Use Case - Azure event hubs and Azure functions",
+          "Link": "https://www.youtube.com/watch?v=oLcTwe-aKqQ",
+          "Tags": [ "Azure", "EventHub", "Event Hub", "data", "bigdata" ]
+        },
+        {
+          "Text": "Terraform - infrastructure in code",
+          "Link": "https://www.hashicorp.com/products/terraform",
+          "Tags": [ "IaaS", "infrastructure", "Terraform" ]
+        },
+        {
+          "Text": "draw.io - Security-first diagramming for teams ",
+          "Link": "https://app.diagrams.net/",
+          "Tags": [ "diagrams", "infrastructure", "uml" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-02-05",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "How I hacked a hardware crypto wallet and recovered $2 million",
+          "Link": "https://www.youtube.com/watch?v=dT9y-KQbqi4",
+          "Tags": [ "crypto", "hack", "hardware", "wallet" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-01-23",
+      "Title": "New Art & Culture Stuff",
+      "Content": [
+        {
+          "Text": "That colorful font",
+          "Link": "https://observablehq.com/@kelleyvanevert/that-colorful-font",
+          "Tags": [ "font", "js", "JavaScript", "fontart" ]
+        },
+        {
+          "Text": "Observable Plot",
+          "Link": "https://github.com/observablehq/plot",
+          "Tags": [ "chart", "js", "JavaScript", "plot" ]
+        },
+        {
+          "Text": "NDR Kultur à la carte - Felix Lehrmann",
+          "Link": "https://www.ndr.de/kultur/sendungen/ndr_kultur_a_la_carte/Felix-Lehrmann-trommelt-fuer-die-Stars-der-Musikbranche,sendung1219490.html",
+          "Tags": [ "Drums", "Drummer", "Interview" ]
+        },
+        {
+          "Text": "My Merry Messy Life",
+          "Link": "https://www.youtube.com/channel/UCzNkWqatFmMmar8Tvd44tAA",
+          "Tags": [ "Culture", "Cultureshock", "Cultureshocks", "emigration" ]
+        },
+        {
+          "Text": "Our Story to Tell",
+          "Link": "https://www.youtube.com/channel/UCbo0scC5qoicOOC1WET3xzA",
+          "Tags": [ "Culture", "Cultureshock", "Cultureshocks", "emigration" ]
+        }
+      ]
+    },
+    {
+      "Date": "2022-01-05",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "kkrieger: Making an Impossible FPS | Nostalgia Nerd",
+          "Link": "https://www.youtube.com/watch?v=bD1wWY1YD-M",
+          "Tags": [ "retrocomputing", "Demo", "demoscene", "history", "oldschool" ]
+        },
+        {
+          "Text": "Trackers: The Sound of 16-Bit",
+          "Link": "https://www.youtube.com/watch?v=roBkg-iPrbw",
+          "Tags": [ "retrocomputing", "tracker", "demo", "demoscene", "sound", "history", "oldschool" ]
+        },
+        {
+          "Text": "A Brief History of Graphics",
+          "Link": "https://www.youtube.com/watch?v=QyjyWUrHsFc",
+          "Tags": [ "retrocomputing", "graphics", "game", "games", "youth", "history", "oldschool" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-12-20",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "UDON KNOW HOW DELICIOUS THIS LEMONGRASS NOODLES RECIPE IS UNTIL YOU'VE TRIED IT",
+          "Link": "https://www.youtube.com/watch?v=DrWn16I-DZQ",
+          "Tags": [ "Asiafood", "Udon", "Cook", "cooking", "Recipe" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-09-26",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Refactoring.Guru - Design Patterns",
+          "Link": "https://refactoring.guru/",
+          "Tags": [ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-09-22",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Design Patterns",
+          "Link": "https://sourcemaking.com/design_patterns",
+          "Tags": [ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ]
+        },
+        {
+          "Text": "C# Design Patterns",
+          "Link": "https://www.dofactory.com/net/design-patterns",
+          "Tags": [ "Architecture", "Pattern", "Patterns", "Design", "Designpatterns" ]
+        },
+        {
+          "Text": "How to detect if the User's OS prefers dark mode and change your site with CSS and JS",
+          "Link": "https://www.hanselman.com/blog/how-to-detect-if-the-users-os-prefers-dark-mode-and-change-your-site-with-css-and-js",
+          "Tags": [ "Darkmode", "Dark Mode", "Theme", "Design", "Javascript", "CSS", "Mediaquery" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-08-09",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Verwenden von .NET für Apache Spark in Jupyter Notebook",
+          "Link": "https://docs.microsoft.com/de-de/dotnet/spark/how-to-guides/dotnet-spark-jupyter-notebooks",
+          "Tags": [ "Jupyter Notebook", "c#", "Spark", "Apache", "Apache Spark" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-07-13",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Testing a website from Linux command line",
+          "Link": "https://serverfault.com/questions/124952/testing-a-website-from-linux-command-line",
+          "Tags": [ "curl", "wget", "CLI", "Linux", "tools" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-05-18",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Web Audio API",
+          "Link": "https://webaudioapi.com/samples/",
+          "Tags": [ "Audio", "Web", "Audio API", "AudioAPI", "Web Audio API", "Web Audio" ]
+        },
+        {
+          "Text": "Getting Started with Web Audio API",
+          "Link": "https://www.html5rocks.com/en/tutorials/webaudio/intro/",
+          "Tags": [ "Audio", "Web", "Audio API", "AudioAPI", "Web Audio API", "Web Audio" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-05-16",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Herstellen einer Verbindung mit Exchange Online PowerShell mittels moderner Authentifizierung mit oder ohne mehrstufige Authentifizierung",
+          "Link": "https://docs.microsoft.com/de-de/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps",
+          "Tags": [ "Exchange", "Powershell", "EWS" ]
+        },
+        {
+          "Text": "Versioning in an Event Sourced System",
+          "Link": "https://leanpub.com/esversioning/read",
+          "Tags": [ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ]
+        },
+        {
+          "Text": "Why Event Sourced Systems Fail",
+          "Link": "https://www.youtube.com/watch?v=FKFu78ZEIi8",
+          "Tags": [ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ]
+        },
+        {
+          "Text": "Song Sim",
+          "Link": "https://colinmorris.github.io/SongSim",
+          "Tags": [ "Simulation", "Song", "Songs", "UI" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-05-15",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Coding Adventure: Ant and Slime Simulations",
+          "Link": "https://www.youtube.com/watch?v=X-iSQQgOd1A",
+          "Tags": [ "Graphics", "Animations", "Animation", "3D", "2D", "Simulating", "Simulation" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-05-12",
+      "Title": "I <3 WebGL",
+      "Content": [
+        {
+          "Text": "Alien cocoons",
+          "Link": "https://www.shadertoy.com/view/MsdGz2",
+          "Tags": [ "WebGL", "Shader", "Animation", "3D", "shadertoy" ]
+        },
+        {
+          "Text": "fractal pyramid",
+          "Link": "https://www.shadertoy.com/view/tsXBzS",
+          "Tags": [ "WebGL", "Shader", "Animation", "3D", "shadertoy" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-05-09",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "The Science of Great UI",
+          "Link": "https://www.youtube.com/watch?v=nx1tOOc_3fU",
+          "Tags": [ "UI" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-04-27",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "The Responses I Got From a Software Developer Candidate That Made Me Hire Him",
+          "Link": "https://medium.com/illumination/the-responses-i-got-from-a-software-developer-candidate-that-made-me-hire-him-98ff8bf01298",
+          "Tags": [ "Interview", "Job", "Developer", "Mindset" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-04-20",
+      "Title": "Asiafood 😍 Part 2 + RSA Encryption",
+      "Content": [
+        {
+          "Text": "Public Key Cryptography: RSA Encryption Algorithm",
+          "Link": "https://www.youtube.com/watch?v=wXB-V_Keiu8",
+          "Tags": [ "RSA", "Security", "Encryption", "Verschlüsselung" ]
+        },
+        {
+          "Text": "Gebratene Udon Nudeln",
+          "Link": "https://www.eat-this.org/schnelle-gebratene-udon-nudeln/",
+          "Tags": [ "Asiafood", "Udon", "Cook", "cooking", "Recipe" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-04-18",
+      "Title": "Asiafood 😍",
+      "Content": [
+        {
+          "Text": "Bun Chay Reisnudelsalat",
+          "Link": "https://cheapandcheerfulcooking.com/bun-chay-vietnamesischer-reisnudel-salat/",
+          "Tags": [ "Asiafood" ]
+        },
+        {
+          "Text": "Schnelle Udon Nudeln",
+          "Link": "https://cheapandcheerfulcooking.com/schnelle-udon-nudeln/",
+          "Tags": [ "Asiafood", "Udon", "Cook", "cooking", "Recipe" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-03-18",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Builder Pattern in C#",
+          "Link": "https://refactoring.guru/design-patterns/builder/csharp/example",
+          "Tags": [ "Architecture", "Software Architecture", "Pattern", "Software Pattern" ]
+        },
+        {
+          "Text": "Asserting Exceptions in MSTest with Assert.Throws()",
+          "Link": "http://www.bradoncode.com/blog/2012/01/asserting-exceptions-in-mstest-with.html",
+          "Tags": [ "Testing", "Quality", "Softwarequality", "Test", "Unit Test", "UnitTest" ]
+        },
+        {
+          "Text": "Ralf Dümmel: Wie der Gründervater und DHDL-Investor Unternehmer wurde und über Investitionen entscheidet",
+          "Link": "https://www.shopify.de/blog/ralf-duemmel",
+          "Tags": [ "Podcast", "Shopify", "Shopify Podcast", "Ralf Dümmel" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-03-16",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Raising Multiple Exceptions With Aggregateexception",
+          "Link": "https://bryanavery.co.uk/raising-multiple-exceptions-with-aggregateexception/",
+          "Tags": [ "dotnet", "dot net", ".net", "C#", ".NET" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2021-03-11",
+      "Title": "Pi-Hole Blocklists",
+      "Content": [
+        {
+          "Text": "Sempervideo Blocklisten",
+          "Link": "https://github.com/RPiList/specials/blob/master/Blocklisten.md",
+          "Tags": [ "Pihole", "Adblock", "Security", "Network", "DNS" ]
+        },
+        {
+          "Text": "AdGuard CNAME disguised trackers list",
+          "Link": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt",
+          "Tags": [ "Pihole", "Adblock", "Security", "Network", "CNAME", "DNS" ]
+        },
+        {
+          "Text": "SemperVideo - 6000 CNAME Tracker blockieren",
+          "Link": "https://www.youtube.com/watch?v=HkpE-dB15Dw",
+          "Tags": [ "SemperVideo", "Pihole", "Adblock", "Security", "Network", "DNS" ]
+        }
+      ]
+    },
+    {
+      "Date": "2021-03-09",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Solution Architecture: Link Collection",
+          "Link": "https://github.com/unlight/solution-architecture",
+          "Tags": [ "Architecture", "Software Architecture", "Pattern" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-11-19",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Xamarin Forms detect SIGABRT Crash on Startup",
+          "Link": "https://stackoverflow.com/questions/60873678/xamarin-ios-sigabrt-crash-on-startup",
+          "Tags": [ "Xamarin", "XF", "Crash", "Appcenter", "Xamarin Forms" ]
+        }
+      ]
+    },
+    {
+
+      "Date": "2020-10-29",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Implementieren der Microserviceanwendungsschicht mithilfe der Web-API",
+          "Link": "https://docs.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api",
+          "Tags": [ "DDD", "CQRS", "microservices" ]
+        },
+        {
+          "Text": "Using Blazor Components In An Existing MVC Application",
+          "Link": "https://chrissainty.com/using-blazor-components-in-an-existing-mvc-application/",
+          "Tags": [ "netcore", "asp.net core", "Blazor", "asp.net core mvc", "dotnet" ]
+        },
+        {
+          "Text": "Adding Server-Side Blazor to an existing MVC Core app",
+          "Link": "https://stackoverflow.com/questions/56241125/adding-server-side-blazor-to-an-existing-mvc-core-app",
+          "Tags": [ "netcore", "asp.net core", "Blazor", "asp.net core mvc", "dotnet" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2020-10-16",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "HEML - HTML Email Editor",
+          "Link": "https://heml.io/",
+          "Tags": [ "E-Mail", "Responsive", "HTML", "Mail", "Layout" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-10-15",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Software Architektur - Refactoring oder Rewrite?",
+          "Link": "https://www.youtube.com/watch?v=7lUE5NVen6c",
+          "Tags": [ "Architecture", "Coding", "Refactoring", "Rewrite" ]
+        },
+        {
+          "Text": "ASP.NET Core 3.1 - JWT Authentication Tutorial with Example API",
+          "Link": "https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api",
+          "Tags": [ "JWT", "Authorization", ".net core", "c#", "Token" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-10-03",
+      "Title": "Google Workbox",
+      "Content": [
+        {
+          "Text": "Google Workbox",
+          "Link": "https://developers.google.com/web/tools/workbox/",
+          "Tags": [ "PWA", "JS", "Web", "JavaScript", "Web App", "Progressive Web App" ]
+        },
+        {
+          "Text": "Workbox Tutorial – PWA von Google | Progressive Web Apps",
+          "Link": "https://lippke.li/workbox-tutorial-guide/#3nbsp-wichtigsten-Features-von-Google-Workbox-PWA",
+          "Tags": [ "PWA", "JS", "Web", "JavaScript", "Web App", "Progressive Web App" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-09-27",
+      "Title": "Repair Bootprocedure after migrating MBR to GPT",
+      "Content": [
+        {
+          "Text": "How to Repair EFI Bootloader in Windows 10",
+          "Link": "https://forums.tomshardware.com/faq/how-to-repair-efi-bootloader-in-windows-10.3275168/",
+          "Tags": [ "Windows 10", "EFI", "MBR", "GPT" ]
+        },
+        {
+          "Text": "Systemwiederherstellung für Fortgeschrittene",
+          "Link": "https://nt4admins.de/windows-server-familie/systemstartwiederherstellung-fuer-fortgeschrittene/",
+          "Tags": [ "Windows 10", "EFI", "MBR", "GPT" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-08-12",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Querying in Entity Framework Core",
+          "Link": "https://www.entityframeworktutorial.net/efcore/querying-in-ef-core.aspx",
+          "Tags": [ "Entity Framework Core", ".net core", "C#", "EF Core", "EF" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2020-08-11",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "AddTransient, AddScoped and AddSingleton Services Differences",
+          "Link": "https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences?rq=1",
+          "Tags": [ "dotnet", ".net core", "C#", "ASP.NET", "API", "WebAPI" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2020-08-02",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Clean ASP.NET Core API using MediatR and CQRS",
+          "Link": "https://www.youtube.com/watch?v=YzOBrVlthMk",
+          "Tags": [ "Pattern", "CQRS", "C#", "ASP.NET", "API", "Architecture" ]
+        },
+        {
+          "Text": "Clean service decoration in .NET Core using Scrutor",
+          "Link": "https://www.youtube.com/watch?v=m77s48tTdfU",
+          "Tags": [ "Cache", "C#", "ASP.NET", "API", "Architecture" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-07-01",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "https://dmarcian.com - DMARC Wizard",
+          "Link": "https://dmarcian.com/dmarc-record-wizard/",
+          "Tags": [ "SPAM", "Mailsecurity", "DMARC", "DNS" ]
+        },
+        {
+          "Text": "dnschecker - DMARC record validation",
+          "Link": "https://dnschecker.org/dmarc-record-validation.php",
+          "Tags": [ "SPAM", "Mailsecurity", "DMARC", "DNS" ]
+        },
+        {
+          "Text": "Gmail Help about sending secure mails",
+          "Link": "https://support.google.com/mail/thread/12228756?hl=de&fl=1",
+          "Tags": [ "SPAM", "Mailsecurity", "DNS" ]
+        },
+        {
+          "Text": "mxtoolbox - Domain Health Check",
+          "Link": "https://mxtoolbox.com/domain/",
+          "Tags": [ "SPAM", "Mailsecurity", "Domain", "Helper", "DNS" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-05-25",
+      "Title": "Highlights of the MS Build Conference 2020",
+      "Content": [
+        {
+          "Text": "Developing with the Fluid Framework",
+          "Link": "https://www.youtube.com/watch?v=Iw9XFtfWxl8",
+          "Tags": [ ".NET", "Build2020", "Highlights2020", "Azure" ]
+        },
+        {
+          "Text": "Azure Synapse Link | Cloud-natives HTAP mit Azure Cosmos DB",
+          "Link": "https://www.youtube.com/watch?v=yd8vynwA36A",
+          "Tags": [ ".NET", "Build2020", "Highlights2020", "Azure" ]
+        },
+        {
+          "Text": "Introduction to Azure RTOS",
+          "Link": "https://www.youtube.com/watch?v=TGWg7yQATqQ",
+          "Tags": [ "IoT", "Build2020", "Highlights2020", "Azure" ]
+        },
+        {
+          "Text": "The journey to one .net",
+          "Link": "https://www.youtube.com/watch?v=aIRb4TWZhks",
+          "Tags": [ "IoT", "Build2020", "Highlights2020", "Azure", "Hanselman" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-05-11",
+      "Content": [
+        {
+          "Text": "WebGL shader examples",
+          "Link": "https://webgl-shaders.com/",
+          "Tags": [ "WebGL", "Shader", "Web", "Graphics" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-05-09",
+      "Content": [
+        {
+          "Text": "Chatbot für Informationen",
+          "Link": "https://azure.microsoft.com/de-de/solutions/architecture/information-chatbot/",
+          "Tags": [ "Bot", "QnA", "Azure", "Botframework" ]
+        },
+        {
+          "Text": "Qna Maker - From Data To Bot",
+          "Link": "https://www.qnamaker.ai/",
+          "Tags": [ "Bot", "QnA", "Azure", "Botframework" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-05-04",
+      "Content": [
+        {
+          "Text": "Softwareentwurfsmuster",
+          "Link": "https://docs.microsoft.com/de-de/azure/architecture/patterns/",
+          "Tags": [ "Designpatterns", "Patterns", "Architecture", "Design" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-03-24",
+      "Content": [
+        {
+          "Text": "Der Pfad von 4G zu 5G",
+          "Link": "https://www.youtube.com/watch?v=_Sq00NU5Xww",
+          "Tags": [ "5G", "Network", "Mobile", "LTE", "Mobile-Network" ]
+        },
+        {
+          "Text": "Mit dem Getränkeautomaten in die Cloud",
+          "Link": "https://www.youtube.com/watch?v=3-zxXaBawxA",
+          "Tags": [ "Cloud", "IoT", "Hack", "CCC" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2020-03-09",
+      "Content": [
+        {
+          "Text": "10 Essential Debugging Tools for C# .NET Development",
+          "Link": "https://michaelscodingspot.com/dotnet-debugging-tools/",
+          "Tags": [ "C#", ".NET", "Debugging", "Debug" ]
+        },
+        {
+          "Text": "How to write a Roslyn Analyzer",
+          "Link": "https://devblogs.microsoft.com/dotnet/how-to-write-a-roslyn-analyzer/",
+          "Tags": [ "C#", ".NET", "Roslyn", "Analyzer" ]
+        },
+        {
+          "Text": "Decompilation of C# code made easy with Visual Studio",
+          "Link": "https://devblogs.microsoft.com/visualstudio/decompilation-of-c-code-made-easy-with-visual-studio",
+          "Tags": [ "C#", ".NET", "Decompilation", "ILSpy", "Tools", "Visual Studio" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-03-03",
+      "Content": [
+        {
+          "Text": "Image hover Zoom n’ Rotate effect with Pure CSS",
+          "Link": "https://w3bits.com/css-image-hover-zoom/",
+          "Tags": [ "CSS", "Effect", "Zoom" ]
+        },
+        {
+          "Text": "Measure - See how well your website performs.",
+          "Link": "https://web.dev/measure/",
+          "Tags": [ "HTML", "Web", "Performance" ]
+        },
+        {
+          "Text": "Learn - Realize what the web can be.",
+          "Link": "https://web.dev/learn/",
+          "Tags": [ "HTML", "Web", "Performance" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-02-28",
+      "Content": [
+        {
+          "Text": "Microsoft Removal Tool",
+          "Link": "https://www.file.net/prozess/mrt.exe.html",
+          "Tags": [ "Tools", "Malware" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-02-03",
+      "Content": [
+        {
+          "Text": "Microsoft.Net.Compilers is only supported on MSBuild v16.3 and above",
+          "Link": "https://github.com/dotnet/roslyn/issues/40129",
+          "Tags": [ "C#", ".NET", "Compiler", "MSBuild" ]
+        }
+      ]
+    },
+    {
+      "Date": "2020-01-23",
+      "Content": [
+        {
+          "Text": "A self-contained C# game in 8 kB",
+          "Link": "https://github.com/MichalStrehovsky/SeeSharpSnake",
+          "Tags": [ "C#", ".NET", "netcore", "CoreRT" ]
+        },
+        {
+          "Text": "Building a self-contained game in C# under 8 kilobytes",
+          "Link": "https://medium.com/@MStrehovsky/building-a-self-contained-game-in-c-under-8-kilobytes-74c3cf60ea04",
+          "Tags": [ "C#", ".NET", "netcore", "CoreRT" ]
+        },
+        {
+          "Text": "Optimizing reflection in C# via dynamic code generation",
+          "Link": "https://medium.com/@SergioPedri/optimizing-reflection-with-dynamic-code-generation-6e15cef4b1a2",
+          "Tags": [ "C#", ".NET", "netcore" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-10-31",
+      "Content": [
+        {
+          "Text": "Enable Failed Request Tracing for an Azure App Service Web App",
+          "Link": "https://blogs.msdn.microsoft.com/benjaminperkins/2017/01/27/enable-failed-reuqest-tracing-for-an-azure-app-service-web-app/",
+          "Tags": [ "Profiling", "ASP.NET", ".NET", "Azure" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-10-05",
+      "Content": [
+        {
+          "Text": "Nice example of C# Coding Style guidelines",
+          "Link": "https://github.com/WildernessLabs/CSharp_Coding_Style",
+          "Tags": [ "C#", "Codeing Style" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-10-04",
+      "Content": [
+        {
+          "Text": "Wie du nie auf Schwächen antworten solltest",
+          "Link": "https://t3n.de/news/bewerbung-n26-schwaechen-staerken-vorstellungsgespraech-1203813",
+          "Tags": [ "Job", "Recruiting", "HR" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-09-30",
+      "Content": [
+        {
+          "Text": "Agressive Inlining",
+          "Link": "https://www.dotnetperls.com/aggressiveinlining",
+          "Tags": [ "C#", "Compiler", ".NET", "Optimization" ]
+        },
+        {
+          "Text": "ProjectPSX is a C# coded emulator of the original Sony Playstation",
+          "Link": "https://github.com/BluestormDNA/ProjectPSX/",
+          "Tags": [ "C#", "PlayStation", "Emulator" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-09-23",
+      "Content": [
+        {
+          "Text": "Google Chrome Service Worker Examples",
+          "Link": "https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker",
+          "Tags": [ "JavaScript", "PWA", "Web", "Service Worker" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-08-23",
+      "Content": [
+        {
+          "Text": "MvvmForms - Demo application for how to use MVVM in Windows Forms.",
+          "Link": "https://bitbucket.org/lbras/mvvmforms/src/master/",
+          "Tags": [ "MVVM", "WinForms", ".NET", "c#" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-08-21",
+      "Content": [
+        {
+          "Text": "Enable AOT in Xamarin for Android",
+          "Link": "https://stackoverflow.com/questions/37377106/enable-aot-in-xamarin-for-android-visual-studio",
+          "Tags": [ "Xamarin", "Xamarin.Forms", "Android", "LLVM", "AOT", "Compiler" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-08-19",
+      "Content": [
+        {
+          "Text": "Quasar Framework",
+          "Link": "https://quasar.dev/",
+          "Tags": [ "Vue.js", "Vue", "Xplatform", "SPA", "PWA" ]
+        },
+        {
+          "Text": "Robot Framework CI/CD with Azure DevOps",
+          "Link": "https://medium.com/@milannovovic/robot-framework-ci-cd-with-azure-devops-cf708a64b389",
+          "Tags": [ "CI", "CD", "Robotframework", "Azure Devops" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-08-18",
+      "Content": [
+        {
+          "Text": "Repository and UnitOfWork",
+          "Link": "https://docs.microsoft.com/de-de/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application",
+          "Tags": [ "Architecture", "UoW", "Repository" ]
+        },
+        {
+          "Text": "Repository Pattern with C# and Entity Framework, Done Right",
+          "Link": "https://www.youtube.com/watch?v=rtXpYpZdOzM",
+          "Tags": [ "Architecture", "Repository" ]
+        },
+        {
+          "Text": "Inversion of Control & Dependency Injection",
+          "Link": "https://blogs.msdn.microsoft.com/codefest/2009/11/27/design-patterns-teil-1-inversion-of-control-dependency-injection/",
+          "Tags": [ "Architecture", "Repository" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-08-16",
+      "Content": [
+        {
+          "Text": "Capturing Audio & Video in HTML5",
+          "Link": "https://www.html5rocks.com/en/tutorials/getusermedia/intro/",
+          "Tags": [ "HTML5", "Audio", "Video" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2019-08-10",
+      "Content": [
+        {
+          "Text": "Under",
+          "Link": "https://codepen.io/shubniggurath/pen/YmeovR",
+          "Tags": [ "WebGL", "3D" ]
+        },
+        {
+          "Text": "GLSL: 3D rotational spatial modification",
+          "Link": "https://codepen.io/shubniggurath/pen/GVQqjz",
+          "Tags": [ "WebGL", "3D" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-07-10",
+      "Content": [
+        {
+          "Text": "Revalidate Model When Using WebAPI (TryValidateModel equivalent)",
+          "Link": "https://stackoverflow.com/questions/12906359/revalidate-model-when-using-webapi-tryvalidatemodel-equivalent",
+          "Tags": [ ".NET", "C#", "WebAPI", "Validation" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-07-02",
+      "Content": [
+        {
+          "Text": "String Formatting Cheat Sheet",
+          "Link": "http://www.independent-software.com/net-string-formatting-in-csharp-cheat-sheet.html",
+          "Tags": [ ".NET", "C#", "Strings" ]
+        },
+        {
+          "Text": "DeleteDocumentAsync – PartitionKey value must be supplied",
+          "Link": "https://pauliom.com/2017/07/28/deletedocumentasync-partitionkey-value-must-be-supplied/",
+          "Tags": [ ".NET", "C#", "Cosmos DB", "Document DB", "Azure" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-07-01",
+      "Content": [
+        {
+          "Text": "Shrinking Your Android App Size",
+          "Link": "https://devblogs.microsoft.com/xamarin/shrinking-android-app-size/",
+          "Tags": [ ".NET", "Xamarin", "Android" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-05-31",
+      "Content": [
+        {
+          "Text": "Outlook auto-reply: exclude specific adresses",
+          "Link": "https://www.extendoffice.com/documents/outlook/5306-outlook-out-of-office-exclude-address.html",
+          "Tags": [ "Office", "Outlook", ".Exchange" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-02-22",
+      "Content": [
+        {
+          "Text": "ASP.NET Core Image Resizing Middleware",
+          "Link": "https://www.paddo.org/asp-net-core-image-resizing-middleware/",
+          "Tags": [ "Imagemanipulation", "Images", ".NET", "NETCore" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-02-15",
+      "Content": [
+        {
+          "Text": "Use multiple JWT Bearer Authentication",
+          "Link": "https://stackoverflow.com/questions/49694383/use-multiple-jwt-bearer-authentication",
+          "Tags": [ "JWT", ".NET", "OAuth2", "NETCore" ]
+        }
+      ]
+    },
+    {
+      "Date": "2019-01-02",
+      "Content": [
+        {
+          "Text": "Antipatterns und Missverständnisse in der Softwareentwicklung",
+          "Link": "https://www.youtube.com/watch?v=E0_Y53ci9cw",
+          "Tags": [ "Softwaredevelopment", "Antipattern", "Coding" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-12-21",
+      "Content": [
+        {
+          "Text": "Ensure.cs",
+          "Link": "https://github.com/benfoster/Fabrik.Common/blob/master/src/Fabrik.Common/Ensure.cs",
+          "Tags": [ "C#", ".NET", "Coding" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-11-20",
+      "Content": [
+        {
+          "Text": "Microsoft Application Architecture Guide, 2nd Edition",
+          "Link": "https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650706(v%3dpandp.10)",
+          "Tags": [ "C#", ".NET", "Architecture" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-11-17",
+      "Content": [
+        {
+          "Text": "Dependency Injection using Microsoft Unity Application block ",
+          "Link": "https://www.youtube.com/watch?v=FuAhnqSDe-o",
+          "Tags": [ "C#", ".NET", "IoC" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-08-20",
+      "Content": [
+        {
+          "Text": "How to: Customize Data Field Validation in the Data Model Using Custom Attributes",
+          "Link": "https://msdn.microsoft.com/en-us/library/cc668224.aspx",
+          "Tags": [ "C#", ".NET", "Validation", "Attributes" ]
+        },
+        {
+          "Text": "How to create Custom Data Annotation Validators",
+          "Link": "https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators",
+          "Tags": [ "C#", ".NET", "Validation", "Attributes" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-07-04",
+      "Content": [
+        {
+          "Text": "Detect mobile Browser in any language",
+          "Link": "http://detectmobilebrowsers.com/mobile",
+          "Tags": [ "Web", "Browser" ]
+        },
+        {
+          "Text": "MVVM with WinForms",
+          "Link": "https://softwareengineering.stackexchange.com/questions/277143/how-do-you-separate-view-from-logic-in-a-winform-application",
+          "Tags": [ "WinForms", "C#", "MVVM", "Binding" ]
+        },
+        {
+          "Text": "Microcharts",
+          "Link": "https://github.com/aloisdeniel/Microcharts",
+          "Tags": [ "C#", "Xamarin", "Charting", "crossplatform" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-05-13",
+      "Content": [
+        {
+          "Text": "Service Worker Cook Book",
+          "Link": "https://serviceworke.rs/",
+          "Tags": [ "PWA", "Web", "Progressive Web Apps", "Service Worker" ]
+        },
+        {
+          "Text": "Progressively Approaching Service Workers",
+          "Link": "https://marcoscaceres.github.io/codeconf-talk/#/",
+          "Tags": [ "PWA", "Web", "Progressive Web Apps" ]
+        },
+        {
+          "Text": "NASA Service Worker",
+          "Link": "https://code.nasa.gov/service-worker.js",
+          "Tags": [ "PWA", "Web", "Progressive Web Apps", "Service Worker" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-05-07",
+      "Content": [
+        {
+          "Text": "How to reference a file in Azure function?",
+          "Link": "http://www.itidea.nl/index.php/how-to-reference-a-file-in-azure-function-c-script-function-vs-c-function/",
+          "Tags": [ "Azure", "Serverless", "Functions" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-04-29",
+      "Content": [
+        {
+          "Text": "Managing DbContext the right way with Entity Framework 6: an in-depth guide",
+          "Link": "http://mehdi.me/ambient-dbcontext-in-ef6/",
+          "Tags": [ "EF", "Entity Framework" ]
+        },
+        {
+          "Text": "PyTorch",
+          "Link": "http://pytorch.org/",
+          "Tags": [ "Neural Networks", "Machine Learning", "Deep Learning" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-03-29",
+      "Content": [
+        {
+          "Text": "Multicast - Convert IP to MAC address",
+          "Link": "https://www.youtube.com/watch?v=Pz6HfqJtbok",
+          "Tags": [ "IP", "Multicast" ]
+        },
+        {
+          "Text": "ASP.NET Web Applications Architecture Guide",
+          "Link": "https://github.com/dotnet-architecture/eShopOnWeb",
+          "Tags": [ "C#", ".NET", "Architecture", "dotnet" ]
+        }
+      ]
+    },
+    {
+      "Date": "2018-02-19",
+      "Content": [
+        {
+          "Text": "A Day in the Life of Americans",
+          "Link": "http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/",
+          "Tags": [ "BigData", "Charting" ]
+        },
+        {
+          "Text": "Jeff Bezos interview on 60 minutes in 1999 ...",
+          "Link": "https://www.youtube.com/watch?v=SWUIxqWPktQ",
+          "Tags": [ "Entrepreneurship", "Interview" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-12-20",
+      "Content": [
+        {
+          "Text": "Install Anti Malware with Powershell",
+          "Link": "https://blogs.msdn.microsoft.com/madan/2016/09/27/installing-microsoft-antimalware-extension-in-azure-govt-vm-using-powershell/",
+          "Tags": [ "Azure", "AzureGermany" ]
+        },
+        {
+          "Text": "Installing Microsoft Anti Virus Extension to Azure Resource Manager VM using Set-AzureRmVMExtension",
+          "Link": "https://miteshc.wordpress.com/2016/02/18/msav-extension-on-azurearm-vm/",
+          "Tags": [ "Azure", "AzureGermany" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-12-06",
+      "Content": [
+        {
+          "Text": "Share Intent on Both Iphone and Android",
+          "Link": "https://forums.xamarin.com/discussion/42465/share-intent-on-both-iphone-and-android",
+          "Tags": [ "Xamarin", "Android", "C#" ]
+        },
+        {
+          "Text": "Share Dialog with Xamarin Forms",
+          "Link": "https://xamarinhelp.com/share-dialog-xamarin-forms/",
+          "Tags": [ "Xamarin", "Android", "C#" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-11-06",
+      "Content": [
+        {
+          "Text": "200ms: The Magical Number for Faster Response Times",
+          "Link": "https://www.apteligent.com/2014/03/200ms-the-magical-number-for-faster-response-times/",
+          "Tags": [ "API", "REST", "MOBILE" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-10-20",
+      "Content": [
+        {
+          "Text": "Add a /.well-known/ Directory to an ASP.net Application",
+          "Link": "https://phil.me/add-a-well-known-directory-to-an-asp-net-application/",
+          "Tags": [ "ASP.NET", "IIS", ".NET" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-08-22",
+      "Content": [
+        {
+          "Text": "OAuth / OWin: Send additional parameters",
+          "Link": "https://stackoverflow.com/questions/31442364/owin-oauth-send-additional-parameters",
+          "Tags": [ "Auth", "Owin", ".NET" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-08-08",
+      "Content": [
+        {
+          "Text": "apple-app-site-association with Azure",
+          "Link": "https://codedump.io/share/WdavBo0CTtIb/1/apple-app-site-association-to-return-as-applicationjson-from-a-azure-request",
+          "Tags": [ "apple-app-site-association", "Azure", ".NET" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-08-01",
+      "Content": [
+        {
+          "Text": "Disable size limits in ImageResizer",
+          "Link": "https://stackoverflow.com/questions/41022738/imageresizer-disable-size-limitation-of-resizing",
+          "Tags": [ "C#", "Azure Functions", ".NET" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-07-18",
+      "Content": [
+        {
+          "Text": "Fünf Tricks, wie Sie jede Diskussion gewinnen",
+          "Link": "http://www.xing-news.com/reader/news/articles/826871",
+          "Tags": [ "Softskills" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-07-17",
+      "Content": [
+        {
+          "Text": "Defined Responses with Swagger",
+          "Link": "https://mattfrear.com/2015/04/21/generating-swagger-example-responses-with-swashbuckle/",
+          "Tags": [ "C#", "Swagger", "API" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-07-13",
+      "Content": [
+        {
+          "Text": "Image Processing Lab in C#",
+          "Link": "https://www.codeproject.com/Articles/9727/Image-Processing-Lab-in-C",
+          "Tags": [ "C#", "Images", "aForge" ]
+        },
+        {
+          "Text": "Erste Schritte mit Azure Blob Storage mit .NET",
+          "Link": "https://docs.microsoft.com/de-de/azure/storage/storage-dotnet-how-to-use-blobs",
+          "Tags": [ "C#", "Azure", "Blob" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-06-26",
+      "Content": [
+        {
+          "Text": "Azure SQL:Creating Primary Keys Across Databases",
+          "Link": "https://azure.microsoft.com/en-us/blog/creating-primary-keys-across-databases/",
+          "Tags": [ "Azure", "SQL", "Cloud" ]
+        },
+        {
+          "Text": "Azure SQL:Uniqueidentifier and Clustered Indexes",
+          "Link": "https://azure.microsoft.com/en-us/blog/uniqueidentifier-and-clustered-indexes/",
+          "Tags": [ "Azure", "SQL", "Cloud" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-03-23",
+      "Content": [
+        {
+          "Text": "Abusing C#",
+          "Link": "https://www.youtube.com/watch?v=JIlO_EebEQI",
+          "Tags": [ "C#", "Jon Skeet", "NDC" ]
+        },
+        {
+          "Text": "Bobby Tables: A guide to preventing SQL injection",
+          "Link": "http://bobby-tables.com/",
+          "Tags": [ "SQL", "Attack", "SQL Injection" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-03-08",
+      "Content": [
+        {
+          "Text": "Build Lambda Expressions Dynamically",
+          "Link": "https://www.codeproject.com/Articles/1079028/Build-Lambda-Expressions-Dynamically",
+          "Tags": [ "C#", "Lambda", "Expression" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-03-07",
+      "Content": [
+        {
+          "Text": "ASP.NET MVC 5 Internationalization",
+          "Link": "http://afana.me/post/aspnet-mvc-internationalization.aspx",
+          "Tags": [ "ASP.NET", "MVC 5", "i18n" ]
+        },
+        {
+          "Text": "ASP.NET MVC 5 Internationalization · Date and Time",
+          "Link": "http://afana.me/post/aspnet-mvc-internationalization-date-time.aspx",
+          "Tags": [ "ASP.NET", "MVC 5", "i18n" ]
+        },
+        {
+          "Text": "Heise Netwars - Episode 1-5",
+          "Link": "http://heise.netwars-project.com/de/webdoc",
+          "Tags": [ "Security", "Internet" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-03-06",
+      "Content": [
+        {
+          "Text": "Messing with Docker",
+          "Link": "https://www.youtube.com/watch?v=4nviEODZlsA&list=PL0M0zPgJ3HSftTAAHttA3JQU4vOjXFquF",
+          "Tags": [ "Docker", "Hanselman", "ASP.NET" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-01-31",
+      "Content": [
+        {
+          "Text": "CSS Grid – Table layout is back. Be there and be square.",
+          "Link": "https://developers.google.com/web/updates/2017/01/css-grid",
+          "Tags": [ "HTML5", "CSS", "Layout" ]
+        },
+        {
+          "Text": "Front-End Developer Handbook 2017",
+          "Link": "https://www.gitbook.com/book/frontendmasters/front-end-handbook-2017/details",
+          "Tags": [ "Front-End", "Layout", "2017" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-01-26",
+      "Content": [
+        {
+          "Text": "Fix for “could not connect to the debugger” while deploying Xamarin Forms apps to the Visual Studio Android Emulator",
+          "Link": "http://dotnetbyexample.blogspot.de/2016/02/fix-for-could-not-connect-to-debugger.html",
+          "Tags": [ "Xamarin", "Emulator", "Hyper-V" ]
+        },
+        {
+          "Text": "Could not connect to the debugger ",
+          "Link": "https://forums.xamarin.com/discussion/50696/could-not-connect-to-the-debugger",
+          "Tags": [ "Xamarin", "Emulator", "Hyper-V" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-01-25",
+      "Content": [
+        {
+          "Text": "Cool Projects by Evan Wallace",
+          "Link": "http://madebyevan.com/",
+          "Tags": [ "WebGL", "C++", "Cool" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-01-10",
+      "Content": [
+        {
+          "Text": "HTTP Status Codes in ASP.NET Web API - A Guided Tour",
+          "Link": "https://www.exceptionnotfound.net/http-status-codes-in-asp-net-web-api-a-guided-tour/",
+          "Tags": [ "ASP.NET", "Web API", "http" ]
+        },
+        {
+          "Text": "Detect if Android device has Internet connection",
+          "Link": "http://stackoverflow.com/questions/6493517/detect-if-android-device-has-internet-connection",
+          "Tags": [ "Android", "Internet", "http" ]
+        },
+        {
+          "Text": "When and how to use Task.Yield?",
+          "Link": "http://stackoverflow.com/questions/22645024/when-would-i-use-task-yield",
+          "Tags": [ "C#", "Concurrent", "Nonblocking" ]
+        }
+      ]
+    },
+    {
+      "Date": "2017-01-02",
+      "Content": [
+        {
+          "Text": "How and why the leap second affected Cloudflare DNS",
+          "Link": "https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/",
+          "Tags": [ "DNS", "Internet", "Go" ]
+        },
+        {
+          "Text": "Discoid Animation",
+          "Link": "http://codepen.io/tmrDevelops/pen/ygBgVL",
+          "Tags": [ "JavaScript", "2D", "Animation" ]
+        },
+        {
+          "Text": "Goodbye 2016",
+          "Link": "http://codepen.io/elifitch/pen/qRWqpO",
+          "Tags": [ "JavaScript", "2D", "Desktop" ]
+        },
+        {
+          "Text": "WebGL Tour of the Solar System: Jupiter",
+          "Link": "http://codepen.io/dudleystorey/pen/yVmQaN",
+          "Tags": [ "JavaScript", "3D", "Animation" ]
+        },
+        {
+          "Text": "Dynamic Point Mesh Animation with HTML5 Canvas",
+          "Link": "http://codepen.io/dudleystorey/pen/NbNjjX",
+          "Tags": [ "JavaScript", "2D", "Animation" ]
+        },
+        {
+          "Text": "8086tiny - a tiny PC emulator/virtual machine",
+          "Link": "https://github.com/adriancable/8086tiny",
+          "Tags": [ "Assembly", "x86", "Emulator" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-12-22",
+      "Content": [
+        {
+          "Text": "Xamarin - Shared Preferences",
+          "Link": "https://forums.xamarin.com/discussion/4758/android-shared-preference",
+          "Tags": [ "Xamarin", "Config", "C#" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-12-15",
+      "Content": [
+        {
+          "Text": "Store a dictionary object in my web.config file",
+          "Link": "http://stackoverflow.com/questions/338242/how-do-i-store-a-dictionary-object-in-my-web-config-file",
+          "Tags": [ "ASP.NET", "Config" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-12-13",
+      "Content": [
+        {
+          "Text": "JavaScript Drum Set",
+          "Link": "http://codepen.io/shshaw/pen/gLdpGv",
+          "Tags": [ "JavaScript", "CSS", "3D" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-10-21",
+      "Content": [
+        {
+          "Text": "Automatically create and publish a NuGet package using TFS",
+          "Link": "https://technologies.live/2016/04/01/automatically-create-and-publish-a-nuget-package/",
+          "Tags": [ "C#", "TFS", "Nuget", "ALM" ]
+        }
+      ]
+    },
+
+    {
+      "Date": "2016-10-18",
+      "Content": [
+        {
+          "Text": "Best Talk about IQueryable<T> vs. IEnumerable<T>",
+          "Link": "https://www.youtube.com/watch?v=H2KkiRbDZyc",
+          "Tags": [ "C#", "Hanselman", "dotnet" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-06-02",
+      "Content": [
+        {
+          "Text": "4D Firefly Dance",
+          "Link": "http://codepen.io/jagarikin/pen/NrWXWm",
+          "Tags": [ "JavaScript", "CSS", "Animation" ]
+        },
+        {
+          "Text": "Responsive Background Image Fade on Scroll",
+          "Link": "http://codepen.io/dudleystorey/pen/RRwryd",
+          "Tags": [ "JavaScript", "CSS", "Animation" ]
+        },
+        {
+          "Text": "Ken Burns Effect fullscreen without js",
+          "Link": "http://codepen.io/ibanez182/pen/LZPgrY",
+          "Tags": [ "CSS", "Animation" ]
+        },
+        {
+          "Text": "Animation & Layers",
+          "Link": "http://codepen.io/Haru89ka/pen/ZOzMGp",
+          "Tags": [ "CSS", "Animation" ]
+        },
+        {
+          "Text": "Grain",
+          "Link": "http://codepen.io/renarsvilnis/pen/YWKRvE",
+          "Tags": [ "JavaScript", "CSS", "Animation" ]
+        },
+        {
+          "Text": "Shader Template",
+          "Link": "http://codepen.io/jhnsnc/pen/wWwprB",
+          "Tags": [ "JavaScript", "WebGL", "Animation" ]
+        },
+        {
+          "Text": "interstellar starlight",
+          "Link": "http://codepen.io/tmrDevelops/pen/oLvbYP",
+          "Tags": [ "JavaScript", "CSS", "Animation" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-03-07",
+      "Content": [
+        {
+          "Text": "Quake IO - Q3 in the browser",
+          "Link": "https://dl.dropboxusercontent.com/u/62064441/ioquake3.js/ioquake3.html",
+          "Tags": [ "JavaScript", "3D", "WebGL" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-03-07",
+      "Content": [
+        {
+          "Text": "Triangle with a twist",
+          "Link": "http://codepen.io/DonKarlssonSan/pen/YqyQgd",
+          "Tags": [ "JavaScript", "Canvas", "Animation" ]
+        },
+        {
+          "Text": "Crazy color animation",
+          "Link": "http://codepen.io/cathbailh/pen/vGNjJB",
+          "Tags": [ "JavaScript", "WebGL", "Animation" ]
+        },
+        {
+          "Text": "Curly smoke",
+          "Link": "http://codepen.io/enxaneta/pen/wGKygy",
+          "Tags": [ "JavaScript", "Canvas", "Animation" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-03-03",
+      "Content": [
+        {
+          "Text": "VS2015 - Html Editor Power!",
+          "Link": "https://youtu.be/oXi6fay_eHs?t=5m40s",
+          "Tags": [ "VisualStudio", "HTML5", "Hanselman" ]
+        },
+        {
+          "Text": "Emmet Cheat Sheet",
+          "Link": "http://docs.emmet.io/cheat-sheet/",
+          "Tags": [ "Emmet", "HTML5" ]
+        },
+        {
+          "Text": "Stack Overflow: The Architecture - 2016 Edition",
+          "Link": "http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/",
+          "Tags": [ "Server", "ASP.NET", "Stackoverflow", "Hosting" ]
+        },
+        {
+          "Text": "Docfx - documentation for .NET",
+          "Link": "http://reynders.co/docfx-helps-us-make-documentation-easier-for-net/",
+          "Tags": [ ".NET", "Documentation" ]
+        }
+
+      ]
+    },
+    {
+      "Date": "2016-03-02",
+      "Content": [
+        {
+          "Text": "Awesome Android UI Designs",
+          "Link": "https://github.com/wasabeef/awesome-android-ui",
+          "Tags": [ "Android", "UI" ]
+        },
+        {
+          "Text": "Android Material Design Activity Transitions",
+          "Link": "http://www.androiduipatterns.com/2014/09/material-design-activity-transition.html",
+          "Tags": [ "Android", "UI" ]
+        },
+        {
+          "Text": "15 beautiful App designs",
+          "Link": "http://www.creativebloq.com/app-design/beautiful-android-app-ui-designs-11121271",
+          "Tags": [ "Android", "UI" ]
+        },
+        {
+          "Text": "Awesome Android UI Designs",
+          "Link": "https://github.com/wasabeef/awesome-android-ui",
+          "Tags": [ "Android", "UI" ]
+        },
+        {
+          "Text": "20 beautiful mobile UI designs",
+          "Link": "http://theultralinx.com/2011/10/20-beautiful-mobile-ui-screenshots/ ",
+          "Tags": [ "Android", "UI" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-25",
+      "Content": [
+        {
+          "Text": "Kaleidoskop",
+          "Link": "http://codepen.io/cathbailh/pen/obKLRB",
+          "Tags": [ "2D", "Canvas", "WebGL" ]
+        },
+        {
+          "Text": "Inferno",
+          "Link": "http://codepen.io/jagarikin/pen/qZWrPR",
+          "Tags": [ "2D", "Canvas", "WebGL" ]
+        },
+        {
+          "Text": "WebGL Framebuffer",
+          "Link": "http://codepen.io/ykob/pen/NNKdLX",
+          "Tags": [ "2D", "Canvas", "WebGL" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-19",
+      "Content": [
+        {
+          "Text": "Canvas Heart Particle",
+          "Link": "http://codepen.io/enxaneta/pen/gPEGLR",
+          "Tags": [ "JavaScript", "Canvas", "Animation" ]
+        },
+        {
+          "Text": "Radial Clock",
+          "Link": "http://codepen.io/Escu/pen/wMZpQz",
+          "Tags": [ "JavaScript", "Canvas", "Animation" ]
+        },
+        {
+          "Text": "WebGL Simplex Noise - Sphere",
+          "Link": "http://codepen.io/ykob/pen/qbwLaYz",
+          "Tags": [ "JavaScript", "WebGL", "Animation" ]
+        },
+        {
+          "Text": "dragging elements with JavaScript (mouse events)",
+          "Link": "http://codepen.io/rachsmith/pen/vLMKvz",
+          "Tags": [ "JavaScript", "HTML5", "CSS" ]
+        },
+        {
+          "Text": "ditigal clock",
+          "Link": "http://codepen.io/nodoubt0322/pen/vLMxjo",
+          "Tags": [ "JavaScript", "WebGL", "Animation" ]
+        },
+        {
+          "Text": "Fried Chicken Simulator",
+          "Link": "http://codepen.io/austinmayer/pen/MKRwgX",
+          "Tags": [ "JavaScript", "WebGL", "3D" ]
+        },
+        {
+          "Text": "Simplex Noise Flow 2D",
+          "Link": "http://codepen.io/browles/pen/eJXroP",
+          "Tags": [ "JavaScript", "WebGL", "Animation" ]
+        },
+        {
+          "Text": "Wavescroll (drag background)",
+          "Link": "http://codepen.io/suez/pen/wMOVXz",
+          "Tags": [ "JavaScript", "WebGL", "Animation", "Scrolleffect" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-17",
+      "Content": [
+        {
+          "Text": "The Differences Between Rijndael and AES",
+          "Link": "http://blogs.msdn.com/b/shawnfa/archive/2006/10/09/the-differences-between-rijndael-and-aes.aspx",
+          "Tags": [ "Encryption", "Rijndael", "AES" ]
+        },
+        {
+          "Text": "Was mir das Lernen von 11 Fremdsprachen beigebracht hat",
+          "Link": "https://de.babbel.com/de/magazine/lektionen-von-11-fremdsprachen",
+          "Tags": [ "LAnguages", "Learning" ]
+        },
+        {
+          "Text": "Dieser kleine Glaspuck speichert 360 Terabyte Daten",
+          "Link": "http://t3n.de/news/glaspuck-360-terabyte-daten-680693/",
+          "Tags": [ "Storage", "Technology" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-16",
+      "Content": [
+        {
+          "Text": "The Hash Function Lounge",
+          "Link": "http://www.larc.usp.br/~pbarreto/hflounge.html",
+          "Tags": [ "Encryption", "Hash" ]
+        },
+        {
+          "Text": "The Whirlpool Hash Function",
+          "Link": "http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html",
+          "Tags": [ "Encryption", "Hash", "Whirlpool" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-15",
+      "Content": [
+        {
+          "Text": "Why do so many people seem to hate JavaScript?",
+          "Link": "https://www.quora.com/Why-do-so-many-people-seem-to-hate-JavaScript",
+          "Tags": [ "JavaScript" ]
+        },
+        {
+          "Text": "FIX: W550s - horrible performance",
+          "Link": "https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/W550s-horrible-performance/td-p/2125957",
+          "Tags": [ "Thinkpad", "Performance" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-11",
+      "Content": [
+        {
+          "Text": "OS.js",
+          "Link": "https://osjsv2.0o.no/",
+          "Tags": [ "OS", "JavaScript", "Web" ]
+        },
+        {
+          "Text": "Markdown with VS Code",
+          "Link": "https://code.visualstudio.com/Docs/languages/markdown",
+          "Tags": [ "VSCode", "Markdown" ]
+        },
+        {
+          "Text": "neon hexagon-forming particles",
+          "Link": "http://codepen.io/towc/pen/mJzOWJ/",
+          "Tags": [ "Animation", "JavaScript", "Canvas" ]
+        }
+      ]
+    },
+    {
+      "Date": "2016-02-10",
+      "Content": [
+        {
+          "Text": "Streich einfach diese 2 Wörter aus deinem Vokabular und du bist erfolgreicher – sagt ein Stanford-Professor",
+          "Link": "http://t3n.de/news/woerter-erfolgreicher-stanford-678079/ ",
+          "Tags": [ "t3n", "Thinking" ]
+        },
+        {
+          "Text": "Tooltips CSS only",
+          "Link": "https://github.com/chinchang/hint.css",
+          "Tags": [ "CSS", "Tooltip" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-10-02",
+      "Content": [
+        {
+          "Text": "ASP.NET Wire Format for Model Bindung",
+          "Link": "http://www.hanselman.com/blog/ASPNETWireFormatForModelBindingToArraysListsCollectionsDictionaries.aspx",
+          "Tags": [ "ASP.NET", "MVC", "Models" ]
+        },
+        {
+          "Text": "Fractal Tree",
+          "Link": "http://chrisma1.github.io/FractalTree/",
+          "Tags": [ "Fractals", "JavaScript", "2D" ]
+        },
+        {
+          "Text": "Fractal Tree Source",
+          "Link": "https://github.com/APCSLowell/FractalTree",
+          "Tags": [ "Fractals", "JavaScript", "2D" ]
+        },
+        {
+          "Text": "RIMRAF - delete very long directory names",
+          "Link": "http://superuser.com/questions/78434/how-to-delete-directories-with-path-names-too-long-for-normal-delete",
+          "Tags": [ "Tools", "NPM" ]
+        },
+        {
+          "Text": "GPU Wireframe Canvas",
+          "Link": "http://mattatz.github.io/GPUFluidWireframe/",
+          "Tags": [ "Canvas", "Chrome Experiment", "2D" ]
+        },
+        {
+          "Text": "NOGS IoT Hardware",
+          "Link": "http://www.heise.de/make/meldung/Nogs-IoT-Board-bei-Watterott-2781381.html",
+          "Tags": [ "IoT" ]
+        },
+        {
+          "Text": "How to debug silent crashes?",
+          "Link": "http://blog.functionalfun.net/2013/05/how-to-debug-silent-crashes-in-net.html",
+          "Tags": [ ".NET", "Debug" ]
+        },
+        {
+          "Text": "Runtime Flow RT Monitor",
+          "Link": "https://vlasovstudio.com/runtime-flow/index.html",
+          "Tags": [ ".NET", "Debug" ]
+        },
+        {
+          "Text": "Create Process Dump (How to debug a program when it crashes w/out exception?)",
+          "Link": "http://stackoverflow.com/questions/3792456/how-to-debug-a-program-when-it-crashes-w-out-exception",
+          "Tags": [ ".NET", "Debug", "Dump", "Crashdump" ]
+        },
+        {
+          "Text": "Steven Hawking Speech Synth (Assistive Context-Aware Toolkit)",
+          "Link": "http://www.golem.de/news/intel-stephen-hawkings-sprachsynthese-software-ist-open-source-1508-115857.html",
+          "Tags": [ "ACAT", "Intel", "OpenSource", ".NET" ]
+        },
+        {
+          "Text": "LCD for RaspberryPi2 with Win10 IoT",
+          "Link": "https://www.hackster.io/jtlns/adafruit-5-lcd-on-windows-10-iot-core",
+          "Tags": [ "Win10", "Iot", "LCD", "Touch", "RaspberryPi2" ]
+        },
+        {
+          "Text": "Blur effect with D3",
+          "Link": "http://tributary.io/inlet/5584636",
+          "Tags": [ "JavaScript", "Effect", "D3.JS" ]
+        },
+        {
+          "Text": "Fuse.js - Fuzzy Text Search",
+          "Link": "http://kiro.me/projects/fuse.html",
+          "Tags": [ "JavaScript", "FuzzyLogic", "Textsearch" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-08-16",
+      "Content": [
+        {
+          "Text": "Neon Bubbles",
+          "Link": "http://codepen.io/giana/pen/LVvaNQ",
+          "Tags": [ "Animation", "2D" ]
+        },
+        {
+          "Text": "Particle System Animation",
+          "Link": "http://codepen.io/carmination/pen/vOMrxJ",
+          "Tags": [ "Animation", "2D", "Particle" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-08-07",
+      "Content": [
+        {
+          "Text": "Unity C# Tutorial",
+          "Link": "http://catlikecoding.com/unity/tutorials/",
+          "Tags": [ "C#", "3D", "Unity" ]
+        },
+        {
+          "Text": "Swagger - API Framework",
+          "Link": "http://swagger.io/",
+          "Tags": [ "API", "REST" ]
+        },
+        {
+          "Text": "Darwin Tunes",
+          "Link": "http://soundcloud.com/uncoolbob/",
+          "Tags": [ "Music", "Algorithms" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-07-17",
+      "Content": [
+        {
+          "Text": "Running ASP.NET 5 on Linux",
+          "Link": "https://vimeo.com/131631887",
+          "Tags": [ "ASP.NET", "Linux" ]
+        },
+        {
+          "Text": "14 JavaScript / jquery-plugins for nice effects",
+          "Link": "http://t3n.de/news/javascript-funktionen-jquery-plugins-455543/",
+          "Tags": [ "jQuery", "t3n", "JavaScript" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-14",
+      "Content": [
+        {
+          "Text": "HTML 5 Canvas Circle Tutorial",
+          "Link": "http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/",
+          "Tags": [ "HTML5", "Canvas", "2D" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-13",
+      "Content": [
+        {
+          "Text": "Oclouds CSS Animation",
+          "Link": "http://codepen.io/cathbailh/pen/MwKder",
+          "Tags": [ "CSS", "Animation", "JavaScript" ]
+        },
+        {
+          "Text": "Rainbow Loader CSS Animation",
+          "Link": "http://codepen.io/jackrugile/pen/JddmaX",
+          "Tags": [ "CSS", "Animation" ]
+        },
+        {
+          "Text": "Samsung Artik Boards",
+          "Link": "http://t3n.de/news/samsung-artik-arduino-610428/",
+          "Tags": [ "Embedded" ]
+        },
+        {
+          "Text": "Tunnel Effect",
+          "Link": "http://codepen.io/Mombasa/pen/BJflK",
+          "Tags": [ "3D", "Animation", "ThreeJS" ]
+        },
+        {
+          "Text": "Electric Lines Effect",
+          "Link": "http://codepen.io/natewiley/pen/dPmXyW",
+          "Tags": [ "2D", "Animation", "Canvas" ]
+        },
+        {
+          "Text": "Fractal Tree",
+          "Link": "http://codepen.io/pixelass/pen/rVxQdV",
+          "Tags": [ "CSS", "HTML" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-12",
+      "Content": [
+        {
+          "Text": "BUILD 2015 ASP.NET 5 Training Videos - Introduction and Deep Dive",
+          "Link": "http://www.hanselman.com/blog/BUILD2015ASPNET5TrainingVideosIntroductionAndDeepDive.aspx",
+          "Tags": [ "ASP.NET", "VS2015" ]
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-04",
+      "Content": [
+        {
+          "Text": "I don't know c",
+          "Link": "http://kukuruku.co/hub/programming/i-do-not-know-c"
+        },
+        {
+          "Text": "Julia Set",
+          "Link": "http://kukuruku.co/hub/algorithms/julia-set"
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-03",
+      "Content": [
+        {
+          "Text": "Visual Studio CODE",
+          "Link": "https://code.visualstudio.com/"
+        },
+        {
+          "Text": "WebGL human skin demo",
+          "Link": "http://alteredqualia.com/three/examples/webgl_materials_skin.html"
+        },
+        {
+          "Text": "OnPropertyChanged -> .NET 4.5 Version",
+          "Link": "http://danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/"
+        },
+        {
+          "Text": "Conversion of .NET unsigned integral types",
+          "Link": "https://msdn.microsoft.com/de-de/library/e9s326kw.aspx"
+        },
+        {
+          "Text": "Nice discussion of .NET string vs. String",
+          "Link": "http://stackoverflow.com/questions/7074/whats-the-difference-between-string-and-string?rq=1"
+        },
+        {
+          "Text": "Very cool plasma wall made with 'neopixels'",
+          "Link": "http://solderlab.de/index.php/led-projects/modular-plasma-wall"
+        },
+        {
+          "Text": "Selfhosting ASP.NET Web API",
+          "Link": "http://www.dotnetcurry.com/showarticle.aspx?ID=896"
+        },
+        {
+          "Text": "very nice Git guide",
+          "Link": "http://rogerdudler.github.io/git-guide/index.de.html"
+        },
+        {
+          "Text": "Use material design with AngularJS",
+          "Link": "https://material.angularjs.org/"
+        },
+        {
+          "Text": "ASP.NET on a Raspberry Pi",
+          "Link": "http://j.tlns.be/2014/11/running-asp-net-on-a-raspberry-pi-with-mono-and-owin/"
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-03",
+      "Content": [
+        {
+          "Text": "famo.us - a very cool UI framework combinable with AngularJS",
+          "Link": "http://famo.us"
+        }
+      ]
+    },
+    {
+      "Date": "2015-05-03",
+      "Content": [
+        {
+          "Text": "Entiers are stored as local JSON file now",
+          "Link": "http://www.christianschmidt.info"
+        },
+        {
+          "Text": "Today I'll add some more links from my local browser bookmarks. Have fun :)",
+          "Link": "http://www.christianschmidt.info"
+        }
+      ]
+    },
+    {
+      "Date": "2015-04-30",
+      "Content": [
+        {
+          "Text": "Using 'nolock' in TSQL Queries",
+          "Link": "http://www.izenda.com/blog/high-performance-sql-views-using-withnolock/"
+        },
+        {
+          "Text": "Hint for clearing Sql Connection Pools",
+          "Link": "http://geekswithblogs.net/abhijeetp/archive/2009/04/03/entity-framework-object-context---awaiting-command.aspx%22"
+        },
+        {
+          "Text": "Why use 'Dispose(false)' in a C# Destruktor",
+          "Link": "http://stackoverflow.com/questions/628752/why-call-disposefalse-in-the-destructor"
+        }
+      ]
+    },
+    {
+      "Date": "2015-04-29",
+      "Content": [
+        {
+          "Text": "ChrisSchmis interesting link collection!",
+          "Link": "http://www.christianschmidt.info"
+        }
+      ]
+    }
+  ]
 }
