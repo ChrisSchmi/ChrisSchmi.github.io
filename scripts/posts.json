@@ -1,6 +1,25 @@
 {
     "entries": [
         {
+            "Date": "2022-07-19",
+            "Title": "",
+            "Content":
+                [
+                    { "Text": "C# Getting the max value of an enum", "Link": "https://stackoverflow.com/questions/203377/getting-the-max-value-of-an-enum", "Tags":[ "C#", ".NET", "Enums" ]},
+                    { "Text": "What hacking AOL taught a generation of programmers", "Link": "https://github.com/readme/featured/aol-programming-culture", "Tags":[ "AOL", "Hacking", "BASIC " ]},
+                    { "Text": "Upgrade an ASP.NET MVC app to .NET 6 with the .NET Upgrade Assistant", "Link": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-aspnetmvc", "Tags":[ ".NET", "asp.net", "MVC" , "dotnet" ]},
+                    { "Text": "How to write custom actionResult in asp.net core", "Link": "https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core", "Tags": [ ".NET", "asp.net", "MVC" , "dotnet", "netcore", "dotnetcore"  ]},
+                    { "Text": "Google Local Inventory Ads: So bewirbst du online deine stationären Produkte", "Link": "https://t3n.de/news/google-local-inventory-ads-983466/", "Tags":[ "Marketing", "Google", "Ads", "Local Inventory" ]},
+                    { "Text": "Application Insights for .NET Apps", "Link": "https://github.com/microsoft/ApplicationInsights-dotnet/", "Tags":[ ".NET", "asp.net", "MVC" , "dotnet", "netcore", "dotnetcore", "Telemetry" ]},
+                    { "Text": "Google Data Studio", "Link": "https://datastudio.google.com/", "Tags":[ "Google", "Data Studio", "Data", "BI", "Businessintelligence", "Reports", "Reporting" ]},
+                    { "Text": "How can I list ALL DNS records?", "Link": "https://stackoverflow.com/questions/19322962/how-can-i-list-all-dns-records", "Tags":[ "DNS", "dig", "Linux", "nslookup"]},
+                    { "Text": "Microcharts: Elegant Cross-Platform Charts for Every App", "Link": "https://devblogs.microsoft.com/xamarin/microcharts-elegant-cross-platform-charts-for-any-app/", "Tags":[ "Xamarin", "Xplatform", "App", "Charts", "Charting", "Crossplatform", "Visualization" ]},
+                    { "Text": "C# Design Patterns", "Link": "https://www.dofactory.com/net/builder-design-pattern", "Tags":[ "C#", "Architecture", "Pattern", "Patterns", "Design", ""]},
+                    { "Text": "Hidden C# Keywords", "Link": "https://www.reddit.com/r/csharp/comments/6k8j1g/anyone_ever_used_any_of_the_hidden_c_keywords/", "Tags":[ "C#", "dotnet", ".net", "csharp", "IL" ]},
+                    { "Text": "Generating random Modern Houses", "Link": "https://www.reddit.com/r/csharp/comments/v2osjd/generating_random_modern_houses_an_example_from/", "Tags":[ "Markov", "MarkovJunior", "C#", "Algorithm" ]},
+                ]
+        },         
+        {
             "Date": "2022-06-12",
             "Title": "",
             "Content":
