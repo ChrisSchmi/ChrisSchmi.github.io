@@ -133,10 +133,15 @@
         <p>Sorry - no search results</p>
       </div>
 
-      <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="p in posts.entries" v-cloak>
-        <post-entry :post="p"></post-entry>
-      </div>
-      
+      <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="post in posts.entries" v-cloak>
+        <h4>{{ post.Date }}</h4>
+        <h5 v-if="(post.Title != null)">{{ post. Title }}</h5>
+        <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
+        <span class="badge bg-secondary rightspace" v-for="t in c.Tags">
+          <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
+        </span>
+        </p>
+      </div>	
     </div>
 
     <!-- /container -->
@@ -152,158 +157,12 @@
   <!-- Scripts section -->
   
   <!-- external scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/vue@3.2.37/dist/vue.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  
-  <!-- Template for Blog Post Entry -->
-  <script type=text/html" id="postEntry">
-    <div>
-        <h4>{{ post.Date }}</h4>
-        <h5 v-if="(post.Title != null)">{{ post.Title }}</h5>
-        <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
-          <span class="badge bg-secondary rightspace" v-for="t in c.Tags">
-            <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
-          </span>
-        </p>
-	</div>
-  </script>
-
-
-
-  <script>
-    const { createApp } = Vue;
-
-    const postEntry = {
-      template: '#postEntry',
-      props: {
-        post: Object, 
-      }
-    };
-    
-        // https://coderwall.com/p/nilaba/simple-pure-javascript-array-unique-method-with-5-lines-of-code
-    Array.prototype.unique = function() {
-      return this.filter(function (value, index, self) { 
-        return self.indexOf(value) === index;
-      });
-    }
-
-    function clearlocalcache()
-    {
-      console.log("Clearing cache...");
-      caches.keys().then(function(names) {
-          for (let name of names)
-          {
-              caches.delete(name);
-          }
-      });
-      window.location.reload();
-    }
-
-  const app = createApp({
-      components: {
-          'post-entry': postEntry
-      },
-      data() {
-          return {
-              search: '',
-              loading: false,
-              allPosts: [],
-              posts: [],
-              searchphrase: '',
-              hasSearchResults: true
-          }
-      },
-      methods: 
-      {
-        filteredList: function() {
-          var self = this;
-
-            if(self.searchphrase == '')
-            {
-              console.log('searchphrase empty');
-              self.posts = self.allPosts;
-              self.hasSearchResults = true;
-              return;
-            }
-
-            console.log('searching for: ' + self.searchphrase);
-
-            var filtered = [];
-
-            self.allPosts.entries.forEach(entry =>
-            {
-              entry.Content.forEach( c =>
-              {
-                if(typeof c.Tags !== 'undefined')
-                {
-                  c.Tags.forEach( t =>
-                  {
-                    if(t.toLowerCase() == self.searchphrase.toLowerCase())
-                    {
-                      filtered.push(entry);
-                    }
-                  })
-                }
-              })
-            });
-
-            self.hasSearchResults = filtered.length > 0;
-            self.posts = new Object();
-            self.posts.entries = filtered.unique();
-
-        },
-        setsearch: function (phrase)
-        {
-          var self = this;
-          self.searchphrase = phrase;
-          self.filteredList();
-        },
-        clearsearch: function ()
-        {
-          var self = this;
-          self.searchphrase = '';
-          self.filteredList();
-        }
-      },
-      mounted: async function()
-      {
-        var self = this;
-        self.loading = true;
-        var link = 'https://chrisschmi.github.io/scripts/posts.json';
-
-
-          fetch(link)
-            .then(async response => {
-              const data = await response.json();
-
-              // check for error response
-              if (!response.ok) {
-                console.log('oh oh ...');
-                // get error message from body or default to response statusText
-                const error = (data && data.message) || response.statusText;
-                return Promise.reject(error);
-              }
-              
-              self.allPosts = data;
-              self.posts = data;
-              self.loading = false;
-            })
-            .catch(error => {
-              self.allPosts = [];
-              self.posts = [];
-              self.loading = false;
-              console.error("There was an error!", error);
-            });
-      }
-    });
-
-    app.mount('#app');
-
-  </script>
-
-
+  <script src="scripts/posts.js"></script>
   <script>
     // register service worker
     if ('serviceWorker' in navigator)
