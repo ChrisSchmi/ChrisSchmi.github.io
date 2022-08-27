@@ -162,7 +162,7 @@
     <div>
         <h4>{{ post.Date }}</h4>
         <h5 v-if="(post.Title != null)">{{ post.Title }}</h5>
-        <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>
+        <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>&nbsp;
           <span class="badge bg-secondary rightspace" v-for="t in c.Tags">
             <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
           </span>
