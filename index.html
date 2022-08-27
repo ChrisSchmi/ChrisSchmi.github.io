@@ -134,7 +134,7 @@
       </div>
 
       <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="p in posts.entries" v-cloak>
-        <post-entry :post="p"></post-entry>
+        <post-entry :post="p" :searchHandler="setsearch"></post-entry>
       </div>
       
     </div>
@@ -164,7 +164,7 @@
         <h5 v-if="(post.Title != null)">{{ post.Title }}</h5>
         <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>&nbsp;
           <span class="badge bg-secondary rightspace" v-for="t in c.Tags">
-            <a class="badgelink" v-on:click="setsearch(t);">{{ t }}</a>
+            <a class="badgelink" @click="searchHandler(t);">{{ t }}</a>
           </span>
         </p>
 	</div>
@@ -178,7 +178,13 @@
     const postEntry = {
       template: '#postEntry',
       props: {
-        post: Object, 
+        post: Object
+      },
+      methods: {
+        searchHandler: function(data)
+        {
+          this.$root.setsearch(data);
+        }
       }
     };
     
