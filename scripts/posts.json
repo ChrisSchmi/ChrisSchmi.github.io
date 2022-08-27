@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "Date": "2022-07-27",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "How to call methods in App.vue from the vue components",
+          "Link": "https://stackoverflow.com/questions/43292810/how-to-call-methods-in-app-vue-from-the-vue-components",
+          "Tags": [ "Vue", "VueJs", "Javascript", "Web" ]
+        }
+      ]
+    },
+    {
       "Date": "2022-07-19",
       "Title": "",
       "Content": [
