@@ -1,6 +1,27 @@
 {
   "entries": [
     {
+      "Date": "2022-09-06",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "MandelBulb 3D Fractal (Coding Challenge 168)",
+          "Link": "https://www.youtube.com/watch?v=NJCiUVGiNyA",
+          "Tags": [ "3D", "Fractal", "Fractals", "Math" ]
+        },
+        {
+          "Text": "Inigo Quilez - 2D / 3D Tutorials",
+          "Link": "https://iquilezles.org/",
+          "Tags": [ "3D", "2D", "Tutorials", "Math" ]
+        },
+        {
+          "Text": "My Face is Made of Text (Coding Challenge 166)",
+          "Link": "https://www.youtube.com/watch?v=55iwMYv8tGI",
+          "Tags": [ "JavaScript", "JS", "ASCII", "Asciiart", "p5.js" ]
+        }
+      ]
+    },
+    {
       "Date": "2022-08-27",
       "Title": "",
       "Content": [
