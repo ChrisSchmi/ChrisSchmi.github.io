@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "Date": "2022-09-12",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "HTML <input> pattern Attribute",
+          "Link": "https://www.w3schools.com/tags/att_input_pattern.asp",
+          "Tags": [ "HTML5", "Input", "Pattern", "Tag", "HTML" ]
+        }
+      ]
+    },
+    {
       "Date": "2022-09-06",
       "Title": "",
       "Content": [
