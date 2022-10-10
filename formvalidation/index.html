@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native HTML Form Validation + some Vue 😎</title>
+</head>
+<body>
+    
+<div id="app">
+    <form id="myForm">
+        <div>
+            <label for="email">E-Mail: </label>
+            <input type="text" id="email" required aria-describedby="email-error" />
+            <p>
+                <span id="email-error"></span> 
+            </p>
+        </div>
+        <div>
+            <label for="password"> Password: </label>
+            <input type="text" id="password" required aria-describedby="password-error"/>
+            <p>
+                <span id="password-error"></span>
+            </p>
+        </div>
+        <div>
+            <button @click="submitForm()">Send Request</button>
+        </div>
+    </form>
+
+    <blockquote>
+        Inspired by 
+        <a href="https://www.falldowngoboone.com/blog/native-form-validation-with-javascript/" target="_blank">this</a>
+        Blog Article "Native form validation with JavaScript"
+        and 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reportValidity" target="_blank">that</a> "HTMLFormElement.reportValidity()"
+        
+    </blockquote>
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script>
+    const { createApp } = Vue
+
+    const app = createApp({
+    data()
+    {
+        return {
+
+        }
+    },
+    methods: 
+    {
+        submitForm: function()
+        {
+            event.preventDefault();
+            var self = this;
+            const form =  document.getElementById('myForm');
+            const isValid = self.validateForm(form);
+            
+            if(isValid)
+            {
+                var css = "font-size:1.5em; color: #00ff00;";
+                console.log("%c%s", css, 'yeeah');
+            }
+            else
+            {
+                var css = "font-size:1.5em; color: #ff0000;";
+                console.log("%c%s", css, 'invalid');
+            }
+
+        },
+        validateForm: function(form)
+        {
+            var self = this;
+            var formToValidate = form;
+
+            if(!form)
+            {
+                return;
+            }
+
+            for (const field of formToValidate.elements)
+            {
+                if(field.hasAttribute("aria-describedby") == false)
+                {
+                    continue;
+                }
+
+                field.addEventListener("invalid", function handleInvalidField(event)
+                {
+                    self.errorContainer(field).textContent = field.validationMessage; 
+                    field.setAttribute("aria-invalid", "true");
+                    event.preventDefault(); //  prevents default validation errors
+                });
+
+                field.addEventListener("input", function handleFieldInput(event)
+                {
+                    if (!field.validity.valid)
+                    {
+                        self.errorContainer(field).textContent = field.validationMessage; 
+                        field.setAttribute("aria-invalid", "true");
+                    }
+                    else
+                    {
+                        self.errorContainer(field).textContent = ""; 
+                        field.removeAttribute("aria-invalid");
+                    }
+                });
+            }
+
+            return form.reportValidity();
+        },
+        errorContainer: function(field)
+        {
+            const errorContainerId = field
+                .getAttribute("aria-describedby")
+                .split(" ")
+                .find((id) => id.includes("error"));
+
+            return document.getElementById(errorContainerId);
+        }
+    }
+    });
+
+    app.mount('#app');
+</script>
+
+
+</body>
+</html>
