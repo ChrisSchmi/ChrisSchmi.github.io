@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "Date": "2022-19-10",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "HTMLFormElement.reportValidity()",
+          "Link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reportValidity",
+          "Tags": [ "HTML5", "Input", "Validation", "HTML" ]
+        },
+        {
+          "Text": "Native form validation with JavaScript",
+          "Link": "https://www.falldowngoboone.com/blog/native-form-validation-with-javascript/",
+          "Tags": [ "HTML5", "Input", "Validation",  "HTML", "native", "JavaScript", "Java Script" ]
+        }
+      ]
+    },
+    {
       "Date": "2022-09-12",
       "Title": "",
       "Content": [
