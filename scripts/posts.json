@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "Date": "2022-11-11",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Share controllers with Application Parts from another assembly in .Net Core",
+          "Link": "https://prasad-patil.medium.com/share-controllers-with-application-parts-from-another-assembly-in-net-core-1a3af2e7381d",
+          "Tags": [ "MVC", "dotnet", ".net", "netcore", "assembly", "parts" ]
+        },
+        {
+          "Text": ".NET 7 is Available Today",
+          "Link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7",
+          "Tags": [ "net7", "dotnet", ".net", "MAUI"  ]
+        },
+        {
+          "Text": "Spotify Engineering Culture",
+          "Link": "https://www.youtube.com/watch?v=Yvfz4HGtoPc",
+          "Tags": [ "Engineering", "Culture", "Team", "Teamwork" ]
+        },
+        {
+          "Text": "What is 'engineering for software?' ",
+          "Link": "https://github.com/readme/guides/engineering-for-software",
+          "Tags": [ "Engineering", "Culture" ]
+        },
+        {
+          "Text": "FFT - The Algorithm That Transformed The World",
+          "Link": "https://www.youtube.com/watch?v=nmgFG7PUHfo",
+          "Tags": [ "FFT", "Fourier", "Algorithm", "FourierTransformation" ]
+        },
+        {
+          "Text": "CQRS Doesn't Have To Be Complicated ",
+          "Link": "https://www.youtube.com/watch?v=vdi-p9StmG0",
+          "Tags": [ "net6", "dotnet", ".net", "CQRS", "Pattern"  ]
+        },
+        {
+          "Text": "Aspect Oriented Programming In C# Using DispatchProxy",
+          "Link": "https://www.c-sharpcorner.com/article/aspect-oriented-programming-in-c-sharp-using-dispatchproxy/",
+          "Tags": [ "net", "dotnet", ".net", "AOP", "Pattern"  ]
+        },
+        {
+          "Text": "Microservices Guide",
+          "Link": "https://martinfowler.com/microservices/",
+          "Tags": [ "fowler", "pattern", "softwarearchitecture", "architecture", "Pattern"  ]
+        },       
+        {
+          "Text": "Was ist Infrastruktur als Code (IaC)?",
+          "Link": "https://learn.microsoft.com/de-de/devops/deliver/what-is-infrastructure-as-code",
+          "Tags": [ "IaC", "pattern", "softwarearchitecture", "architecture", "Pattern"  ]
+        }  
+        
+      ]
+    },    
+    {
       "Date": "2022-19-10",
       "Title": "",
       "Content": [
