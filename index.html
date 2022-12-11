@@ -57,7 +57,7 @@
 
  </head>
 <body>
-  <main>
+  
   <!-- <div class="line" id="scrollIndicator"></div> -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
@@ -115,7 +115,7 @@
       </div>
     </nav>
 
-    <section>
+    <main>
     <div class="container" id="app">
     <div>
       <div class="input-group mb-3">
@@ -128,7 +128,7 @@
         </div>
       </div>
     </div>
-  </section>
+  
 
       <p v-if="loading">Loading...</p>
 
@@ -138,15 +138,16 @@
 
       <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="p in posts.entries" v-cloak>
         <!-- <post-entry :post="p" :searchHandler="setsearch"></post-entry> -->
-        <post-entry :post="p" @set-search="setsearch"></post-entry>
-
+        <section>
+          <post-entry :post="p" @set-search="setsearch"></post-entry>
+        </section>
       </div>
       
     </div>
 
     <!-- /container -->
-  </main>
-
+   </main>
+    
     <footer class="footer mt-auto py-3 bg-dark position-relative bottom">
       <div class="container mt-auto">
         <a href="dataprotection.html" target="_blank">Dataprotection</a>
@@ -285,8 +286,10 @@
       {
         console.log('load data... ... ...');
         var self = this;
-        self.loading = true;
+            self.loading = true;
         var link = 'https://chrisschmi.github.io/scripts/posts.json';
+
+        link = './scripts/posts.json';
 
 
           fetch(link)
@@ -301,6 +304,8 @@
                 return Promise.reject(error);
               }
               
+              console.log(data);
+
               self.allPosts = data;
               self.posts = data;
               self.loading = false;
