@@ -48,8 +48,7 @@
           "Text": "Was ist Infrastruktur als Code (IaC)?",
           "Link": "https://learn.microsoft.com/de-de/devops/deliver/what-is-infrastructure-as-code",
           "Tags": [ "IaC", "pattern", "softwarearchitecture", "architecture", "Pattern"  ]
-        }  
-        
+        }          
       ]
     },    
     {
