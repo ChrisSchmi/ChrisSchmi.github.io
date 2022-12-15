@@ -284,43 +284,36 @@
       },
       mounted: async function()
       {
-        console.log('load data... ... ...');
         var self = this;
             self.loading = true;
-        var link = 'https://chrisschmi.github.io/scripts/posts.json';
+        var link = './scripts/posts.json';
 
-        link = './scripts/posts.json';
+          await fetch(link)
+                .then(async response => {
+                  const data = await response.json();
 
+                  // check for error response
+                  if (!response.ok) {
+                    console.log('oh oh ...');
+                    // get error message from body or default to response statusText
+                    const error = (data && data.message) || response.statusText;
+                    return Promise.reject(error);
+                  }
 
-          fetch(link)
-            .then(async response => {
-              const data = await response.json();
-
-              // check for error response
-              if (!response.ok) {
-                console.log('oh oh ...');
-                // get error message from body or default to response statusText
-                const error = (data && data.message) || response.statusText;
-                return Promise.reject(error);
-              }
-              
-              console.log(data);
-
-              self.allPosts = data;
-              self.posts = data;
-              self.loading = false;
-            })
-            .catch(error => {
-              self.allPosts = [];
-              self.posts = [];
-              self.loading = false;
-              console.error("There was an error!", error);
-            });
+                  self.allPosts = data;
+                  self.posts = data;
+                  self.loading = false;
+                })
+                .catch(error => {
+                  self.allPosts = [];
+                  self.posts = [];
+                  self.loading = false;
+                  console.error("There was an error!", error);
+                });
       }
     });
 
     app.mount('#app');
-
   </script>
 
 
