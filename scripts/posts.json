@@ -28,7 +28,12 @@
           "Text": "dotnet-trace",
           "Link": "https://learn.microsoft.com/de-de/dotnet/core/diagnostics/dotnet-trace",
           "Tags": [ "net", "dotnet", ".net", "c#", "csharp"  ]
-        }   
+        },
+        {
+          "Text": "Rosenkohl aus dem Backofen",
+          "Link": "https://www.kochbar.de/rezept/449844/Rosenkohl-aus-dem-Backofen.html",
+          "Tags": [ "food", "veggie", "rosenkohl", "honig" ]
+        }        
       ]
     },  
     {
@@ -623,7 +628,7 @@
         {
           "Text": "Why Event Sourced Systems Fail",
           "Link": "https://www.youtube.com/watch?v=FKFu78ZEIi8",
-          "Tags": [ "Versioning", "Evetntsourcing", "Evetnt Sourcing", "Architecture", "Pattern" ]
+          "Tags": [ "Versioning", "Eventsourcing", "Event Sourcing", "Architecture", "Pattern" ]
         },
         {
           "Text": "Song Sim",
