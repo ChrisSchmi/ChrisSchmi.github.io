@@ -1,6 +1,37 @@
 {
   "entries": [
     {
+      "Date": "2023-01-14",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Chris Titus Tech's Windows Utility",
+          "Link": "https://github.com/ChrisTitusTech/winutil",
+          "Tags": [ "windows", "tool", "automation", "winget", "chocolatey" ]
+        },
+        {
+          "Text": "C# Init Only Setters",
+          "Link": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/init",
+          "Tags": [ "net", "dotnet", ".net", "c#", "csharp"  ]
+        },
+        {
+          "Text": "Keyless Entity Types",
+          "Link": "https://learn.microsoft.com/en-us/ef/core/modeling/keyless-entity-types?tabs=data-annotations",
+          "Tags": [ "net", "dotnet", ".net", "c#", "csharp"  ]
+        },
+        {
+          "Text": "Chrome Bluetooth internals",
+          "Link": "chrome://bluetooth-internals/#adapter",
+          "Tags": [ "debug", "bluetooth", "ble", "chrome"  ]
+        },
+        {
+          "Text": "dotnet-trace",
+          "Link": "https://learn.microsoft.com/de-de/dotnet/core/diagnostics/dotnet-trace",
+          "Tags": [ "net", "dotnet", ".net", "c#", "csharp"  ]
+        }   
+      ]
+    },  
+    {
       "Date": "2022-12-11",
       "Title": "",
       "Content": [
