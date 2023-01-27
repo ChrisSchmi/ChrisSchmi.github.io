@@ -13,7 +13,12 @@
           "Text": "Live Coding Greek Temple",
           "Link": "https://www.youtube.com/watch?v=-pdSjBPH3zM",
           "Tags": [ "shader", "webgl", "shadertoy", "3d", "GLSL" ]
-        }      
+        },
+        {
+          "Text": "Don't Use AutoMapper in C#! Do THIS Instead!",
+          "Link": "https://www.youtube.com/watch?v=-3BGBfvoUJM",
+          "Tags": [ "net", "dotnet", ".net", "c#", "csharp", "mapping", "automapper"  ]
+        }        
       ]
     },  
     {
