@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "Date": "2023-01-27",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Granola selber machen / Müsli",
+          "Link": "https://www.youtube.com/watch?v=LhxPlxvAzck",
+          "Tags": [ "food", "breakfast", "müsli", "muesli", "granola", "früstück", "rezept" ]
+        },
+        {
+          "Text": "Live Coding Greek Temple",
+          "Link": "https://www.youtube.com/watch?v=-pdSjBPH3zM",
+          "Tags": [ "shader", "webgl", "shadertoy", "3d", "GLSL" ]
+        }      
+      ]
+    },  
+    {
       "Date": "2023-01-14",
       "Title": "",
       "Content": [
