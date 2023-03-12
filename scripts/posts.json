@@ -1,6 +1,37 @@
 {
   "entries": [
     {
+      "Date": "2023-03-12",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Resolving instances with ASP.NET Core DI from within ConfigureServices",
+          "Link": "https://stackoverflow.com/questions/32459670/resolving-instances-with-asp-net-core-di-from-within-configureservices",
+          "Tags": [ "net", "dotnet", ".net", "c#", "csharp" , "DI", "services", "dependencies" ]
+        },
+        {
+          "Text": "ILogger Interface",
+          "Link": "https://learn.microsoft.com/de-de/dotnet/api/microsoft.extensions.logging.ilogger",
+          "Tags": [ "net", "dotnet", ".net", "c#", "csharp" , "log", "logger", "logging" ]
+        },
+        {
+          "Text": "Clean Micro-service Architecture",
+          "Link": "https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html",
+          "Tags": [ "clean", "code", "architecture", "cleancode", "microservice", "microservices" ]
+        },
+        {
+          "Text": "How C returns a struct from a function",
+          "Link": "https://www.uninformativ.de/blog/postings/2020-01-26/0/POSTING-en.html",
+          "Tags": [ "c", "function", "struct", "oop", "oop-approach" ]
+        },
+        {
+          "Text": "Unit Testing and the Arrange, Act and Assert (AAA) Pattern",
+          "Link": "https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80",
+          "Tags": [ "aaa", "unittest", "test", "testing", "pattern", "testpattern" ]
+        }
+      ]
+    },  
+    {
       "Date": "2023-01-27",
       "Title": "",
       "Content": [
