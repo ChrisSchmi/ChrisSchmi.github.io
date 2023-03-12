@@ -28,6 +28,26 @@
           "Text": "Unit Testing and the Arrange, Act and Assert (AAA) Pattern",
           "Link": "https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80",
           "Tags": [ "aaa", "unittest", "test", "testing", "pattern", "testpattern" ]
+        },
+        {
+          "Text": "WaveFunctionCollapse - Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics",
+          "Link": "https://github.com/mxgmn/WaveFunctionCollapse",
+          "Tags": [ "algorithm", "generator", "bitmap", "function", "pattern"]
+        },
+        {
+          "Text": "MarkovJunior - Probabilistic language based on pattern matching and constraint propagation, 153 examples",
+          "Link": "https://github.com/mxgmn/MarkovJunior",
+          "Tags": [ "algorithm", "generator", "bitmap", "function", "pattern", "Markov", "Markov  algorithm"]
+        },
+        {
+          "Text": "Patterns in Practice - Persistence Patterns",
+          "Link": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/april/design-patterns-for-data-persistence",
+          "Tags": [ "pattern", "patterns", "architecture", "repository", "map", "proxy" ]
+        },
+        {
+          "Text": "Method Chaining like LINQ with Fluent Interface Pattern",
+          "Link": "https://levelup.gitconnected.com/method-chaining-with-fluent-interface-pattern-d01e75d4bb3d",
+          "Tags": [ "pattern", "patterns", "architecture", "fluent", "chaining", "fluentinterface" ]
         }
       ]
     },  
