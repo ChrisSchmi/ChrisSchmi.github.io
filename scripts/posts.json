@@ -1,6 +1,112 @@
 {
   "entries": [
     {
+      "Date": "2023-04-07",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "How I hacked a hardware crypto wallet and recovered $2 million",
+          "Link": "https://www.youtube.com/watch?v=dT9y-KQbqi4",
+          "Tags": [ "hardware", "crypto", "reverseengineering" ]
+        },
+        {
+          "Text": "What is the difference between association, aggregation and composition?",
+          "Link": "https://stackoverflow.com/questions/885937/what-is-the-difference-between-association-aggregation-and-composition",
+          "Tags": [ "softwareengineering", "pattern", "composition", "association", "aggregation" ]
+        },
+        {
+          "Text": "Tiny Living im selbstgebauten Holzhaus | SWR Room Tour",
+          "Link": "https://www.youtube.com/watch?v=uyjAVuHpKhM",
+          "Tags": [ "house", "tinyhouse", "holzhaus" ]
+        },
+        {
+          "Text": "Don't throw exceptions in C#. ",
+          "Link": "https://www.youtube.com/watch?v=a1ye9eGTB98",
+          "Tags": [ "c#", "dotnet", "exception", "csharp", ".net" ]
+        },
+        {
+          "Text": "EF Core Performance Optimization Challenge",
+          "Link": "https://www.youtube.com/watch?v=jSiGyPHqnpY",
+          "Tags": [ "dotnet", "c#", "database", "efcore", "ef", "Entity Framework Core" ]
+        },
+        {
+          "Text": "Interview the interviewer",
+          "Link": "https://github.com/readme/guides/technical-interviews",
+          "Tags": [ "interview", "job", "recruiting", "techtalk" ]
+        },
+        {
+          "Text": "Tired of Layers? Vertical Slice Architecture to the rescue!",
+          "Link": "https://www.youtube.com/watch?v=lsddiYwWaOQ",
+          "Tags": [ "softwareengineering", "pattern", "tier", "layer", "architecture"]
+        },
+        {
+          "Text": "theHarvester  - simple to use penetration testing tool",
+          "Link": "https://github.com/laramies/theHarvester",
+          "Tags": [ "test", "penetration", "pentesting", "testing" ]
+        },
+        {
+          "Text": "How To Unit Test CQRS Handlers With Moq And FluentAssertions",
+          "Link": "https://www.youtube.com/watch?v=a6Qab5l-VLo",
+          "Tags": [ "CQRS", "pattern", "test", "unittest", "moq", "mocking" ]
+        },
+        {
+          "Text": "Are events in C# even relevant anymore?",
+          "Link": "https://www.youtube.com/watch?v=NmmpXcMxCjY",
+          "Tags": [ "c#", "dotnet", "events", "event", "csharp", ".net", "pattern", "architecture" ]
+        },
+        {
+          "Text": "How to Make your Project look Amazing",
+          "Link": "https://www.youtube.com/watch?v=AxJ3pf8yh5s",
+          "Tags": [ "hardware", "MCU", "microcontroller", "display", "UI" ]
+        },
+        {
+          "Text": "Making async code run faster in C#",
+          "Link": "https://www.youtube.com/watch?v=gW19LaAYczI",
+          "Tags": [ "c#", "async", "await", "csharp", ".net", "pattern", "architecture" ]
+        },
+        {
+          "Text": "Why aspect-oriented programming in C# is pointless",
+          "Link": "https://www.youtube.com/watch?v=dLPKwEeqwgU",
+          "Tags": [ "c#", "aspect", "aop", "csharp", ".net", "pattern", "architecture" ]
+        },
+        {
+          "Text": "Discount Tiny House 2023: Baugenehmigung nahezu einfach.",
+          "Link": "https://www.youtube.com/watch?v=6bahyYM9qeE",
+          "Tags": [ "house", "tinyhouse", "holzhaus" ]
+        },
+        {
+          "Text": "The ultimate Prosciutto Sandwich",
+          "Link": "https://somethingaboutsandwiches.com/gorgonzola-fig-prosciutto-sandwich/",
+          "Tags": [ "food", "sandwith", "bread", "hungry", "brot" ]
+        },
+        {
+          "Text": "Open Source Identity and Access Management",
+          "Link": "https://www.keycloak.org/",
+          "Tags": [ "identity", "singon", "singlesignon", "login", "openid", "kerberos", "OAuth2" ]
+        },
+        {
+          "Text": "Security-first diagramming for teams.",
+          "Link": "https://app.diagrams.net/",
+          "Tags": [ "diagrams", "diagram", "uml" ]
+        },
+        {
+          "Text": "Unit testing private methods in C#",
+          "Link": "https://stackoverflow.com/questions/9122708/unit-testing-private-methods-in-c-sharp",
+          "Tags": [ "cä", "dotnet", "test", "unittest", "InternalsVisibleTo"]
+        },
+        {
+          "Text": "Flipper Zero - Multi-tool Device for Geeks",
+          "Link": "https://flipperzero.one/",
+          "Tags": [ "reverseengineering", "radio", "hardware", "tool", "RFID", "NFC", "Bluetooth" ]
+        },
+        {
+          "Text": "Comparing MQTT Brokers for the Industrial IoT",
+          "Link": "https://learn.umh.app/blog/comparing-mqtt-brokers-for-the-industrial-iot/",
+          "Tags": [ "MQTT", "broker", "hivemq", "mosquitto", "IoT", "IIoT" ]
+        }
+      ]
+    },  
+    {
       "Date": "2023-03-12",
       "Title": "",
       "Content": [

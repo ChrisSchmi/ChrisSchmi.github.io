@@ -255,7 +255,7 @@
                 {
                   c.Tags.forEach( t =>
                   {
-                    if(t.toLowerCase() == self.searchphrase.toLowerCase())
+                    if(t.toLowerCase() == self.searchphrase.toLowerCase() || t.toLowerCase().includes(self.searchphrase.toLowerCase()))
                     {
                       filtered.push(entry);
                     }
