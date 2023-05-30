@@ -1,6 +1,37 @@
 {
   "entries": [
     {
+      "Date": "2023-05-30",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "SnakeAI",
+          "Link": "https://github.com/greerviau/SnakeAI",
+          "Tags": [ "snake", "AI", "ANN", "network", "neuralnetwork" ]
+        },
+        {
+          "Text": "SnakeAI Youtube Video",
+          "Link": "https://www.youtube.com/watch?v=zIkBYwdkuTk",
+          "Tags": [ "snake", "AI", "ANN", "network", "neuralnetwork" ]
+        },
+        {
+          "Text": "TXStreet - Crypto Visualizer",
+          "Link": "https://txstreet.com/v/btc",
+          "Tags": [ "Crypto", "BTC", "animation", "visualizer" ]
+        },
+        {
+          "Text": "Smashed Cucumbers: Your new favorite salad!",
+          "Link": "https://www.youtube.com/watch?v=nTGWvvUTSeQ",
+          "Tags": [ "Recipe", "Food", "Rezept", "Essen" ]
+        },
+        {
+          "Text": "Homemade Wrap",
+          "Link": "https://www.youtube.com/shorts/sG0UW_XWu9I",
+          "Tags": [ "Recipe", "Food", "Rezept", "Essen" ]
+        }
+      ]
+    },  
+    {
       "Date": "2023-04-07",
       "Title": "",
       "Content": [
