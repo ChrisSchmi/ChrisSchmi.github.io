@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "Date": "2023-08-14",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Scott Hanselman - Developing for Linux on Windows",
+          "Link": "https://www.youtube.com/watch?v=YWP6gXlFihc",
+          "Tags": [ "hanselman", "scott", "scott hanselman", ".net" , "dotnet"]
+        },
+        {
+          "Text": "Scott Hanselman - Personal Productivity",
+          "Link": "https://www.youtube.com/watch?v=RpH6IPhyh7I",
+          "Tags": [ "hanselman", "scott", "scott hanselman", ".net" , "dotnet"]
+        },
+        {
+          "Text": ".NET for Linux and Windows",
+          "Link": "https://www.youtube.com/watch?v=A8ritPmtrZ4",
+          "Tags": [ "hanselman", "scott", "scott hanselman", ".net" , "dotnet"]
+        },
+        {
+          "Text": "What's the .NET Ecosystem?",
+          "Link": "https://www.youtube.com/watch?v=bEfBfBQq7EE",
+          "Tags": [ "hanselman", "scott", "scott hanselman", ".net" , "dotnet"]
+        },
+        {
+          "Text": "Malware Development II: Process Injection",
+          "Link": "https://www.youtube.com/watch?v=A6EKDAKBXPs",
+          "Tags": [ "malware", "development", "security" ]
+        },
+        {
+          "Text": "How NASA writes space-proof code",
+          "Link": "https://www.youtube.com/watch?v=GWYhtksrmhE",
+          "Tags": [ "code", "rules", "goodcode", "quality", "codequality"]
+        },
+        {
+          "Text": "rust-by-practice",
+          "Link": "https://github.com/sunface/rust-by-practice",
+          "Tags": [ "rust" ]
+        },
+        {
+          "Text": "Kali NetHunter",
+          "Link": "https://www.kali.org/docs/nethunter/",
+          "Tags": [ "Kali", "nethunter", "testing", "pentest", "penetrationtesting" ]
+        },
+        {
+          "Text": "I Analyzed this Firmware and Found Something Concerning.",
+          "Link": "https://www.youtube.com/watch?v=qWVRJsaUTIg",
+          "Tags": [ "hardware", "electronics", "security", "firmware" ]
+        }
+      ]
+    },  
+    {
       "Date": "2023-05-30",
       "Title": "",
       "Content": [
