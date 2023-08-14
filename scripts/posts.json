@@ -48,6 +48,12 @@
           "Text": "I Analyzed this Firmware and Found Something Concerning.",
           "Link": "https://www.youtube.com/watch?v=qWVRJsaUTIg",
           "Tags": [ "hardware", "electronics", "security", "firmware" ]
+        },
+        ,
+        {
+          "Text": "Wear leveling",
+          "Link": "https://en.wikipedia.org/wiki/Wear_leveling",
+          "Tags": [ "hardware", "electronics", "firmware" ]
         }
       ]
     },  
