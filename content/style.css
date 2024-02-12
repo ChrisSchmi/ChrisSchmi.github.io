@@ -1,4 +1,15 @@
+@font-face {
+  font-family: 'Verlag Bold';
+  src:url("/fonts/Verlag-Bold.otf");
+}
+
+@font-face {
+  font-family: 'Verlag Book';
+  src:url("/fonts/Verlag-Book.otf.otf");
+}
+
 body { 
+  font-family: 'Verlag Book', Tahoma, Arial, Verdana;
   background: url(../images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6,6 +17,16 @@ body {
   background-size: cover;
   min-height: 1500px;
   padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Verlag Bold', Tahoma, Arial, Verdana;
+}
+
+p
+{
+  font-family: 'Verlag Book', Tahoma, Arial, Verdana;
 }
 
 .rightspace {

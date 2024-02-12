@@ -2,12 +2,11 @@
 /*  Inspired by: https://www.google.de/_/chrome/newtab-serviceworker.js */
 /*  Inspired by: https://www.sblum.de/progressive-web-apps  */
 var FILES = [
-  'content/style.css',
   'manifest.json'
 ];
 
 var BLACKLIST = [];
-var CACHE_NAME = '20230530';
+var CACHE_NAME = '20240212';
 const OFFLINE_URL = '/offline.html';
 
 self.addEventListener('install',
