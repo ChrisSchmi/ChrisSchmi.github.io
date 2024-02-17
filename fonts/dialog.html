@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <style>
+            dialog
+            {
+                border-radius: 10px;
+            }
+
+            dialog::backdrop
+            {
+                /* background-color: rgba(128, 128, 128, 0.5); */
+                background: rgb(131,58,180);
+                background: linear-gradient(90deg, rgba(131,58,180,0.5) 0%, rgba(253,29,29,0.5) 100%);
+            }
+        </style>
+    </head>
+
+    <body>
+        <button id="btn-modal">Modal</button>
+        <button id="btn-popup">Popup</button>
+
+        <dialog id="mydialog">
+            <h2>Dialog Content!</h2>
+            <p>
+                Foud inspiration for this <a href="https://www.youtube.com/shorts/SCAapRtu750" target="_parent">here</a>.
+            </p>
+            <br />
+            <button id="btn-close">Close</button>
+        </dialog>
+
+        <script lang="javascript">
+            const popupButton = document.querySelector("#btn-popup");
+            const modalButton = document.querySelector("#btn-modal");
+            const closeButton = document.querySelector("#btn-close");
+            const dialog = document.querySelector("#mydialog");
+
+            popupButton.addEventListener("click", ()  =>
+            {
+                dialog.show();
+            });
+
+            modalButton.addEventListener("click", ()  =>
+            {
+                dialog.showModal();
+            });
+
+            closeButton.addEventListener("click", ()  =>
+            {
+                dialog.close();
+            });
+        </script>
+    </body>
+</html>
