@@ -1,6 +1,27 @@
 {
   "entries": [
     {
+      "Date": "2024-02-17",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Good APIs Vs Bad APIs: 7 Tips for API Design",
+          "Link": "https://www.youtube.com/watch?v=_gQaygjm_hg",
+          "Tags": [ "API", "Design", "REST", "RESTful"]
+        },
+        {
+          "Text": "Greek Chickpea Soup with Lemon (Revithia)",
+          "Link": "https://plantbasedandveganism.com/greek-chickpea-soup-with-lemon-revithia-1004rk/",
+          "Tags": [ "Chickpea", "Kichererbse", "Soup", "Suppe", "Vegan"]
+        },
+        {
+          "Text": "Coding Challenge 180: Falling Sand",
+          "Link": "https://www.youtube.com/watch?v=L4u7Zy_b868",
+          "Tags": [ "Physics", "Sand", "Animation", "JS", "JavaScript"]
+        }
+      ]
+    }, 
+    {
       "Date": "2024-02-12",
       "Title": "Redesign: Added new Font Family",
       "Content": []
