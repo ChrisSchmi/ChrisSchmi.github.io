@@ -8,6 +8,11 @@
           "Text": "String In Char Array VS. Pointer To String Literal | C Programming Tutorial",
           "Link": "https://www.youtube.com/watch?v=Qp3WatLL_Hc",
           "Tags": [ "C", "Array", "Pointer"]
+        },
+        {
+          "Text": "Learn Big O notation in 6 minutes",
+          "Link": "https://www.youtube.com/watch?v=XMUe3zFhM5c",
+          "Tags": [ "Onotation", "O-notation", "O notation", "notation", "theory"]
         }
       ]
     }, 
