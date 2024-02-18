@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "Date": "2024-02-18",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "String In Char Array VS. Pointer To String Literal | C Programming Tutorial",
+          "Link": "https://www.youtube.com/watch?v=Qp3WatLL_Hc",
+          "Tags": [ "C", "Array", "Pointer"]
+        }
+      ]
+    }, 
+    {
       "Date": "2024-02-17",
       "Title": "",
       "Content": [
