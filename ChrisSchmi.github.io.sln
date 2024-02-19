@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "interview-challenges", "interview-challenges", "{05B23B2D-DBBF-49C6-AE04-397DD2FDD71F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "missing-numbers", "interview-challenges\missing-numbers\missing-numbers.csproj", "{CA47FCD0-C238-403B-AC32-5CF89053F11F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA47FCD0-C238-403B-AC32-5CF89053F11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA47FCD0-C238-403B-AC32-5CF89053F11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA47FCD0-C238-403B-AC32-5CF89053F11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA47FCD0-C238-403B-AC32-5CF89053F11F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA47FCD0-C238-403B-AC32-5CF89053F11F} = {05B23B2D-DBBF-49C6-AE04-397DD2FDD71F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A43B7130-5508-4EC6-8A3F-9087377F986A}
+	EndGlobalSection
+EndGlobal
