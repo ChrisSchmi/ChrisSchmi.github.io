@@ -7,7 +7,7 @@
         {
           "Text": "Andere Router-Nutzer finden",
           "Link": "https://www.youtube.com/shorts/-T2o9OsjySY",
-          "Tags": [ "router", "arp", "network", "ip", "consolw", "ip-address"]
+          "Tags": [ "router", "arp", "network", "ip", "console", "ip-address"]
         },
         {
           "Text": "JavaScript - funny things",
@@ -18,7 +18,12 @@
           "Text": "JavaScript - weird things",
           "Link": "https://www.youtube.com/shorts/-s5BUqftpYM",
           "Tags": [ "js", "javascript", "JavaScript"]
-        }     
+        },
+        {
+          "Text": "IPv4 Multicast Address Space Registry",
+          "Link": "https://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml",
+          "Tags": [ "network", "ip", "broadcast", "ip-address", "IPv4", "v4"]
+        }          
       ]
     }, 
     {
