@@ -1,6 +1,47 @@
 {
   "entries": [
     {
+      "Date": "2024-03-02",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "text reveal scroll effect with CSS-only?",
+          "Link": "https://www.youtube.com/watch?v=d10GaL6F-lA",
+          "Tags": [ "css", "css3", "animation", "style", "design"]
+        },
+        {
+          "Text": "5 Modern CSS Features You Should Know In 2024",
+          "Link": "https://www.youtube.com/watch?v=oDDcZhKqUxQ",
+          "Tags": [ "css", "css3", "animation", "style", "design"]
+        },
+        {
+          "Text": "Peugeot Pfeffermühle aus Holz",
+          "Link": "https://de.peugeot-saveurs.com/de_de/holz-pfeffermuehle",
+          "Tags": [ "kitchen", "lifestyle", "cooking"]
+        }, 
+        {
+          "Text": ".NET Developers should be using dotnet-outdated to update their project's references",
+          "Link": "https://www.youtube.com/watch?v=E_bkN_KperE",
+          "Tags": [ "c#", "nuget", "net", ".net", "dotnet", "hanselman"]
+        },
+        {
+          "Text": "How to run a local AI chatbot on Windows in 5 min, no cuts, no edits, with Ollama, LMStudio, OpenAI",
+          "Link": "https://www.youtube.com/watch?v=_AxXtXwdZmY",
+          "Tags": [ "AI", "LLM", "GPT", "CUDA", "LMStudio", "Ollama", "hanselman"]
+        },
+        {
+          "Text": "Die SHEPARD-SKALA | Der Ton der niemals endet!",
+          "Link": "https://www.youtube.com/watch?v=Hu3rumuNbBA",
+          "Tags": [ "sound", "Shepard", "ear", "psychology", "illusion "]
+        },
+        {
+          "Text": "Shepard Madness",
+          "Link": "https://mynoise.net/NoiseMachines/shepardAudioIllusionToneGenerator.php",
+          "Tags": [ "sound", "Shepard", "ear", "psychology", "illusion "]
+        }
+      ]
+    }, 
+    {
       "Date": "2024-02-20",
       "Title": "",
       "Content": [
