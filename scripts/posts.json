@@ -1,6 +1,27 @@
 {
   "entries": [
     {
+      "Date": "2024-03-09",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Parallax scrolling website | how to make parallax scrolling animation with html and css | css only",
+          "Link": "https://www.youtube.com/watch?v=ppv4kB8irf0",
+          "Tags": [ "css", "css3", "animation", "style", "design"]
+        },
+        {
+          "Text": "Why is JWT popular?",
+          "Link": "https://www.youtube.com/watch?v=P2CPd9ynFLg",
+          "Tags": [ "css", "css3", "animation", "style", "design"]
+        },
+        {
+          "Text": "NUglify - NUglify provides minification and compression methods for CSS, JavaScript and HTML files for .NET",
+          "Link": "https://www.nuget.org/packages/NUglify",
+          "Tags": [ "css", "css3", "js", "compression"]
+        }
+      ]
+    }, 
+    {
       "Date": "2024-03-02",
       "Title": "",
       "Content": [
