@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Verlag Book';
-  src:url("/fonts/Verlag-Book.otf.otf");
+  src:url("/fonts/Verlag-Book.otf");
 }
 
 body { 
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6
 
 p
 {
+  font-size: 1em;
   font-family: 'Verlag Book', Tahoma, Arial, Verdana;
 }
 
@@ -48,6 +49,7 @@ dialog::backdrop
 }
 
 .badgelink {
+  font-weight: 200;
   cursor: grab;
   color: #fff;
   text-decoration: none;
