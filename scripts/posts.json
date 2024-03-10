@@ -1,6 +1,37 @@
 {
   "entries": [
     {
+      "Date": "2024-03-10",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "How to put user id in registered claims",
+          "Link": "https://stackoverflow.com/questions/71646794/how-to-put-user-id-in-registered-claims",
+          "Tags": [ "jwt", "sub", "subject", "auth"]
+        },
+        {
+          "Text": "Rate limiting middleware in ASP.NET Core",
+          "Link": "https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-8.0",
+          "Tags": [ "middleware", "limit", "ratelimiting", "limiting"]
+        },
+        {
+          "Text": "Advanced Rate Limiting Use Cases In .NET",
+          "Link": "https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet",
+          "Tags": [ "middleware", "limit", "ratelimiting", "limiting"]
+        },
+        {
+          "Text": "ASP.NET Core rate limiting middleware in .NET 7",
+          "Link": "https://blog.maartenballiauw.be/post/2022/09/26/aspnet-core-rate-limiting-middleware.html",
+          "Tags": [ "middleware", "limit", "ratelimiting", "limiting"]
+        },
+        {
+          "Text": "Nachricht von Ella | Without Consent",
+          "Link": "https://www.youtube.com/watch?v=bu-fR8nrwjs",
+          "Tags": [ "sharewithcare", "consent", "urgent"]
+        }
+      ]
+    }, 
+    {
       "Date": "2024-03-09",
       "Title": "",
       "Content": [
