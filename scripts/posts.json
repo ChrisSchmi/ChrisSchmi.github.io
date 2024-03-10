@@ -29,6 +29,12 @@
           "Link": "https://www.youtube.com/watch?v=bu-fR8nrwjs",
           "Tags": [ "sharewithcare", "consent", "urgent"]
         }
+        ,
+        {
+          "Text": "Simplify Your CSS using :is() and :where() Pseudo-Selectors",
+          "Link": "https://www.youtube.com/watch?v=SeKDpkC5QxQ",
+          "Tags": [ "css", "css3", "is", "where", "selector"]
+        }
       ]
     }, 
     {
