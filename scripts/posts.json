@@ -1,11 +1,52 @@
 {
   "entries": [
     {
+      "Date": "2024-04-20",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Which do I use, ConfigureAwait True or False?",
+          "Link": "https://www.youtube.com/watch?v=F9_8MJbsnzg",
+          "Tags": [ "c#", "net", ".net", "dotnet", "async", "await", "csharp"]
+        },
+        {
+          "Text": "Building a self-contained game in C# under 2 kilobytes",
+          "Link": "https://migeel.sk/blog/2024/01/02/building-a-self-contained-game-in-csharp-under-2-kilobytes/",
+          "Tags": [ "c#", "net", ".net", "dotnet", "aot", "csharp", "self-contained"]
+        },
+        {
+          "Text": "C# MQTT Client for .NET",
+          "Link": "https://github.com/hivemq/hivemq-mqtt-client-dotnet",
+          "Tags": [ "mqtt", "iot", ".net", "dotnet", "hivemq", "csharp","c#"]
+        },
+        {
+          "Text": "xz oder: Wie die Open-Source-Community an Ostern die Welt gerettet hat",
+          "Link": "https://dnip.ch/2024/04/02/xz-open-source-ostern-welt-retten/",
+          "Tags": [ "xy", "ssh", "opensource", "dotnet", "hivemq"]
+        },
+        {
+          "Text": "Deep Dive on LINQ with Stephen Toub",
+          "Link": "https://www.youtube.com/watch?v=xKr96nIyCFM",
+          "Tags": [ "c#", "net", ".net", "dotnet", "LINQ", "csharp", "hanselman", "scott hanselman"]
+        },
+        {
+          "Text": "Climate Reanalyzer - Outlook Forecast Maps",
+          "Link": "https://climatereanalyzer.org/wx/fcst_outlook/",
+          "Tags": [ "weather", "climate", "world"]
+        },
+        {
+          "Text": "Martin's Slider Potato Rolls",
+          "Link": "https://shop.potatorolls.com/product/martins-slider-potato-rolls/",
+          "Tags": [ "burger", "hamburger", "cheeseburger", "sandwich", "food", "bread" ]
+        }
+      ]
+    },
+    {
       "Date": "2024-03-30",
       "Title": "",
       "Content": [
         {
-          "Text": "Free Image Streich in Paint.NET",
+          "Text": "Free Image Stretch in Paint.NET",
           "Link": "https://forums.getpaint.net/topic/29971-free-stretching-an-image/",
           "Tags": [ "paint", "paint.net", "effect", "plugin"]
         }
@@ -357,7 +398,7 @@
         {
           "Text": "The ultimate Prosciutto Sandwich",
           "Link": "https://somethingaboutsandwiches.com/gorgonzola-fig-prosciutto-sandwich/",
-          "Tags": [ "food", "sandwith", "bread", "hungry", "brot" ]
+          "Tags": [ "food", "sandwich", "bread", "hungry", "brot" ]
         },
         {
           "Text": "Open Source Identity and Access Management",
