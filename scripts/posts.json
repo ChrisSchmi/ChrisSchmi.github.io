@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "Date": "2024-04-23",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Stop returning custom error responses from your API. Do this instead.",
+          "Link": "https://www.youtube.com/watch?v=4NfflZilTvk",
+          "Tags": [ "c#", "net", ".net", "dotnet", "csharp", "API", "WebApi", "http"]
+        },
+        {
+          "Text": "Polyglot Notebooks",
+          "Link": "https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode",
+          "Tags": [ "c#", "net", ".net", "dotnet", "csharp", "Jupyter", "Polyglot"]
+        },
+        {
+          "Text": "Mermaid - Diagramming and charting tool",
+          "Link": "https://mermaid.js.org/",
+          "Tags": [ "js", "javascript", "diagram", "diagrams"]
+        },
+        {
+          "Text": "WinMTR - Visual Traceroute for Windows",
+          "Link": "https://winmtr.net/",
+          "Tags": [ "traceroute", "route", "ping", "visual route"]
+        },
+        {
+          "Text": "WinMTR - Visual Traceroute for Windows",
+          "Link": "https://winmtr.net/",
+          "Tags": [ "traceroute", "route", "ping", "visual route"]
+        },
+        {
+          "Text": "Digital archaeology reading 40 year old C64 Floppy Disks with a Greaseweazle, Fluxengine, and Aaru",
+          "Link": "https://www.youtube.com/watch?v=Jhgov6bh_pU",
+          "Tags": [ "c#", "net", ".net", "dotnet", "retro", "c64", "hanselman", "scott hanselman"]
+        },
+        {
+          "Text": "Razor-HTML-Rendering in beliebigen .NET-Anwendungen",
+          "Link": "https://www.heise.de/blog/Neu-in-NET-8-0-19-Razor-HTML-Rendering-in-beliebigen-NET-Anwendungen-9691146.html",
+          "Tags": [ "c#", "net", ".net", "dotnet", "schwichtenberg", "dotnetdoktor", "razor", "html"]
+        },
+        {
+          "Text": "Wie ein paar Nerds an Ostern den vielleicht schlimmsten Hack der Geschichte verhinderten",
+          "Link": "https://www.watson.ch/digital/microsoft/724581570-wie-linux-nerds-eine-gefaehrliche-supply-chain-attacke-verhinderten",
+          "Tags": [ "xy", "ssh", "opensource"]
+        }     
+      ]
+    },
+    {
       "Date": "2024-04-20",
       "Title": "",
       "Content": [
@@ -22,7 +68,7 @@
         {
           "Text": "xz oder: Wie die Open-Source-Community an Ostern die Welt gerettet hat",
           "Link": "https://dnip.ch/2024/04/02/xz-open-source-ostern-welt-retten/",
-          "Tags": [ "xy", "ssh", "opensource", "dotnet", "hivemq"]
+          "Tags": [ "xy", "ssh", "opensource", "security"]
         },
         {
           "Text": "Deep Dive on LINQ with Stephen Toub",
