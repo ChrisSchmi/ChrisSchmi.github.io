@@ -25,11 +25,6 @@
           "Tags": [ "traceroute", "route", "ping", "visual route"]
         },
         {
-          "Text": "WinMTR - Visual Traceroute for Windows",
-          "Link": "https://winmtr.net/",
-          "Tags": [ "traceroute", "route", "ping", "visual route"]
-        },
-        {
           "Text": "Digital archaeology reading 40 year old C64 Floppy Disks with a Greaseweazle, Fluxengine, and Aaru",
           "Link": "https://www.youtube.com/watch?v=Jhgov6bh_pU",
           "Tags": [ "c#", "net", ".net", "dotnet", "retro", "c64", "hanselman", "scott hanselman"]
