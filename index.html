@@ -282,12 +282,14 @@
           var self = this;
           self.searchphrase = phrase;
           self.filteredList();
+          window.scrollTo(0, 0);
         },
         clearsearch: function ()
         {
           var self = this;
           self.searchphrase = '';
           self.filteredList();
+          window.scrollTo(0, 0);
         }
       },
       mounted: async function()

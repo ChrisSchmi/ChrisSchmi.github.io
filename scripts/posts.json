@@ -1,6 +1,5 @@
 {
   "entries": [
-
     {
       "Date": "2024-04-25",
       "Title": "",
@@ -8,7 +7,7 @@
         {
           "Text": "NuGet PackageReference Versions SOLUTION Wide",
           "Link": "    https://www.youtube.com/watch?v=GolKKJmqxoc",
-          "Tags": [ "c#", "net", ".net", "dotnet", "csharp", "nuget", "NugGet", "package", "packages"]
+          "Tags": [ "c#", "net", ".net", "dotnet", "csharp", "nuget", "Nuget", "package", "packages"]
         }
       ]
     },
