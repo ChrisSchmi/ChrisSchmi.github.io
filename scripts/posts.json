@@ -53,7 +53,22 @@
           "Text": "Notable People Map",
           "Link": "https://tjukanovt.github.io/notable-people",
           "Tags": ["People", "Map", "Globe", "Globus", "Bekannte", "Menschen"]
-        }
+        },
+        {
+          "Text": "aframe.io - A web framework for building 3D/AR/VR experiences",
+          "Link": "https://aframe.io/",
+          "Tags": ["3D", "AR", "VR", "worlds", "world", "web", "WebVR"]
+        },
+        {
+          "Text": "mindar.org - drive web augmented reality",
+          "Link": "https://www.mindar.org/",
+          "Tags": ["3D", "AR", "augmented", "reality", "web", "WebAR"]
+        },
+        {
+          "Text": "eDEX-UI - sci-fi computer interface",
+          "Link": "https://github.com/GitSquared/edex-ui",
+          "Tags": ["UI", "cross-platform", "terminal", "emulator"]
+        }        
       ]
     },
     {
