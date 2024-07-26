@@ -1,12 +1,68 @@
 {
   "entries": [
     {
+      "Date": "2024-07-26",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "calligrapher.ai",
+          "Link": "https://www.calligrapher.ai/",
+          "Tags": ["AI", "KI", "Handschrift", "handwriting"]
+        },
+        {
+          "Text": "PLant UML",
+          "Link": "https://plantuml.com/de/",
+          "Tags": ["uml", "plantuml", "diagrams", "diagram"]
+        },
+        {
+          "Text": "markmap.js.org",
+          "Link": "https://markmap.js.org/",
+          "Tags": ["markdown", "mindmap", "markmap"]
+        },
+        {
+          "Text": "DIP oder IOSP",
+          "Link": "https://ccd-akademie.de/dip-oder-iosp/",
+          "Tags": ["DependencyInversionPrinciple", "IntegrationOperationSegregationPrinciple", "DI", "Dependency", "Injection"]
+        },
+        {
+          "Text": "PUTER - The Internet OS!",
+          "Link": "https://puter.com/",
+          "Tags": ["OS", "Web", "Betriebssystem", "Operatingsystem"]
+        },
+        {
+          "Text": "mitmproxy - free HTTPS PRoxy",
+          "Link": "https://mitmproxy.org/",
+          "Tags": ["proxy", "https", "debug", "network"]
+        },
+        {
+          "Text": "ISO/IEC 9126",
+          "Link": "https://de.wikipedia.org/wiki/ISO/IEC_9126",
+          "Tags": ["Softwarequalität", "Softwarequality", "Qualität", "Quality", "Produktqualität"]
+        },
+        {
+          "Text": "Prinzipien objektorientierten Designs",
+          "Link": "https://de.wikipedia.org/wiki/Prinzipien_objektorientierten_Designs#Single-Responsibility-Prinzip",
+          "Tags": ["design", "objectoriented", "oop", "designprinciple"]
+        },
+        {
+          "Text": "Mont Saint Michel",
+          "Link": "https://de.normandie-tourisme.fr/absolut-sehenswert/mont-saint-michel/",
+          "Tags": ["Reiseziel", "Urlaub", "Reise"]
+        },
+        {
+          "Text": "Notable People Map",
+          "Link": "https://tjukanovt.github.io/notable-people",
+          "Tags": ["People", "Map", "Globe", "Globus", "Bekannte", "Menschen"]
+        }
+      ]
+    },
+    {
       "Date": "2024-04-25",
       "Title": "",
       "Content": [
         {
           "Text": "NuGet PackageReference Versions SOLUTION Wide",
-          "Link": "    https://www.youtube.com/watch?v=GolKKJmqxoc",
+          "Link": "https://www.youtube.com/watch?v=GolKKJmqxoc",
           "Tags": [ "c#", "net", ".net", "dotnet", "csharp", "nuget", "Nuget", "package", "packages"]
         }
       ]
