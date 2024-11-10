@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #timeDisplay, #statusDisplay {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+        #statusDisplay {
+            font-size: 36px;
+            color: #4a4a4a;
+        }
+        button {
+            font-size: 18px;
+            margin: 10px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timer App</h1>
+    <div id="timeDisplay">00:00</div>
+    <div id="statusDisplay"></div>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <button id="resetBtn">Reset</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
