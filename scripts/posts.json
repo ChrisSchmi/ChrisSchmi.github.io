@@ -1,5 +1,36 @@
 {
   "entries": [
+{
+      "Date": "2025-12-22",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "pngimg.com",
+          "Link": "https://pngimg.com/",
+          "Tags": ["PNG", "png", "images", "cliparts", "design", "free"]
+        },
+        {
+          "Text": "planyourroom.com",
+          "Link": "https://www.planyourroom.com/",
+          "Tags": ["Room", "Design", "Planning", "Interior", "Furniture", "Raum", "Einrichtung"]
+        },
+        {
+          "Text": "importyeti.com",
+          "Link": "https://www.importyeti.com/",
+          "Tags": ["Import", "Export", "Business", "Trade", "Shipping", "Logistics"]
+        },  
+        {
+          "Text": "importyeti.com",
+          "Link": "https://www.importyeti.com/",
+          "Tags": ["Import", "Export", "Business", "Trade", "Shipping", "Logistics"]
+        },   
+        {
+          "Text": "Foldbook - Create foldable books from your digital content",
+          "Link": "https://foldbook.art/de/",
+          "Tags": ["Book", "Folding", "Paper", "Craft", "DIY", "Buch", "Falten"]
+        }
+      ]
+    },
     {
       "Date": "2024-07-26",
       "Title": "",
@@ -10,7 +41,7 @@
           "Tags": ["AI", "KI", "Handschrift", "handwriting"]
         },
         {
-          "Text": "PLant UML",
+          "Text": "Plant UML",
           "Link": "https://plantuml.com/de/",
           "Tags": ["uml", "plantuml", "diagrams", "diagram"]
         },
