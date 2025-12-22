@@ -28,6 +28,16 @@
           "Text": "Foldbook - Create foldable books from your digital content",
           "Link": "https://foldbook.art/de/",
           "Tags": ["Book", "Folding", "Paper", "Craft", "DIY", "Buch", "Falten"]
+        },
+        {
+          "Text": "VisualGPT Room Planner",
+          "Link": "https://visualgpt.io/room-planner",
+          "Tags": ["Room", "Planner", "Design", "Interior", "Furniture", "Raum", "Einrichtung", "Free"]
+        },
+        {
+          "Text": "AutoDraw",
+          "Link": "https://autodraw.com/",
+          "Tags": ["Drawing", "AI", "Design", "Free"]
         }
       ]
     },
