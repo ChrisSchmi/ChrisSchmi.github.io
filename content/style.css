@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Verlag Bold';
   src:url("/fonts/Verlag-Bold.otf");
 }
@@ -6,10 +6,10 @@
 @font-face {
   font-family: 'Verlag Book';
   src:url("/fonts/Verlag-Book.otf");
-}
+} */
 
 body { 
-  font-family: 'Verlag Book', Tahoma, Arial, Verdana;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: url(../images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -22,13 +22,13 @@ body {
 
 h1, h2, h3, h4, h5, h6
 {
-  font-family: 'Verlag Bold', Tahoma, Arial, Verdana;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p
 {
   font-size: 1em;
-  font-family: 'Verlag Book', Tahoma, Arial, Verdana;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 dialog
