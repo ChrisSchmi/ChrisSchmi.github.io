@@ -1,6 +1,17 @@
 {
   "entries": [
-{
+  {
+      "Date": "2026-02-15",
+      "Title": "",
+      "Content": [
+        {
+          "Text": "Ascii Motion ASCII Art App",
+          "Link": "https://ascii-motion.app/",
+          "Tags": ["ASCII", "App", "CLI", "ASCIIArt"]
+        }      
+      ]
+    },    
+  {
       "Date": "2026-02-14",
       "Title": "Collection of free Icons",
       "Content": [
