@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Schnee + Weihnachtsbaum + Neon Text</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(180deg, #87CEEB 0%, #4682B4 50%, #1e3a5f 100%);
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="snowCanvas"></canvas>
+    
+    <script>
+        const canvas = document.getElementById('snowCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Canvas responsive machen (retina-ready)
+        function resizeCanvas() {
+            canvas.width = window.innerWidth * window.devicePixelRatio;
+            canvas.height = window.innerHeight * window.devicePixelRatio;
+            canvas.style.width = window.innerWidth + 'px';
+            canvas.style.height = window.innerHeight + 'px';
+            ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        // Animation time für Pulsieren
+        let time = 0;
+
+        // SCHNEFLÖKEN
+        const snowflakes = [];
+        const flakeSymbols = ['❄', '❅', '❆', '✼', '❃'];
+
+        function createSnowflake() {
+            return {
+                x: Math.random() * canvas.clientWidth,
+                y: Math.random() * -canvas.clientHeight,
+                size: 8 + Math.random() * 16,
+                speedY: 1 + Math.random() * 3,
+                speedX: (Math.random() - 0.5) * 2,
+                rotation: Math.random() * 360,
+                rotationSpeed: (Math.random() - 0.5) * 2,
+                opacity: 0.6 + Math.random() * 0.4,
+                symbol: flakeSymbols[Math.floor(Math.random() * flakeSymbols.length)]
+            };
+        }
+
+        for(let i = 0; i < 150; i++) {
+            snowflakes.push(createSnowflake());
+        }
+
+        // ★★★ NEON TEXT FUNKTION ★★★
+        function drawNeonText() {
+            const centerX = canvas.clientWidth / 2;
+            const centerY = (canvas.clientHeight / 2) - 1.5*(canvas.clientHeight / 4);
+            
+            ctx.save();
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.font = 'bold 80px Arial, sans-serif';
+            
+            const text = "FROHE WEIHNACHTEN";
+            
+            // Pulsierender Glow-Effekt (Neon-Schimmer)
+            const pulse = 25 + Math.sin(time * 0.03) * 8;
+            const glowIntensity = 0.8 + Math.sin(time * 0.02) * 0.2;
+            
+            // Mehrere Glow-Schichten für echten Neon-Effekt
+            ctx.shadowColor = `rgba(0, 255, 255, ${glowIntensity})`; // Cyan Glow
+            ctx.shadowBlur = pulse;
+            
+            // Innerer Glow (hellblau)
+            ctx.fillStyle = `rgba(100, 200, 255, 0.9)`;
+            ctx.shadowBlur = pulse * 0.7;
+            ctx.fillText(text, centerX, centerY);
+            
+            // Äußerer starker Glow (türkis)
+            ctx.shadowColor = `rgba(0, 220, 255, ${glowIntensity * 0.7})`;
+            ctx.shadowBlur = pulse * 1.5;
+            ctx.fillStyle = `rgba(0, 255, 255, 0.6)`;
+            ctx.fillText(text, centerX, centerY);
+            
+            // Text-Rand (schwarz für Kontrast)
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = 'rgba(0, 0, 0, 0.8)';
+            ctx.lineJoin = 'round';
+            ctx.strokeText(text, centerX, centerY);
+            
+            // Haupttext (weiß-bläulich)
+            ctx.shadowBlur = pulse * 0.4;
+            ctx.shadowColor = `rgba(200, 255, 255, 1)`;
+            ctx.fillStyle = '#ffffff';
+            ctx.fillText(text, centerX, centerY);
+            
+            ctx.restore();
+        }
+
+        // WEIHNACHTSBAUM
+        function drawChristmasTree() {
+            const centerX = canvas.clientWidth / 2;
+            const treeBaseY = canvas.clientHeight * 0.5;
+            
+            ctx.strokeStyle = '#228B22';
+            ctx.lineWidth = 4;
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            
+            // Stamm
+            ctx.strokeStyle = '#8B4513';
+            ctx.lineWidth = 9;
+            ctx.beginPath();
+            ctx.moveTo(centerX - 8, treeBaseY);
+            ctx.lineTo(centerX - 8, treeBaseY + 40);
+            ctx.lineTo(centerX + 8, treeBaseY + 40);
+            ctx.lineTo(centerX + 8, treeBaseY);
+            ctx.stroke();
+            
+            // Baumetage
+            ctx.strokeStyle = '#228B22';
+            ctx.lineWidth = 10;
+            ctx.beginPath();
+            ctx.moveTo(centerX - 80, treeBaseY - 10);
+            ctx.lineTo(centerX, treeBaseY - 80);
+            ctx.lineTo(centerX + 80, treeBaseY - 10);
+            ctx.stroke();
+            
+            ctx.lineWidth = 8;
+            ctx.beginPath();
+            ctx.moveTo(centerX - 60, treeBaseY - 50);
+            ctx.lineTo(centerX, treeBaseY - 110);
+            ctx.lineTo(centerX + 60, treeBaseY - 50);
+            ctx.stroke();
+            
+            ctx.lineWidth = 6;
+            ctx.beginPath();
+            ctx.moveTo(centerX - 30, treeBaseY - 90);
+            ctx.lineTo(centerX, treeBaseY - 140);
+            ctx.lineTo(centerX + 30, treeBaseY - 90);
+            ctx.stroke();         
+        }
+
+        // HÜGEL
+        function drawHill() {
+            const centerX = canvas.clientWidth / 2;
+            const hillY = canvas.clientHeight * 0.5 + 50;
+            
+            ctx.strokeStyle = '#654321';
+            ctx.lineWidth = 6;
+            ctx.lineCap = 'round';
+            
+            ctx.beginPath();
+            ctx.moveTo(centerX - 200, hillY + 20);
+            ctx.quadraticCurveTo(centerX - 100, hillY - 10, centerX, hillY + 5);
+            ctx.quadraticCurveTo(centerX + 100, hillY - 15, centerX + 200, hillY + 25);
+            ctx.stroke();
+        }
+
+        // Animations-Loop
+        function animate() {
+            ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+            time += 1;
+            
+            // 1. NEON TEXT (Mitte, über allem)
+            drawNeonText();
+            
+            // 2. Hügel
+            drawHill();
+            
+            // 3. Weihnachtsbaum
+            drawChristmasTree();
+            
+            // 4. Schneeflocken (vorne)
+            snowflakes.forEach((flake) => {
+                flake.y += flake.speedY;
+                flake.x += flake.speedX;
+                flake.rotation += flake.rotationSpeed;
+
+                if (flake.y > canvas.clientHeight) {
+                    flake.y = Math.random() * -100;
+                    flake.x = Math.random() * canvas.clientWidth;
+                }
+
+                ctx.save();
+                ctx.globalAlpha = flake.opacity;
+                ctx.translate(flake.x, flake.y);
+                ctx.rotate(flake.rotation * Math.PI / 180);
+                ctx.font = `${flake.size}px Arial`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(flake.symbol, 0, 0);
+                ctx.restore();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        // Start
+        animate();
+    </script>
+</body>
+</html>
