@@ -6,7 +6,11 @@ const OFFLINE_URL = '/offline.html';
 
 const FILES_TO_CACHE = [
   OFFLINE_URL,
-  '/manifest.json'
+  '/manifest.json',
+  '/dataprotection.html',
+  '/favicon.ico',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
 ];
 
 self.addEventListener('install', (event) => {
