@@ -55,11 +55,10 @@
     })});
     </script>
 
-    <link rel="stylesheet" href="content/style.min.css">
+    <link rel="stylesheet" href="content/style.css">
   </head>
 
 <body>
-  <!-- <div class="line" id="scrollIndicator"></div> -->
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container">
@@ -73,7 +72,7 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a  class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">Repositories</a>
+              <a  class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">GitHub</a>
             </li>
             <li class="nav-item">
               <div class="dropdown">
@@ -117,12 +116,22 @@
         <p>Sorry - no search results</p>
       </div>
 
-      <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="p in posts.entries" v-cloak>
+      <!-- <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="p in posts.entries" v-cloak> -->
         <!-- <post-entry :post="p" :searchHandler="setsearch"></post-entry> -->
-        <section>
+        <!-- <section>
           <post-entry :post="p" @set-search="setsearch"></post-entry>
         </section>
-      </div>
+      </div> -->
+
+      <div class="row g-4" v-if="!loading">
+  <div class="col-12 col-md-6 col-lg-4" v-for="p in posts.entries" v-cloak>
+    <div class="blogcontent h-100 transition-all">
+      <section>
+        <post-entry :post="p" @set-search="setsearch"></post-entry>
+      </section>
+    </div>
+  </div>
+</div>
       
     </div>
 
@@ -161,7 +170,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   
   <!-- Template for Blog Post Entry -->
-  <script type=text/html" id="postEntry">
+  <!-- <script type=text/html" id="postEntry">
     <div>
         <h4>{{ post.Date }}</h4>
         <h5 v-if="(post.Title != null)">{{ post.Title }}</h5>
@@ -171,9 +180,25 @@
           </span>
         </p>
 	</div>
-  </script>
+  </script> -->
 
-
+<script type="text/html" id="postEntry">
+  <div class="mb-2">
+    <div class="text-uppercase small fw-bold opacity-50 mb-1" style="color: var(--accent-color)">
+      {{ post.Date }}
+    </div>
+    <h3 v-if="post.Title" class="h5 fw-bold mb-3">{{ post.Title }}</h3>
+    <div v-for="c in post.Content" class="mb-3">
+      <p class="mb-2 text-secondary-emphasis">{{ c.Text }}</p>
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <a :href="c.Link" target="_blank" rel="noopener" class="btn rounded-pill btn-sm btn-outline-info py-0">Link ↗</a>
+        <span class="badge rounded-pill bg-secondary rightspace" v-for="t in c.Tags">
+          <a class="badgelink" @click="$emit('setSearch',t)">#{{ t }}</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</script>
 
   <script>
     const { createApp } = Vue;
