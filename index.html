@@ -53,12 +53,12 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-center">
-                      <li class="nav-item">
+                  <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-center">    
+                    <li class="nav-item">
                           <button @click="toggleTheme" class="nav-link btn btn-link" id="themeToggler" title="Theme umschalten">
-                              <span id="themeIcon">🌙</span>
+                              <span id="themeIcon">{{ themeIcon }}</span>
                           </button>
-                      </li>                   
+                      </li>                                  
                       <li class="nav-item">
                           <a class="nav-link" href="#">Home</a>
                       </li>
@@ -179,16 +179,18 @@ createApp({
     computed: {
         // Berechnet das Icon basierend auf dem aktuellen Theme
         themeIcon() {
-            return this.currentTheme === 'dark' ? '☀️' : '🌙';
+            var self = this;
+            return self.currentTheme === 'dark' ? '☀️' : '🌙';
         }
     },
     methods: {
         // --- Theme Logik ---
         toggleTheme() {
-            const newTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
+            var self = this;
+            const newTheme = self.currentTheme === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-bs-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            this.currentTheme = newTheme; // Update triggert das Computed Icon
+            self.currentTheme = newTheme; // Update triggert das Computed Icon
         },
 
         // --- Hilfsfunktionen ---
