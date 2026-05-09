@@ -1,384 +1,259 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" data-bs-theme="light">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="ChrisSchmi">
     <meta name="theme-color" content="#000000">
-    <meta name="description" content="Cool links for developers. Somzimes a little food stuff.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <meta name="description" content="Cool links for developers. Sometimes a little food stuff.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="manifest" href="/manifest.json">
     <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicons/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Cool links for developers.">
+    
     <title>Cool links for developers.</title>
+
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-bs-theme', savedTheme);
+        })();
+    </script>
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
     <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#000000",
-          "text": "#ffffff"
-        },
-        "button": {
-          "background": "#ffffff",
-          "text": "#000"
-        }
-      },
-      "content": {
-        "dismiss": "OK"
-      }
-    })});
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": { "background": "#000000", "text": "#ffffff" },
+                    "button": { "background": "#ffffff", "text": "#000" }
+                },
+                "content": { "dismiss": "OK" }
+            })
+        });
     </script>
 
     <link rel="stylesheet" href="content/style.css">
-  </head>
+    <style>
+        body { padding-top: 80px; padding-bottom: 80px; }
+        #themeToggler { border: none; background: none; font-size: 1.2rem; }
+        [v-cloak] { display: none; }
+    </style>
+</head>
 
 <body>
+    <div id="app">
+      <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top border-bottom">
+          <div class="container">
+              <a class="navbar-brand" href="#">ChrisSchmi.github.io</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-center">
+                      <li class="nav-item">
+                          <button @click="toggleTheme" class="nav-link btn btn-link" id="themeToggler" title="Theme umschalten">
+                              <span id="themeIcon">🌙</span>
+                          </button>
+                      </li>                   
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">GitHub</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About me</a>
+                          <div class="dropdown-menu dropdown-menu-end">
+                              <a class="dropdown-item" href="https://www.linkedin.com/in/chrisschmi" target="_blank">LinkedIn</a>
+                              <a class="dropdown-item" href="https://www.xing.com/profile/Christian_Schmidt832" target="_blank">XING</a>
+                          </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Publications</a>
+                          <div class="dropdown-menu dropdown-menu-end">
+                              <a class="dropdown-item" href="./publications/2009-poster-cvci.pdf" target="_blank">Poster PDF</a>
+                              <a class="dropdown-item" href="https://www.hivemq.com/case-studies/caso/" target="_blank">Case Study (HiveMQ)</a>
+                          </div>
+                      </li>            
+                  </ul>
+              </div>
+          </div>
+      </nav>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">ChrisSchmi.github.io</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a  class="nav-link" href="https://github.com/ChrisSchmi" target="_blank" rel="noopener">GitHub</a>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">About me</a>
-                <div class="dropdown-menu bg-dark">
-                  <a class="dropdown-item nav-link" href="https://www.linkedin.com/in/chrisschmi" target="_blank" rel="noopener">LinkedIn</a>
-                  <a class="dropdown-item nav-link"  href="https://www.xing.com/profile/Christian_Schmidt832" target="_blank" rel="noopener">XING</a>
+      <main>
+          <div class="container">
+              <div class="input-group mb-4">
+                  <span class="input-group-text">Search Tags</span>
+                  <input type="text" class="form-control" placeholder="search for tags..." v-model="searchphrase" v-on:input="filteredList">
+                  <button class="btn btn-outline-secondary" type="button" v-on:click="clearsearch();">x</button>
+              </div>
+
+              <p v-if="loading" class="text-center">Loading...</p>
+              
+              <div class="alert alert-info text-center" v-if="(!loading && !hasSearchResults)">
+                  Sorry - no search results
+              </div>
+
+              <div class="row g-4" v-if="!loading">
+                  <div class="col-12 col-md-6 col-lg-4" v-for="p in posts.entries" :key="p.Date" v-cloak>
+                      <div class="card h-100 shadow-sm">
+                          <div class="card-body">
+                              <post-entry :post="p" @set-search="setsearch"></post-entry>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <dialog id="mydialog" class="p-4 border-0 rounded shadow" style="width: 80%; height: 80%;">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h2 class="h4 mb-0">Data protection</h2>
+                  <button id="btn-close" class="btn-close"></button>
+              </div>
+              <iframe src="/dataprotection.html" width="100%" height="85%" frameborder="0"></iframe>
+          </dialog>
+      </main>
+
+      <footer>
+          <nav class="navbar fixed-bottom bg-body-tertiary border-top">
+              <div class="container">
+                  <ul class="navbar-nav flex-row gap-3">
+                      <li class="nav-item">
+                          <a class="nav-link small" @click="openDataProtection">Dataprotection</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link small" @click="clearLocalCache">Clear Cache</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.5.26/dist/vue.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/html" id="postEntry">
+        <div class="mb-2">
+            <div class="text-uppercase small fw-bold opacity-50 mb-1" style="color: var(--bs-primary)">
+                {{ post.Date }}
+            </div>
+            <h3 v-if="post.Title" class="h5 fw-bold mb-3">{{ post.Title }}</h3>
+            <div v-for="c in post.Content" class="mb-3">
+                <p class="mb-2">{{ c.Text }}</p>
+                <div class="d-flex flex-wrap align-items-center gap-2">
+                    <a :href="c.Link" target="_blank" rel="noopener" class="btn btn-sm btn-outline-info rounded-pill py-0">Link ↗</a>
+                    <span class="badge rounded-pill bg-secondary" v-for="t in c.Tags">
+                        <a class="text-white text-decoration-none" style="cursor:pointer" @click="$emit('setSearch', t)">#{{ t }}</a>
+                    </span>
                 </div>
             </div>
-            </li>
-            <li class="nav-item">
-            <div class="dropdown">
-              <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Publications</a>
-              <div class="dropdown-menu bg-dark">
-                <a class="dropdown-item nav-link" href="./publications/2009-poster-cvci.pdf" target="_blank" rel="noopener">Poster PDF</a>
-                <a class="dropdown-item nav-link"  href="https://www.hivemq.com/case-studies/caso/" target="_blank" rel="noopener">Case Study (HiveMQ)</a>
-              </div>
-            </div>
-            </li>
-          </ul>
         </div>
-      </div>
-    </nav>
-  </div>
+    </script>
 
-    <main>
-    <div class="container" id="app">
-    <div>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text">Search Tags</span>
-        </div>
-        <input type="text" class="form-control" placeholder="search for tags" v-model="searchphrase" v-on:input="filteredList">
-        <div class="input-group-append">
-          <button class="btn btn-primary" type="button" v-on:click="clearsearch();">x</button>
-        </div>
-      </div>
+    <script>
+        const { createApp } = Vue;
 
-      <p v-if="loading">Loading...</p>
-      <div class="container-fluid bg-light rounded-3" v-if="(!loading && !hasSearchResults)">
-        <p>Sorry - no search results</p>
-      </div>
+const postEntry = {
+    template: '#postEntry',
+    props: { post: Object },
+    emits: ['setSearch']
+};
 
-      <!-- <div class='container-fluid blogcontent rounded-3 mb-3' v-if="!loading" v-for="p in posts.entries" v-cloak> -->
-        <!-- <post-entry :post="p" :searchHandler="setsearch"></post-entry> -->
-        <!-- <section>
-          <post-entry :post="p" @set-search="setsearch"></post-entry>
-        </section>
-      </div> -->
-
-      <div class="row g-4" v-if="!loading">
-  <div class="col-12 col-md-6 col-lg-4" v-for="p in posts.entries" v-cloak>
-    <div class="blogcontent h-100 transition-all">
-      <section>
-        <post-entry :post="p" @set-search="setsearch"></post-entry>
-      </section>
-    </div>
-  </div>
-</div>
-      
-    </div>
-
-    <!-- /container -->
-
-    <dialog id="mydialog">
-      <h2>Data protection</h2>
-        <iframe src="/dataprotection.html" width="100%" height="100%"></iframe>
-      <br />
-      <button id="btn-close" class="btn btn-primary">Close</button>
-    </dialog>
-   </main>
-
-   <footer>
-   <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-    <div class="container">
-      <div class="collapse navbar-collapse" >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:opendataprotection();" >Dataprotection</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:clearlocalcache();">Clear local Cache</a>
-          </li>
-          </ul>
-      </div>
-    </div>
-  </nav>
-</footer>
-
-    
-  <!-- Scripts section -->
-  <!-- external scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/vue@3.5.26/dist/vue.global.min.js"></script>   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
-  <!-- Template for Blog Post Entry -->
-  <!-- <script type=text/html" id="postEntry">
-    <div>
-        <h4>{{ post.Date }}</h4>
-        <h5 v-if="(post.Title != null)">{{ post.Title }}</h5>
-        <p v-for="c in post.Content" class="pb-1">{{ c.Text }} <a :href="c.Link" target="_blank" rel="noopener">Link</a>&nbsp;
-          <span class="badge bg-secondary rightspace" v-for="t in c.Tags">
-            <a class="badgelink" @click="$emit('setSearch',t);">{{ t }}</a>
-          </span>
-        </p>
-	</div>
-  </script> -->
-
-<script type="text/html" id="postEntry">
-  <div class="mb-2">
-    <div class="text-uppercase small fw-bold opacity-50 mb-1" style="color: var(--accent-color)">
-      {{ post.Date }}
-    </div>
-    <h3 v-if="post.Title" class="h5 fw-bold mb-3">{{ post.Title }}</h3>
-    <div v-for="c in post.Content" class="mb-3">
-      <p class="mb-2 text-secondary-emphasis">{{ c.Text }}</p>
-      <div class="d-flex flex-wrap align-items-center gap-2">
-        <a :href="c.Link" target="_blank" rel="noopener" class="btn rounded-pill btn-sm btn-outline-info py-0">Link ↗</a>
-        <span class="badge rounded-pill bg-secondary rightspace" v-for="t in c.Tags">
-          <a class="badgelink" @click="$emit('setSearch',t)">#{{ t }}</a>
-        </span>
-      </div>
-    </div>
-  </div>
-</script>
-
-  <script>
-    const { createApp } = Vue;
-
-    const postEntry = {
-      template: '#postEntry',
-      props: {
-        post: Object
-      },
-      emits: ['setSearch'],
-      // methods: {
-      //   searchHandler: function(data)
-      //   {
-      //     //this.$root.setsearch(data);
-      //     this.$emit('setsearch', data);
-      //   }
-      // }
-    };
-    
-        // https://coderwall.com/p/nilaba/simple-pure-javascript-array-unique-method-with-5-lines-of-code
-    Array.prototype.unique = function() {
-      return this.filter(function (value, index, self) { 
-        return self.indexOf(value) === index;
-      });
-    }
-
-    function clearlocalcache()
-    {
-      console.log("Clearing cache...");
-      caches.keys().then(function(names) {
-          for (let name of names)
-          {
-              caches.delete(name);
-          }
-      });
-      window.location.reload();
-    }
-
-    function opendataprotection()
-    {
-      const dialog = document.querySelector("#mydialog");
-      const closeButton = document.querySelector("#btn-close");
-
-      closeButton.addEventListener("click", ()  =>
-      {
-          dialog.close();
-      });
-
-      dialog.showModal();
-    }
-
-  const app = createApp({
-      components: {
-          'post-entry': postEntry
-      },
-      data() {
-          return {
-              search: '',
-              loading: false,
-              allPosts: [],
-              posts: [],
-              searchphrase: '',
-              hasSearchResults: true
-          }
-      },
-      methods: 
-      {
-        filteredList: function() {
-          var self = this;
-
-            if(self.searchphrase == '')
-            {
-              console.log('searchphrase empty');
-              self.posts = self.allPosts;
-              self.hasSearchResults = true;
-              return;
-            }
-
-            console.log('searching for: ' + self.searchphrase);
-
-            var filtered = [];
-
-            self.allPosts.entries.forEach(entry =>
-            {
-              entry.Content.forEach( c =>
-              {
-                if(typeof c.Tags !== 'undefined')
-                {
-                  c.Tags.forEach( t =>
-                  {
-                    if(t.toLowerCase() == self.searchphrase.toLowerCase() || t.toLowerCase().includes(self.searchphrase.toLowerCase()))
-                    {
-                      filtered.push(entry);
-                    }
-                  })
-                }
-              })
-            });
-
-            self.hasSearchResults = filtered.length > 0;
-            self.posts = new Object();
-            self.posts.entries = filtered.unique();
-
-        },
-        setsearch: function (phrase)
-        {
-          var self = this;
-          self.searchphrase = phrase;
-          self.filteredList();
-          window.scrollTo(0, 0);
-        },
-        clearsearch: function ()
-        {
-          var self = this;
-          self.searchphrase = '';
-          self.filteredList();
-          window.scrollTo(0, 0);
+createApp({
+    components: { 'post-entry': postEntry },
+    data() {
+        return {
+            loading: false,
+            allPosts: [],
+            posts: { entries: [] },
+            searchphrase: '',
+            hasSearchResults: true,
+            // Reaktive Variable für das Theme-Icon
+            currentTheme: document.documentElement.getAttribute('data-bs-theme') || 'light'
         }
-      },
-      mounted: async function()
-      {
-        var self = this;
-            self.loading = true;
-        var link = './scripts/posts.json';
+    },
+    computed: {
+        // Berechnet das Icon basierend auf dem aktuellen Theme
+        themeIcon() {
+            return this.currentTheme === 'dark' ? '☀️' : '🌙';
+        }
+    },
+    methods: {
+        // --- Theme Logik ---
+        toggleTheme() {
+            const newTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-bs-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            this.currentTheme = newTheme; // Update triggert das Computed Icon
+        },
 
-          await fetch(link)
-                .then(async response => {
-                  const data = await response.json();
-
-                  // check for error response
-                  if (!response.ok) {
-                    console.log('oh oh ...');
-                    // get error message from body or default to response statusText
-                    const error = (data && data.message) || response.statusText;
-                    return Promise.reject(error);
-                  }
-
-                  self.allPosts = data;
-                  self.posts = data;
-                  self.loading = false;
-                })
-                .catch(error => {
-                  self.allPosts = [];
-                  self.posts = [];
-                  self.loading = false;
-                  console.error("There was an error!", error);
+        // --- Hilfsfunktionen ---
+        clearLocalCache() {
+            if (confirm("Möchtest du den Cache wirklich leeren?")) {
+                caches.keys().then(names => {
+                    for (let name of names) caches.delete(name);
                 });
-      }
-    });
+                window.location.reload();
+            }
+        },
 
-    app.mount('#app');
-  </script>
+        openDataProtection() {
+            const dialog = document.querySelector("#mydialog");
+            const closeButton = document.querySelector("#btn-close");
+            closeButton.onclick = () => dialog.close();
+            dialog.showModal();
+        },
 
+        // Hilfsfunktion intern (nicht mehr am Prototyp von Array, um Vue sauber zu halten)
+        getUniqueEntries(arr) {
+            return arr.filter((value, index, self) => self.indexOf(value) === index);
+        },
 
-  <script>
-    // register service worker
-    if ('serviceWorker' in navigator)
-    {
-      navigator.serviceWorker.register('sw.js', {scope: '.'})
-      .then(function(reg)
-      {
-        if(reg.installing) {
-          console.log('Service worker installing');
-        } else if(reg.waiting) {
-          console.log('Service worker installed');
-        } else if(reg.active) {
-          console.log('Service worker active');
+        // --- Suche & Posts ---
+        filteredList() {
+            if (!this.searchphrase) {
+                this.posts = this.allPosts;
+                this.hasSearchResults = true;
+                return;
+            }
+            const s = this.searchphrase.toLowerCase();
+            const filtered = this.allPosts.entries.filter(entry => 
+                entry.Content.some(c => c.Tags && c.Tags.some(t => t.toLowerCase().includes(s)))
+            );
+            this.hasSearchResults = filtered.length > 0;
+            this.posts = { entries: this.getUniqueEntries(filtered) };
+        },
+
+        setsearch(phrase) {
+            this.searchphrase = phrase;
+            this.filteredList();
+            window.scrollTo(0, 0);
+        },
+
+        clearsearch() {
+            this.searchphrase = '';
+            this.filteredList();
+            window.scrollTo(0, 0);
         }
-      }).catch(function(error) {
-        // registration failed
-        console.log('Registration failed with ' + error);
-      });
+    },
+    async mounted() {
+        this.loading = true;
+        try {
+            const response = await fetch('./scripts/posts.json');
+            const data = await response.json();
+            this.allPosts = data;
+            this.posts = data;
+        } catch (e) {
+            console.error("Fetch error", e);
+        } finally {
+            this.loading = false;
+        }
     }
-  </script>
-
-
-
-<script>
-  var css = "font-size:1.5em; color: #000000; text-shadow: -1px -1px hsl(0,100%,50%);";
-  console.log("%c%s", css, 'Colored Console - cool :D');
-</script>
+}).mount('#app');
+    </script>
 </body>
 </html>
